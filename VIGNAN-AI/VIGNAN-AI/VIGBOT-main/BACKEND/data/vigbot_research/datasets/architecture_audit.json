@@ -1,0 +1,6 @@
+{
+  "backend_framework": "FastAPI with PostgreSQL RLS and SQLite fallback",
+  "nlu_routing": "Tier 1 Groq / Tier 2 Gemini / Tier 3 MockAcademicEngine",
+  "active_guardrails": "Tele-MANAS 14416 Distress Guard, RLAC Isolation, Outbound PII Redaction",
+  "verified_at": "2026-10-29T17:58:30.627337+00:00"
+}

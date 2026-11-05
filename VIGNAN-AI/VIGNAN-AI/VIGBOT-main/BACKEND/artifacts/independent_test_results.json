@@ -1,0 +1,131 @@
+{
+  "audit_timestamp": "2026-10-30T09:46:36Z",
+  "total_independent_cases": 252,
+  "disaggregated_metrics": {
+    "intent_classification_accuracy_pct": 90.87,
+    "feature_identification_accuracy_pct": 86.51,
+    "operation_identification_accuracy_pct": 90.48,
+    "parameter_extraction_accuracy_pct": 100.0,
+    "navigation_success_rate_pct": 100.0,
+    "backend_execution_safety_rate_pct": 100.0,
+    "false_write_count": 0,
+    "false_success_confirmation_count": 0,
+    "held_out_situational_feature_accuracy_pct": 61.22,
+    "held_out_situational_intent_accuracy_pct": 63.27,
+    "average_execution_latency_ms": 37.83
+  },
+  "dimension_breakdown": {
+    "situational_heldout": {
+      "total": 49,
+      "feature_accuracy_pct": 61.22,
+      "intent_accuracy_pct": 63.27
+    },
+    "direct_request": {
+      "total": 48,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "informational_question": {
+      "total": 48,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 95.83
+    },
+    "navigation_request": {
+      "total": 48,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 97.92
+    },
+    "negative_instruction": {
+      "total": 48,
+      "feature_accuracy_pct": 72.92,
+      "intent_accuracy_pct": 95.83
+    },
+    "missing_parameters": {
+      "total": 11,
+      "feature_accuracy_pct": 81.82,
+      "intent_accuracy_pct": 100.0
+    }
+  },
+  "sample_discrepancies": [
+    {
+      "test_id": "indep_lf_02_left_calculator",
+      "query": "I left my Casio fx-991CW in U-204 on the corner bench yesterday, did someone turn it in?",
+      "dimension": "situational_heldout",
+      "expected_feature": "lost-and-found",
+      "detected_feature": null,
+      "detected_category": "INSTITUTIONAL_INFO"
+    },
+    {
+      "test_id": "indep_lf_03_claim_found_bag",
+      "query": "The blue Dell laptop bag listed on the portal is mine, how do I claim it?",
+      "dimension": "situational_heldout",
+      "expected_feature": "lost-and-found",
+      "detected_feature": null,
+      "detected_category": "SERVICES"
+    },
+    {
+      "test_id": "indep_srv_02_id_stolen",
+      "query": "My wallet got pickpocketed on the RTC bus, how do I get a new campus identity card?",
+      "dimension": "situational_heldout",
+      "expected_feature": "services",
+      "detected_feature": "transport",
+      "detected_category": "TRANSPORT"
+    },
+    {
+      "test_id": "indep_att_01_dengue_shortage",
+      "query": "I had dengue for 2 weeks in September and medical certificate was submitted, why is my portal showing 67%?",
+      "dimension": "situational_heldout",
+      "expected_feature": "attendance",
+      "detected_feature": null,
+      "detected_category": "SERVICES"
+    },
+    {
+      "test_id": "indep_mrk_01_cgpa_cutoff",
+      "query": "What is my current cumulative GPA and do I meet the 7.5 cutoff for campus placements?",
+      "dimension": "situational_heldout",
+      "expected_feature": "marks",
+      "detected_feature": "career",
+      "detected_category": "CAREER"
+    },
+    {
+      "test_id": "indep_bk_05_hypothetical_might_book",
+      "query": "I might book the project lab later, what are the closing hours?",
+      "dimension": "situational_heldout",
+      "expected_feature": "bookings",
+      "detected_feature": "library",
+      "detected_category": "ACADEMIC_AUDIT"
+    },
+    {
+      "test_id": "indep_exm_01_hall_ticket_grayed",
+      "query": "My hall ticket download button is grayed out saying fee dues even though I cleared second installment",
+      "dimension": "situational_heldout",
+      "expected_feature": "exams",
+      "detected_feature": "fees",
+      "detected_category": "TRANSACTIONAL"
+    },
+    {
+      "test_id": "indep_fac_02_mentor_contact",
+      "query": "Give me the official email and phone number of my academic advisor",
+      "dimension": "situational_heldout",
+      "expected_feature": "faculty",
+      "detected_feature": "student-profile",
+      "detected_category": "PERSONAL_DATA"
+    },
+    {
+      "test_id": "indep_grv_01_ragging_incident",
+      "query": "Some seniors are forcing juniors to do pushups outside boys mess at midnight",
+      "dimension": "situational_heldout",
+      "expected_feature": "grievance",
+      "detected_feature": "hostel",
+      "detected_category": "INSTITUTIONAL_INFO"
+    },
+    {
+      "test_id": "indep_grv_02_unfair_marking",
+      "query": "Faculty awarded 0 marks for internal lab viva without conducting the viva, where do I formally appeal?",
+      "dimension": "situational_heldout",
+      "expected_feature": "grievance",
+      "detected_feature": "marks",
+      "detected_category": "PERSONAL_DATA"
+    }
+  ]
+}

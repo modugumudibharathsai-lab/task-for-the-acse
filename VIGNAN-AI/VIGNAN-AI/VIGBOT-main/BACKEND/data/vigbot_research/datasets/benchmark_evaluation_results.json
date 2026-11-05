@@ -1,0 +1,21 @@
+{
+  "total_queries_evaluated": 200,
+  "passed_queries": 200,
+  "accuracy_percent": 100.0,
+  "citation_rate_percent": 100.0,
+  "average_latency_ms": 16.85,
+  "category_breakdown": {
+    "academic_policy": {
+      "total": 30,
+      "passed": 30
+    },
+    "fees_and_scholarships": {
+      "total": 160,
+      "passed": 160
+    },
+    "campus_life": {
+      "total": 10,
+      "passed": 10
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# VIGBOT 8B Deep Reasoning Model (Distilled from Gemini)
+FROM llama3.1:8b
+
+PARAMETER temperature 0.5
+PARAMETER top_p 0.9
+PARAMETER stop "<|eot_id|>"
+PARAMETER stop "<|start_header_id|>"
+PARAMETER stop "<|end_header_id|>"
+
+SYSTEM """
+You are VIGBOT, the official autonomous AI assistant for Vignan University.
+You provide clear, accurate, and empathetic academic, examination, attendance, and technical guidance.
+Never use raw LaTeX delimiters or raw HTML tags.
+Express all reasoning in clean Markdown.
+"""

@@ -1,0 +1,377 @@
+text,intent,lang,author
+which subject do i have the lowest attendance in,attendance,en,aman
+in which subject am i short of 75,attendance,en,aman
+how many more classes do i need in dbms to reach 75,attendance,en,aman
+my overall attendance this sem?,attendance,en,aman
+which day did i get marked absent,attendance,en,aman
+can i see lab attendance seperately,attendance,en,aman
+how many classes can i bunk in os,attendance,en,aman
+attendance not updated for yesterday,attendance,en,aman
+why is my attendance showing less than what i attended,attendance,en,aman
+percentage in ds?,attendance,en,aman
+which subject has my highest attendance,attendance,en,aman
+lowest attendance subject kaun sa hai mera,attendance,hinglish,aman
+subject wise attendance dikhao,attendance,hinglish,aman
+dbms me kitni classes aur attend karni padegi,attendance,hinglish,aman
+overall attendance kitna hai abhi tak,attendance,hinglish,aman
+attendence shortage list me mera naam hai kya,attendance,hinglish,aman
+kis din absent lagaya mujhe,attendance,hinglish,aman
+lab ka attendance alag se dikhta hai kya,attendance,hinglish,aman
+os me kitni classes miss kar sakta hu,attendance,hinglish,aman
+kal ki attendance update nahi hui hai,attendance,hinglish,aman
+meri attendance galat show ho rahi hai,attendance,hinglish,aman
+cn me attendance kitni hai,attendance,hinglish,aman
+when are the mid exams starting,exams,en,aman
+hall ticket download link?,exams,en,aman
+"seating plan for tomorrow's exam, where to see",exams,en,aman
+what time does the exam start and end,exams,en,aman
+can i carry a calculator into the exam hall,exams,en,aman
+lab exam dates released?,exams,en,aman
+exam timetable pdf,exams,en,aman
+fa-3 date?,exams,en,aman
+which subject exam is first,exams,en,aman
+mid exams kab se start hai,exams,hinglish,aman
+hall ticket kaha se download karu,exams,hinglish,aman
+kal exam ka seating kaha dekhna hai,exams,hinglish,aman
+exam kis block me hai mera,exams,hinglish,aman
+exam kitne baje start hota hai,exams,hinglish,aman
+exam hall me calculator le ja sakte hai kya,exams,hinglish,aman
+supply exam ke liye kab tak apply kar sakte hai,exams,hinglish,aman
+lab exams ka schedule aaya kya,exams,hinglish,aman
+hallticket me photo nahi aa rahi,exams,hinglish,aman
+revaluation ke liye apply kaise kare,exams,hinglish,aman
+my cgpa pls,marks,en,aman
+how is cgpa calculated here,marks,en,aman
+marks not showing in portal,marks,en,aman
+what is my sgpa for last sem,marks,en,aman
+how many marks do i need in end sem to get an a grade,marks,en,aman
+can i see my grade card online,marks,en,aman
+which subject i scored lowest in,marks,en,aman
+my lab marks are missing,marks,en,aman
+total internals out of how many,marks,en,aman
+when will i get my marks memo,marks,en,aman
+mera cgpa kitna hai abhi,marks,hinglish,aman
+internal marks kab upload honge,marks,hinglish,aman
+mid 1 marks dekhne hai kaha milenge,marks,hinglish,aman
+cgpa kaise calculate hota hai,marks,hinglish,aman
+portal me marks nahi dikh rahe,marks,hinglish,aman
+last sem ka sgpa kya tha,marks,hinglish,aman
+a grade ke liye end sem me kitne marks chahiye,marks,hinglish,aman
+grade card kaha se download kare,marks,hinglish,aman
+sabse kam marks kis subject me hai,marks,hinglish,aman
+lab marks add nahi hue hai,marks,hinglish,aman
+last date for tuition fee payment,fees,en,aman
+pending fee amount?,fees,en,aman
+fee payment done but receipt not generated,fees,en,aman
+can i pay fee through upi,fees,en,aman
+is there a fine for late fee,fees,en,aman
+how to get fee structure for my branch,fees,en,aman
+will my scholarship amount adjust in fee,fees,en,aman
+i paid twice by mistake how to get refund,fees,en,aman
+need fee certificate for loan,fees,en,aman
+exam fee last date,fees,en,aman
+fees kab tak bharni hai last date kya hai,fees,hinglish,aman
+mera fee due kitna hai,fees,hinglish,aman
+payment ho gaya par receipt nahi aayi,fees,hinglish,aman
+upi se fee pay kar sakte hai kya,fees,hinglish,aman
+late fee pe kitna fine lagta hai,fees,hinglish,aman
+fee structure kaha milega,fees,hinglish,aman
+scholarship fee me adjust hota hai kya,fees,hinglish,aman
+galti se double payment ho gaya refund kaise milega,fees,hinglish,aman
+loan ke liye fee certificate chahiye kaise milega,fees,hinglish,aman
+exam fee kab tak bharni hai,fees,hinglish,aman
+today's timetable?,timetable,en,aman
+what is my first class tomorrow,timetable,en,aman
+which room is my next class in,timetable,en,aman
+is there a free period today,timetable,en,aman
+lab batch timings for my section,timetable,en,aman
+saturday classes are there?,timetable,en,aman
+who is teaching me at 2 pm,timetable,en,aman
+weekly timetable pdf for all sections,timetable,en,aman
+what time does college end today,timetable,en,aman
+aaj ka timetable kya hai,timetable,hinglish,aman
+kal pehli class kaun si hai,timetable,hinglish,aman
+next class kis room me hai,timetable,hinglish,aman
+aaj koi free period hai kya,timetable,hinglish,aman
+mere section ka lab kab hai,timetable,hinglish,aman
+timetable change hua kya is week,timetable,hinglish,aman
+saturday ko class hai kya,timetable,hinglish,aman
+2 baje kaun sa subject hai,timetable,hinglish,aman
+weekly timetable download kaha se kare,timetable,hinglish,aman
+aaj college kitne baje tak hai,timetable,hinglish,aman
+syllabus for dbms unit 3,curriculum,en,aman
+how many credits this sem,curriculum,en,aman
+what electives can i choose in 3rd year,curriculum,en,aman
+open elective list?,curriculum,en,aman
+which are the lab subjects this semester,curriculum,en,aman
+course outcomes for cn,curriculum,en,aman
+reference books for os,curriculum,en,aman
+is there a minor degree option,curriculum,en,aman
+how many credits to graduate,curriculum,en,aman
+which subjects are there in 4th sem,curriculum,en,aman
+dbms unit 3 ka syllabus kya hai,curriculum,hinglish,aman
+is sem me total kitne credits hai,curriculum,hinglish,aman
+3rd year me kaun se electives milte hai,curriculum,hinglish,aman
+open elective list kaha milegi,curriculum,hinglish,aman
+is sem ke lab subjects kaun se hai,curriculum,hinglish,aman
+os ke liye kaun si books refer kare,curriculum,hinglish,aman
+honours degree ke liye kya karna padta hai,curriculum,hinglish,aman
+graduate hone ke liye total kitne credits chahiye,curriculum,hinglish,aman
+4th sem me kaun kaun se subjects hai,curriculum,hinglish,aman
+cn ka course outcome kaha milega,curriculum,hinglish,aman
+hod cabin where,faculty,en,aman
+dbms faculty email id,faculty,en,aman
+when is mam available for doubts,faculty,en,aman
+who is my mentor,faculty,en,aman
+mentor phone number?,faculty,en,aman
+faculty rooms for cse,faculty,en,aman
+lab incharge name,faculty,en,aman
+need the counsellor's number,faculty,en,aman
+class coordinator kaun hai hamare section ka,faculty,hinglish,aman
+hod ka cabin kaha hai,faculty,hinglish,aman
+dbms sir ka mail id chahiye,faculty,hinglish,aman
+doubts ke liye faculty kab milti hai,faculty,hinglish,aman
+mera mentor kaun hai,faculty,hinglish,aman
+cse faculty ke rooms kaha hai,faculty,hinglish,aman
+lab incharge kaun hai,faculty,hinglish,aman
+hamare section me os kaun padhata hai,faculty,hinglish,aman
+counsellor ka number chahiye,faculty,hinglish,aman
+mentor se kaise milu,faculty,hinglish,aman
+library timings today,library,en,aman
+renew my book online?,library,en,aman
+library fine amount,library,en,aman
+i lost a library book what to do,library,en,aman
+where is the digital library,library,en,aman
+can i access journals from hostel,library,en,aman
+how to search for a book,library,en,aman
+are previous year question papers in the library,library,en,aman
+library kitne baje khulti hai,library,hinglish,aman
+ek baar me kitni books le sakte hai,library,hinglish,aman
+book renew kaise kare,library,hinglish,aman
+fine kitna lagega agar late return kiya,library,hinglish,aman
+library book kho gayi kya karu,library,hinglish,aman
+digital library kaha hai,library,hinglish,aman
+ntr library me reading room kis floor pe hai,library,hinglish,aman
+sunday ko library open rehti hai kya,library,hinglish,aman
+book kaise search kare,library,hinglish,aman
+previous year question papers library me milte hai kya,library,hinglish,aman
+mess timings for dinner,hostel,en,aman
+today's mess menu,hostel,en,aman
+hostel in time?,hostel,en,aman
+warden contact number,hostel,en,aman
+laundry facility in hostel?,hostel,en,aman
+wifi in hostel not working,hostel,en,aman
+how to get permission to go home for the weekend,hostel,en,aman
+dinner kitne baje tak milta hai mess me,hostel,hinglish,aman
+aaj mess me kya bana hai,hostel,hinglish,aman
+hostel ka in time kitne baje tak hai,hostel,hinglish,aman
+hostel room ke liye apply kaise kare,hostel,hinglish,aman
+warden ka number chahiye,hostel,hinglish,aman
+room change kar sakte hai kya,hostel,hinglish,aman
+hostel me laundry hai kya,hostel,hinglish,aman
+hostel wifi chal nahi raha,hostel,hinglish,aman
+hostel me guest aa sakte hai kya,hostel,hinglish,aman
+ghar jaane ke liye permission kaise le,hostel,hinglish,aman
+bus timings from guntur,transport,en,aman
+vijayawada bus route,transport,en,aman
+how to apply for bus pass,transport,en,aman
+college bus fee,transport,en,aman
+where is the bus stop in campus,transport,en,aman
+last bus time in the evening,transport,en,aman
+how far is vadlamudi bus stop from campus,transport,en,aman
+how to reach college from tenali,transport,en,aman
+is there any auto from the college gate,transport,en,aman
+guntur se bus kab aati hai,transport,hinglish,aman
+vijayawada wali bus kahan se milegi,transport,hinglish,aman
+bus pass kaise banwaye,transport,hinglish,aman
+bus fee kitni hai,transport,hinglish,aman
+campus me bus stop kaha hai,transport,hinglish,aman
+shaam ki last bus kitne baje hai,transport,hinglish,aman
+saturday ko bus chalti hai kya,transport,hinglish,aman
+vadlamudi bus stop campus se kitna door hai,transport,hinglish,aman
+tenali se college kaise aaye,transport,hinglish,aman
+college gate se auto milta hai kya,transport,hinglish,aman
+any new circular today,circulars,en,aman
+where can i find vu today,circulars,en,aman
+holiday tomorrow?,circulars,en,aman
+any notice about classes being suspended,circulars,en,aman
+latest notice for 2nd year,circulars,en,aman
+exam schedule circular,circulars,en,aman
+has the fee notice been released,circulars,en,aman
+mahotsav holiday announcement,circulars,en,aman
+when does the semester break start,circulars,en,aman
+aaj koi naya circular aaya hai kya,circulars,hinglish,aman
+vu today kaha milta hai,circulars,hinglish,aman
+kal holiday hai kya,circulars,hinglish,aman
+classes suspend hue kya,circulars,hinglish,aman
+2nd year ke liye koi notice hai kya,circulars,hinglish,aman
+exam ka circular kaha milega,circulars,hinglish,aman
+fee ka notice aaya kya,circulars,hinglish,aman
+semester break kab se hai,circulars,hinglish,aman
+notice board kaha hai,circulars,hinglish,aman
+is friday college open hai kya,circulars,hinglish,aman
+mahotsav dates,events,en,aman
+how to register for the hackathon,events,en,aman
+any tech events this month,events,en,aman
+srujanankura when,events,en,aman
+cultural night timings,events,en,aman
+workshop registration link,events,en,aman
+is there any entry fee for events,events,en,aman
+will i get a certificate for events,events,en,aman
+venue for annual day,events,en,aman
+mahotsav kab hai is year,events,hinglish,aman
+hackathon ke liye register kaise kare,events,hinglish,aman
+is mahine koi tech event hai kya,events,hinglish,aman
+cultural night kab hai,events,hinglish,aman
+workshop ka registration kaha se kare,events,hinglish,aman
+event participate karne ke liye fee lagti hai kya,events,hinglish,aman
+events ka certificate milega kya,events,hinglish,aman
+annual day kaha hoga,events,hinglish,aman
+event volunteer kaise bane,events,hinglish,aman
+sports day kab hai,events,hinglish,aman
+what clubs are there in college,clubs,en,aman
+how to join coding club,clubs,en,aman
+robotics club recruitment dates,clubs,en,aman
+photography club audition?,clubs,en,aman
+i want to join sac,clubs,en,aman
+entrepreneurship club details,clubs,en,aman
+can first years join clubs,clubs,en,aman
+how many clubs can i join,clubs,en,aman
+do clubs give certificates,clubs,en,aman
+how to start a new club,clubs,en,aman
+literary club activities,clubs,en,aman
+club meeting timings,clubs,en,aman
+college me kaun kaun se clubs hai,clubs,hinglish,aman
+coding club kaise join kare,clubs,hinglish,aman
+robotics club ki recruitment kab hai,clubs,hinglish,aman
+photography club join karna hai kaise,clubs,hinglish,aman
+music club ka coordinator kaun hai,clubs,hinglish,aman
+sac me kaise join kare,clubs,hinglish,aman
+e-cell kya hota hai aur join kaise kare,clubs,hinglish,aman
+first year wale club join kar sakte hai kya,clubs,hinglish,aman
+ek student kitne clubs join kar sakta hai,clubs,hinglish,aman
+club se certificate milta hai kya,clubs,hinglish,aman
+naya club kaise start kare,clubs,hinglish,aman
+dance club me audition kab hai,clubs,hinglish,aman
+club meeting kab hoti hai,clubs,hinglish,aman
+where is a block,services,en,aman
+which block is cse department in,services,en,aman
+where is u block,services,en,aman
+how to reach pharmacy block,services,en,aman
+how do i get to h block from the main gate,services,en,aman
+where is the admin office,services,en,aman
+exam cell location,services,en,aman
+where is the food court,services,en,aman
+mhp food court timings,services,en,aman
+is there a cafe near u block,services,en,aman
+zest store timings,services,en,aman
+is there an atm on campus,services,en,aman
+where is the medical room,services,en,aman
+which block is sangamam seminar hall in,services,en,aman
+where do i park my bike,services,en,aman
+photocopy shop in campus,services,en,aman
+a block kaha hai,services,hinglish,aman
+u block kidhar hai,services,hinglish,aman
+pharmacy block ka rasta batao,services,hinglish,aman
+n block main gate se kitna door hai,services,hinglish,aman
+admin office kaha hai,services,hinglish,aman
+exam cell kidhar hai,services,hinglish,aman
+food court kaha hai,services,hinglish,aman
+mhp me kya kya milta hai,services,hinglish,aman
+u block ke paas cafe hai kya,services,hinglish,aman
+campus me snacks kaha milte hai,services,hinglish,aman
+zest store kaha hai,services,hinglish,aman
+campus me atm kaha hai,services,hinglish,aman
+tabiyat kharab ho to medical room kaha hai,services,hinglish,aman
+sangamam hall kis block me hai,services,hinglish,aman
+bike parking kaha karu,services,hinglish,aman
+xerox shop kaha hai,services,hinglish,aman
+i lost my id card where to report,services,en,aman
+lost my water bottle in u block who do i tell,services,en,aman
+i found a wallet in the classroom where do i submit it,services,en,aman
+i left my laptop charger in the lab how do i get it back,services,en,aman
+found a phone near the library what should i do,services,en,aman
+id card kho gaya kaha report karu,services,hinglish,aman
+u block me bottle kho gayi kisko batau,services,hinglish,aman
+mujhe classroom me wallet mila kaha jama karu,services,hinglish,aman
+lost and found kaha hai campus me,services,hinglish,aman
+lab me charger bhool gaya wapas kaise milega,services,hinglish,aman
+library ke paas phone mila kya karu,services,hinglish,aman
+how to file a complaint,services,en,aman
+where to raise a grievance,services,en,aman
+can i complain without giving my name,services,en,aman
+who is in the grievance redressal cell,services,en,aman
+how long does a complaint take to get resolved,services,en,aman
+where is the anti ragging cell,services,en,aman
+how to request a change of section,services,en,aman
+complaint kaise kare,services,hinglish,aman
+grievance cell kaha hai,services,hinglish,aman
+bina naam bataye complaint kar sakte hai kya,services,hinglish,aman
+grievance cell me kisse milna padta hai,services,hinglish,aman
+complaint resolve hone me kitna time lagta hai,services,hinglish,aman
+anti ragging cell kaha hai,services,hinglish,aman
+section change ke liye request kaise kare,services,hinglish,aman
+how long does a bonafide take,services,en,aman
+how to reset portal password,services,en,aman
+vignanite app login issue,services,en,aman
+how to get noc for internship,services,en,aman
+where to apply for tc,services,en,aman
+bonafide kitne din me milta hai,services,hinglish,aman
+duplicate id card ke liye kya karna hai,services,hinglish,aman
+portal ka password bhool gaya,services,hinglish,aman
+vignanite app me login nahi ho raha,services,hinglish,aman
+internship noc kaise milega,services,hinglish,aman
+tc ke liye kaha apply kare,services,hinglish,aman
+what is the minimum attendance rule,policy_bylaws,en,aman
+what happens when a student is detained,policy_bylaws,en,aman
+what is the condonation process,policy_bylaws,en,aman
+how many backlogs are allowed,policy_bylaws,en,aman
+is mobile allowed in class,policy_bylaws,en,aman
+what are the rules for revaluation,policy_bylaws,en,aman
+what is the dress code,policy_bylaws,en,aman
+attendance rule kya hai r22 me,policy_bylaws,hinglish,aman
+detain hone pe kya hota hai,policy_bylaws,hinglish,aman
+condonation ke liye kya conditions hai,policy_bylaws,hinglish,aman
+kitne backlogs allowed hai,policy_bylaws,hinglish,aman
+class me mobile allowed hai kya,policy_bylaws,hinglish,aman
+re-evaluation ke rules kya hai,policy_bylaws,hinglish,aman
+college ka dress code kya hai,policy_bylaws,hinglish,aman
+i am feeling very stressed these days,distress_support,en,aman
+i feel very low and cant focus on anything,distress_support,en,aman
+i feel anxious before every exam,distress_support,en,aman
+i feel lonely in college,distress_support,en,aman
+i cant sleep because of tension,distress_support,en,aman
+i dont want to go to class anymore everything feels heavy,distress_support,en,aman
+bahut stress ho raha hai kuch samajh nahi aa raha,distress_support,hinglish,aman
+counsellor se baat karni hai kaha milenge,distress_support,hinglish,aman
+mood bahut kharab rehta hai padhai me mann nahi lagta,distress_support,hinglish,aman
+exam se pehle bahut ghabrahat hoti hai,distress_support,hinglish,aman
+college me akela feel karta hu,distress_support,hinglish,aman
+tension ki wajah se neend nahi aati,distress_support,hinglish,aman
+kuch accha nahi lag raha sab bekaar lagta hai,distress_support,hinglish,aman
+hi,greeting_smalltalk,en,aman
+hello bro,greeting_smalltalk,en,aman
+hey assistant,greeting_smalltalk,en,aman
+who are you,greeting_smalltalk,en,aman
+what can you do,greeting_smalltalk,en,aman
+namaste,greeting_smalltalk,hinglish,aman
+kya haal hai,greeting_smalltalk,hinglish,aman
+thanks yaar,greeting_smalltalk,hinglish,aman
+tum kaun ho,greeting_smalltalk,hinglish,aman
+tum kya kya kar sakte ho,greeting_smalltalk,hinglish,aman
+ok thanks bhai,greeting_smalltalk,hinglish,aman
+bye,greeting_smalltalk,hinglish,aman
+who won the match yesterday,out_of_scope,en,aman
+suggest a good movie,out_of_scope,en,aman
+how to make maggi,out_of_scope,en,aman
+weather today in hyderabad,out_of_scope,en,aman
+tell me a joke,out_of_scope,en,aman
+best phone under 20000,out_of_scope,en,aman
+write a python program for fibonacci,out_of_scope,en,aman
+kal match kaun jeeta,out_of_scope,hinglish,aman
+koi acchi web series batao,out_of_scope,hinglish,aman
+aaj ka weather kaisa hai,out_of_scope,hinglish,aman
+ek joke sunao,out_of_scope,hinglish,aman
+20000 me best phone konsa hai,out_of_scope,hinglish,aman
+gold rate aaj ka kya hai,out_of_scope,hinglish,aman
+petrol ka price kitna hai,out_of_scope,hinglish,aman

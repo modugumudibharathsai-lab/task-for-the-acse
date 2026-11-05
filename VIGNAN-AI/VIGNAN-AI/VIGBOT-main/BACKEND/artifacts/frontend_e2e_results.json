@@ -1,0 +1,259 @@
+{
+  "audit_timestamp": "2026-10-30T12:00:00Z",
+  "total_capabilities_tested": 28,
+  "all_routes_verified": true,
+  "results": [
+    {
+      "feature_id": "home",
+      "feature_name": "Helpdesk Home & Command Center",
+      "frontend_tab": "home",
+      "frontend_route": "/?tab=home",
+      "component": "CentralWorkspace",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "lost-and-found",
+      "feature_name": "Lost & Found",
+      "frontend_tab": "lost-and-found",
+      "frontend_route": "/?tab=lost-and-found",
+      "component": "LostAndFoundView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "services",
+      "feature_name": "Student Services",
+      "frontend_tab": "services",
+      "frontend_route": "/?tab=services",
+      "component": "StudentServicesView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "attendance",
+      "feature_name": "Attendance",
+      "frontend_tab": "attendance",
+      "frontend_route": "/?tab=attendance",
+      "component": "AttendanceView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "marks",
+      "feature_name": "Marks & CGPA",
+      "frontend_tab": "marks",
+      "frontend_route": "/?tab=marks",
+      "component": "MarksView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "timetable",
+      "feature_name": "Timetable & Schedule",
+      "frontend_tab": "timetable",
+      "frontend_route": "/?tab=timetable",
+      "component": "TimetableView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "exams",
+      "feature_name": "Examinations & Assessments",
+      "frontend_tab": "exams",
+      "frontend_route": "/?tab=exams",
+      "component": "ExaminationsView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "fees",
+      "feature_name": "Fees & Payments",
+      "frontend_tab": "fees",
+      "frontend_route": "/?tab=fees",
+      "component": "FeesView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "curriculum",
+      "feature_name": "Curriculum & Degree Audit",
+      "frontend_tab": "curriculum",
+      "frontend_route": "/?tab=curriculum",
+      "component": "CurriculumView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "hostel",
+      "feature_name": "Hostel & Mess Services",
+      "frontend_tab": "hostel",
+      "frontend_route": "/?tab=hostel",
+      "component": "HostelManagementView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "transport",
+      "feature_name": "Campus Transport & Bus Tracking",
+      "frontend_tab": "transport",
+      "frontend_route": "/?tab=transport",
+      "component": "TransportView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "library",
+      "feature_name": "Central Library",
+      "frontend_tab": "library",
+      "frontend_route": "/?tab=library",
+      "component": "LibraryView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "bookings",
+      "feature_name": "Facility Bookings",
+      "frontend_tab": "bookings",
+      "frontend_route": "/?tab=bookings",
+      "component": "BookingsView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "clubs",
+      "feature_name": "Clubs & Extracurriculars",
+      "frontend_tab": "clubs",
+      "frontend_route": "/?tab=clubs",
+      "component": "ClubsView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "events",
+      "feature_name": "Event Registration",
+      "frontend_tab": "events",
+      "frontend_route": "/?tab=events",
+      "component": "EventRegistrationView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "marketplace",
+      "feature_name": "Student Marketplace",
+      "frontend_tab": "marketplace",
+      "frontend_route": "/?tab=marketplace",
+      "component": "MarketplaceView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "map",
+      "feature_name": "Campus Map & Navigation",
+      "frontend_tab": "map",
+      "frontend_route": "/?tab=map",
+      "component": "CampusMapView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "wellness",
+      "feature_name": "Student Wellness & Counseling",
+      "frontend_tab": "wellness",
+      "frontend_route": "/?tab=wellness",
+      "component": "WellnessView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "policies",
+      "feature_name": "Policies & Academic Regulations",
+      "frontend_tab": "policies",
+      "frontend_route": "/?tab=policies",
+      "component": "PoliciesView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "circulars",
+      "feature_name": "Circulars & Notices",
+      "frontend_tab": "circulars",
+      "frontend_route": "/?tab=circulars",
+      "component": "CircularsView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "calendar",
+      "feature_name": "Academic Calendar",
+      "frontend_tab": "calendar",
+      "frontend_route": "/?tab=calendar",
+      "component": "CalendarView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "gamification",
+      "feature_name": "Achievements & Streaks",
+      "frontend_tab": "gamification",
+      "frontend_route": "/?tab=gamification",
+      "component": "GamificationView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "career",
+      "feature_name": "Career Hub & Placements",
+      "frontend_tab": "career",
+      "frontend_route": "/?tab=career",
+      "component": "CareerView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "grievance",
+      "feature_name": "Student Grievance Redressal",
+      "frontend_tab": "services",
+      "frontend_route": "/?tab=services",
+      "component": "StudentServicesView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "polling",
+      "feature_name": "Campus Polls & Voting",
+      "frontend_tab": "polling",
+      "frontend_route": "/?tab=polling",
+      "component": "PollingView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "alumni",
+      "feature_name": "Alumni Mentorship Network",
+      "frontend_tab": "alumni",
+      "frontend_route": "/?tab=alumni",
+      "component": "AlumniView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "student-profile",
+      "feature_name": "Student Profile & Advisors",
+      "frontend_tab": "student-profile",
+      "frontend_route": "/?tab=student-profile",
+      "component": "StudentProfileDrawer",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    },
+    {
+      "feature_id": "admin",
+      "feature_name": "Administrative Control Panel",
+      "frontend_tab": "admin",
+      "frontend_route": "/admin",
+      "component": "AdminDashboardView",
+      "valid_route_in_frontend": true,
+      "has_navigation_action": true
+    }
+  ]
+}

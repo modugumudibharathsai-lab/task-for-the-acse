@@ -1,0 +1,1374 @@
+[
+  {
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "user_facing_description": "Central AI conversational workspace, proactive academic alerts, and quick action launcher.",
+    "operation_id": "view_overview",
+    "operation_type": "view",
+    "operation_description": "View university summary, academic alerts, and today's schedule.",
+    "actual_frontend_route": "/?tab=home",
+    "frontend_tab": "home",
+    "component": "CentralWorkspace",
+    "backend_endpoint": "GET /api/v1/student/dashboard",
+    "backend_table": "conversations",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "lost-and-found",
+      "services",
+      "attendance"
+    ]
+  },
+  {
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "user_facing_description": "Central AI conversational workspace, proactive academic alerts, and quick action launcher.",
+    "operation_id": "navigate_home",
+    "operation_type": "navigate",
+    "operation_description": "Switch UI view to main helpdesk home.",
+    "actual_frontend_route": "/?tab=home",
+    "frontend_tab": "home",
+    "component": "CentralWorkspace",
+    "backend_endpoint": "GET /?tab=home",
+    "backend_table": "conversations",
+    "required_parameters": [],
+    "permission_requirements": "Public / Any",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "lost-and-found",
+      "services",
+      "attendance"
+    ]
+  },
+  {
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "user_facing_description": "Campus repository for reporting, listing, browsing, and claiming lost or found personal belongings.",
+    "operation_id": "view_listings",
+    "operation_type": "view",
+    "operation_description": "Browse all active lost and found items posted across campus.",
+    "actual_frontend_route": "/?tab=lost-and-found",
+    "frontend_tab": "lost-and-found",
+    "component": "LostAndFoundView",
+    "backend_endpoint": "fetchLostAndFoundItems('all')",
+    "backend_table": "lost_and_found",
+    "required_parameters": [],
+    "permission_requirements": "Public / Any",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "services",
+      "attendance"
+    ]
+  },
+  {
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "user_facing_description": "Campus repository for reporting, listing, browsing, and claiming lost or found personal belongings.",
+    "operation_id": "filter_items",
+    "operation_type": "filter",
+    "operation_description": "Filter items specifically by 'lost' or 'found' status.",
+    "actual_frontend_route": "/?tab=lost-and-found",
+    "frontend_tab": "lost-and-found",
+    "component": "LostAndFoundView",
+    "backend_endpoint": "fetchLostAndFoundItems(filterType)",
+    "backend_table": "lost_and_found",
+    "required_parameters": [
+      "type"
+    ],
+    "permission_requirements": "Public / Any",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "services",
+      "attendance"
+    ]
+  },
+  {
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "user_facing_description": "Campus repository for reporting, listing, browsing, and claiming lost or found personal belongings.",
+    "operation_id": "report_item",
+    "operation_type": "report",
+    "operation_description": "Submit a new lost or found item report with location and contact information.",
+    "actual_frontend_route": "/?tab=lost-and-found",
+    "frontend_tab": "lost-and-found",
+    "component": "LostAndFoundView",
+    "backend_endpoint": "reportLostAndFoundItem(studentId, type, title, description, tags, contactInfo)",
+    "backend_table": "lost_and_found",
+    "required_parameters": [
+      "type",
+      "title",
+      "description",
+      "contact_info"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "Explicit User Confirmation Required",
+    "is_write": true,
+    "expected_output": "Committed DB transaction & reference ticket",
+    "error_conditions": [
+      "Missing required parameters",
+      "Unauthenticated access",
+      "Row-level access control violation",
+      "Database constraint conflict"
+    ],
+    "related_features": [
+      "home",
+      "services",
+      "attendance"
+    ]
+  },
+  {
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "user_facing_description": "Campus repository for reporting, listing, browsing, and claiming lost or found personal belongings.",
+    "operation_id": "claim_item",
+    "operation_type": "claim",
+    "operation_description": "Claim a found item by verifying ownership and contacting the finder.",
+    "actual_frontend_route": "/?tab=lost-and-found",
+    "frontend_tab": "lost-and-found",
+    "component": "LostAndFoundView",
+    "backend_endpoint": "claimLostAndFoundItem(itemId, studentId)",
+    "backend_table": "lost_and_found",
+    "required_parameters": [
+      "item_id"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "Explicit User Confirmation Required",
+    "is_write": true,
+    "expected_output": "Committed DB transaction & reference ticket",
+    "error_conditions": [
+      "Missing required parameters",
+      "Unauthenticated access",
+      "Row-level access control violation",
+      "Database constraint conflict"
+    ],
+    "related_features": [
+      "home",
+      "services",
+      "attendance"
+    ]
+  },
+  {
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "user_facing_description": "Official administrative service requests including Bonafide Certificates, ID Card Replacement, Concession Forms, and Transcripts.",
+    "operation_id": "view_services",
+    "operation_type": "view",
+    "operation_description": "View catalogue of available administrative services and SLAs.",
+    "actual_frontend_route": "/?tab=services",
+    "frontend_tab": "services",
+    "component": "StudentServicesView",
+    "backend_endpoint": "GET /api/v1/service-requests",
+    "backend_table": "service_requests",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "attendance"
+    ]
+  },
+  {
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "user_facing_description": "Official administrative service requests including Bonafide Certificates, ID Card Replacement, Concession Forms, and Transcripts.",
+    "operation_id": "submit_request",
+    "operation_type": "submit",
+    "operation_description": "Submit a formal service request for certificates, ID cards, or official documents.",
+    "actual_frontend_route": "/?tab=services",
+    "frontend_tab": "services",
+    "component": "StudentServicesView",
+    "backend_endpoint": "POST /api/v1/service-requests",
+    "backend_table": "service_requests",
+    "required_parameters": [
+      "category",
+      "title",
+      "description"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "Explicit User Confirmation Required",
+    "is_write": true,
+    "expected_output": "Committed DB transaction & reference ticket",
+    "error_conditions": [
+      "Missing required parameters",
+      "Unauthenticated access",
+      "Row-level access control violation",
+      "Database constraint conflict"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "attendance"
+    ]
+  },
+  {
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "user_facing_description": "Official administrative service requests including Bonafide Certificates, ID Card Replacement, Concession Forms, and Transcripts.",
+    "operation_id": "track_request",
+    "operation_type": "track",
+    "operation_description": "Check current status and assigned office of an existing ticket by tracking number.",
+    "actual_frontend_route": "/?tab=services",
+    "frontend_tab": "services",
+    "component": "StudentServicesView",
+    "backend_endpoint": "GET /api/v1/service-requests/{request_no}",
+    "backend_table": "service_requests",
+    "required_parameters": [
+      "request_no"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "attendance"
+    ]
+  },
+  {
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "user_facing_description": "Real-time subject-wise and aggregate attendance tracking, 75% cutoff monitoring, and recovery calculators.",
+    "operation_id": "view_attendance",
+    "operation_type": "view",
+    "operation_description": "View overall attendance percentage and individual course records.",
+    "actual_frontend_route": "/?tab=attendance",
+    "frontend_tab": "attendance",
+    "component": "AttendanceView",
+    "backend_endpoint": "GET /api/v1/student/dashboard",
+    "backend_table": "attendance",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "user_facing_description": "Real-time subject-wise and aggregate attendance tracking, 75% cutoff monitoring, and recovery calculators.",
+    "operation_id": "calculate_recovery",
+    "operation_type": "calculate",
+    "operation_description": "Calculate exact consecutive classes needed to reach 75% target.",
+    "actual_frontend_route": "/?tab=attendance",
+    "frontend_tab": "attendance",
+    "component": "AttendanceView",
+    "backend_endpoint": "calculateConsecutiveClassesNeeded(held, attended, target=0.75)",
+    "backend_table": "attendance",
+    "required_parameters": [
+      "held",
+      "attended"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "user_facing_description": "Real-time subject-wise and aggregate attendance tracking, 75% cutoff monitoring, and recovery calculators.",
+    "operation_id": "filter_course",
+    "operation_type": "filter",
+    "operation_description": "Filter attendance details for a specific course code or subject.",
+    "actual_frontend_route": "/?tab=attendance",
+    "frontend_tab": "attendance",
+    "component": "AttendanceView",
+    "backend_endpoint": "GET /api/v1/student/dashboard?course={course_code}",
+    "backend_table": "attendance",
+    "required_parameters": [
+      "course_code"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "user_facing_description": "Continuous Internal Evaluation (CIE) scores, SGPA, CGPA, and semester-wise grade distributions.",
+    "operation_id": "view_marks",
+    "operation_type": "view",
+    "operation_description": "View overall CGPA and assessment scores.",
+    "actual_frontend_route": "/?tab=marks",
+    "frontend_tab": "marks",
+    "component": "MarksView",
+    "backend_endpoint": "GET /api/v1/student/dashboard",
+    "backend_table": "marks",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "user_facing_description": "Continuous Internal Evaluation (CIE) scores, SGPA, CGPA, and semester-wise grade distributions.",
+    "operation_id": "filter_subject_marks",
+    "operation_type": "filter",
+    "operation_description": "View individual internal test and quiz breakdown for a subject.",
+    "actual_frontend_route": "/?tab=marks",
+    "frontend_tab": "marks",
+    "component": "MarksView",
+    "backend_endpoint": "GET /api/v1/student/dashboard?course={course_code}",
+    "backend_table": "marks",
+    "required_parameters": [
+      "course_code"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "user_facing_description": "Weekly course timetable, class timings, assigned classrooms/labs, and course instructors.",
+    "operation_id": "view_schedule",
+    "operation_type": "view",
+    "operation_description": "View entire weekly class schedule with classrooms and faculties.",
+    "actual_frontend_route": "/?tab=timetable",
+    "frontend_tab": "timetable",
+    "component": "TimetableView",
+    "backend_endpoint": "GET /api/v1/student/dashboard",
+    "backend_table": "timetable",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "user_facing_description": "Weekly course timetable, class timings, assigned classrooms/labs, and course instructors.",
+    "operation_id": "filter_day",
+    "operation_type": "filter",
+    "operation_description": "View scheduled periods for a specific weekday (e.g. Monday).",
+    "actual_frontend_route": "/?tab=timetable",
+    "frontend_tab": "timetable",
+    "component": "TimetableView",
+    "backend_endpoint": "GET /api/v1/student/dashboard?day={day_of_week}",
+    "backend_table": "timetable",
+    "required_parameters": [
+      "day_of_week"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "user_facing_description": "Mid-term and end-semester examination timetables, seat allocations, exam venues, and hall tickets.",
+    "operation_id": "view_exams",
+    "operation_type": "view",
+    "operation_description": "View upcoming exam schedule, exam dates, time slots, and hall ticket status.",
+    "actual_frontend_route": "/?tab=exams",
+    "frontend_tab": "exams",
+    "component": "ExaminationsView",
+    "backend_endpoint": "GET /api/v1/student/dashboard",
+    "backend_table": "exams",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "user_facing_description": "Tuition, hostel, and transport fee demand ledgers, payment receipts, due dates, and fine schedules.",
+    "operation_id": "view_fees",
+    "operation_type": "view",
+    "operation_description": "View total demand, paid amount, outstanding balance, and installment due dates.",
+    "actual_frontend_route": "/?tab=fees",
+    "frontend_tab": "fees",
+    "component": "FeesView",
+    "backend_endpoint": "GET /api/v1/student/dashboard",
+    "backend_table": "fees",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "user_facing_description": "Tuition, hostel, and transport fee demand ledgers, payment receipts, due dates, and fine schedules.",
+    "operation_id": "pay_fee",
+    "operation_type": "pay",
+    "operation_description": "Redirect to authorized university fee payment gateway.",
+    "actual_frontend_route": "/?tab=fees",
+    "frontend_tab": "fees",
+    "component": "FeesView",
+    "backend_endpoint": "GET /?tab=fees&action=pay",
+    "backend_table": "fees",
+    "required_parameters": [
+      "amount"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "Explicit User Confirmation Required",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "user_facing_description": "B.Tech academic regulation curriculum roadmap, credit requirements, earned credits, and course electives.",
+    "operation_id": "view_curriculum",
+    "operation_type": "view",
+    "operation_description": "View total credits required, earned credits, remaining credits, and next semester courses.",
+    "actual_frontend_route": "/?tab=curriculum",
+    "frontend_tab": "curriculum",
+    "component": "CurriculumView",
+    "backend_endpoint": "curriculum_tool.get_curriculum_summary(session)",
+    "backend_table": "curriculum",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "user_facing_description": "Hostel room allocation, daily mess dining menu, warden contacts, outpass requests, and room maintenance.",
+    "operation_id": "view_hostel",
+    "operation_type": "view",
+    "operation_description": "View hostel room allocation, mess menu, and active requests.",
+    "actual_frontend_route": "/?tab=hostel",
+    "frontend_tab": "hostel",
+    "component": "HostelManagementView",
+    "backend_endpoint": "getHostelRequests(studentId)",
+    "backend_table": "hostel_requests",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "user_facing_description": "Hostel room allocation, daily mess dining menu, warden contacts, outpass requests, and room maintenance.",
+    "operation_id": "submit_outpass_or_complaint",
+    "operation_type": "submit",
+    "operation_description": "Submit a new outpass request or hostel room maintenance complaint.",
+    "actual_frontend_route": "/?tab=hostel",
+    "frontend_tab": "hostel",
+    "component": "HostelManagementView",
+    "backend_endpoint": "createHostelRequest(studentId, type, details)",
+    "backend_table": "hostel_requests",
+    "required_parameters": [
+      "type",
+      "details"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "Explicit User Confirmation Required",
+    "is_write": true,
+    "expected_output": "Committed DB transaction & reference ticket",
+    "error_conditions": [
+      "Missing required parameters",
+      "Unauthenticated access",
+      "Row-level access control violation",
+      "Database constraint conflict"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "user_facing_description": "University bus fleet routes, pickup timings across Guntur/Vijayawada/Tenali, driver contacts, and live GPS tracking.",
+    "operation_id": "view_routes",
+    "operation_type": "view",
+    "operation_description": "List all university bus routes, drivers, and ETA minutes.",
+    "actual_frontend_route": "/?tab=transport",
+    "frontend_tab": "transport",
+    "component": "TransportView",
+    "backend_endpoint": "getTransportRoutes()",
+    "backend_table": "transportation_routes",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "user_facing_description": "Book catalog search, borrowed textbook records, due dates, overdue fines, and IEEE/ACM digital repository access.",
+    "operation_id": "view_borrowed_books",
+    "operation_type": "view",
+    "operation_description": "View currently issued books and due dates.",
+    "actual_frontend_route": "/?tab=library",
+    "frontend_tab": "library",
+    "component": "LibraryView",
+    "backend_endpoint": "DataRepository.get_library_lended_books(session)",
+    "backend_table": "library_resources",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "user_facing_description": "Book catalog search, borrowed textbook records, due dates, overdue fines, and IEEE/ACM digital repository access.",
+    "operation_id": "search_catalog",
+    "operation_type": "search",
+    "operation_description": "Search library resources catalog for course textbooks and papers.",
+    "actual_frontend_route": "/?tab=library",
+    "frontend_tab": "library",
+    "component": "LibraryView",
+    "backend_endpoint": "getLibraryResources()",
+    "backend_table": "library_resources",
+    "required_parameters": [
+      "query"
+    ],
+    "permission_requirements": "Public / Any",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "user_facing_description": "Campus facility reservations: Seminar Halls, Sports Grounds, Central Auditorium, and Project Labs.",
+    "operation_id": "view_facilities",
+    "operation_type": "view",
+    "operation_description": "View all campus facilities, descriptions, and seating capacities.",
+    "actual_frontend_route": "/?tab=bookings",
+    "frontend_tab": "bookings",
+    "component": "BookingsView",
+    "backend_endpoint": "getFacilities()",
+    "backend_table": "bookings",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "user_facing_description": "Campus facility reservations: Seminar Halls, Sports Grounds, Central Auditorium, and Project Labs.",
+    "operation_id": "create_booking",
+    "operation_type": "book",
+    "operation_description": "Reserve a facility for a specified date, start time, end time, and academic purpose.",
+    "actual_frontend_route": "/?tab=bookings",
+    "frontend_tab": "bookings",
+    "component": "BookingsView",
+    "backend_endpoint": "createBooking(data)",
+    "backend_table": "bookings",
+    "required_parameters": [
+      "facility_id",
+      "date",
+      "start_time",
+      "end_time",
+      "purpose"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "Explicit User Confirmation Required",
+    "is_write": true,
+    "expected_output": "Committed DB transaction & reference ticket",
+    "error_conditions": [
+      "Missing required parameters",
+      "Unauthenticated access",
+      "Row-level access control violation",
+      "Database constraint conflict"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "user_facing_description": "Campus facility reservations: Seminar Halls, Sports Grounds, Central Auditorium, and Project Labs.",
+    "operation_id": "cancel_booking",
+    "operation_type": "cancel",
+    "operation_description": "Cancel an existing facility booking reservation.",
+    "actual_frontend_route": "/?tab=bookings",
+    "frontend_tab": "bookings",
+    "component": "BookingsView",
+    "backend_endpoint": "cancelBooking(bookingId, studentId)",
+    "backend_table": "bookings",
+    "required_parameters": [
+      "booking_id"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "Explicit User Confirmation Required",
+    "is_write": true,
+    "expected_output": "Committed DB transaction & reference ticket",
+    "error_conditions": [
+      "Missing required parameters",
+      "Unauthenticated access",
+      "Row-level access control violation",
+      "Database constraint conflict"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "user_facing_description": "Student clubs and societies directory (AI, Coding, Music, Drama, Dance, Photography) and recruitment forms.",
+    "operation_id": "browse_clubs",
+    "operation_type": "view",
+    "operation_description": "List all active university student clubs, categories, and descriptions.",
+    "actual_frontend_route": "/?tab=clubs",
+    "frontend_tab": "clubs",
+    "component": "ClubsView",
+    "backend_endpoint": "DataRepository.get_clubs()",
+    "backend_table": "studentlife_club",
+    "required_parameters": [],
+    "permission_requirements": "Public / Any",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "user_facing_description": "Student clubs and societies directory (AI, Coding, Music, Drama, Dance, Photography) and recruitment forms.",
+    "operation_id": "apply_club",
+    "operation_type": "apply",
+    "operation_description": "Submit application to join a specific student club.",
+    "actual_frontend_route": "/?tab=clubs",
+    "frontend_tab": "clubs",
+    "component": "ClubsView",
+    "backend_endpoint": "DataRepository.create_club_application(session, club_id, student_name)",
+    "backend_table": "studentlife_club",
+    "required_parameters": [
+      "club_id"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "Explicit User Confirmation Required",
+    "is_write": true,
+    "expected_output": "Committed DB transaction & reference ticket",
+    "error_conditions": [
+      "Missing required parameters",
+      "Unauthenticated access",
+      "Row-level access control violation",
+      "Database constraint conflict"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "user_facing_description": "Campus cultural festivals, technical symposiums, hackathons, guest lectures, and student event passes.",
+    "operation_id": "view_events",
+    "operation_type": "view",
+    "operation_description": "List upcoming campus hackathons, workshops, and fests.",
+    "actual_frontend_route": "/?tab=events",
+    "frontend_tab": "events",
+    "component": "EventRegistrationView",
+    "backend_endpoint": "DataRepository.get_upcoming_events()",
+    "backend_table": "calendar_events",
+    "required_parameters": [],
+    "permission_requirements": "Public / Any",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "user_facing_description": "Campus cultural festivals, technical symposiums, hackathons, guest lectures, and student event passes.",
+    "operation_id": "register_event",
+    "operation_type": "submit",
+    "operation_description": "Register for a campus event to receive an entry pass.",
+    "actual_frontend_route": "/?tab=events",
+    "frontend_tab": "events",
+    "component": "EventRegistrationView",
+    "backend_endpoint": "registerForEvent(studentId, eventName)",
+    "backend_table": "calendar_events",
+    "required_parameters": [
+      "event_name"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "Explicit User Confirmation Required",
+    "is_write": true,
+    "expected_output": "Committed DB transaction & reference ticket",
+    "error_conditions": [
+      "Missing required parameters",
+      "Unauthenticated access",
+      "Row-level access control violation",
+      "Database constraint conflict"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "user_facing_description": "Peer-to-peer campus marketplace for buying and selling textbooks, engineering drafters, lab coats, and cycles.",
+    "operation_id": "view_listings",
+    "operation_type": "view",
+    "operation_description": "Browse all peer-to-peer campus listings.",
+    "actual_frontend_route": "/?tab=marketplace",
+    "frontend_tab": "marketplace",
+    "component": "MarketplaceView",
+    "backend_endpoint": "getMarketplaceListings()",
+    "backend_table": "marketplace_listings",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "user_facing_description": "Peer-to-peer campus marketplace for buying and selling textbooks, engineering drafters, lab coats, and cycles.",
+    "operation_id": "create_listing",
+    "operation_type": "submit",
+    "operation_description": "Post a second-hand item for sale to campus peers.",
+    "actual_frontend_route": "/?tab=marketplace",
+    "frontend_tab": "marketplace",
+    "component": "MarketplaceView",
+    "backend_endpoint": "createMarketplaceListing(studentId, title, category, price)",
+    "backend_table": "marketplace_listings",
+    "required_parameters": [
+      "title",
+      "category",
+      "price"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "Explicit User Confirmation Required",
+    "is_write": true,
+    "expected_output": "Committed DB transaction & reference ticket",
+    "error_conditions": [
+      "Missing required parameters",
+      "Unauthenticated access",
+      "Row-level access control violation",
+      "Database constraint conflict"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "user_facing_description": "Interactive university campus map, academic blocks (A-Block, U-Block, H-Block), departments, labs, and ATMs.",
+    "operation_id": "view_locations",
+    "operation_type": "view",
+    "operation_description": "View all campus buildings, blocks, coordinates, and features.",
+    "actual_frontend_route": "/?tab=map",
+    "frontend_tab": "map",
+    "component": "CampusMapView",
+    "backend_endpoint": "getCampusLocations()",
+    "backend_table": "campus_locations",
+    "required_parameters": [],
+    "permission_requirements": "Public / Any",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "user_facing_description": "Mental health support, confidential counseling appointments, wellness centers, and 24x7 crisis helplines.",
+    "operation_id": "view_resources",
+    "operation_type": "view",
+    "operation_description": "View confidential counseling center hours and national support lines.",
+    "actual_frontend_route": "/?tab=wellness",
+    "frontend_tab": "wellness",
+    "component": "WellnessView",
+    "backend_endpoint": "getWellnessResources()",
+    "backend_table": "wellness_resources",
+    "required_parameters": [],
+    "permission_requirements": "Public / Any",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "user_facing_description": "Official Academic Regulations R23, attendance rules, detention criteria, condonation, and grading scales.",
+    "operation_id": "search_policies",
+    "operation_type": "search",
+    "operation_description": "Search academic regulations and statutory bylaws by keyword.",
+    "actual_frontend_route": "/?tab=policies",
+    "frontend_tab": "policies",
+    "component": "PoliciesView",
+    "backend_endpoint": "DataRepository.search_policies(query)",
+    "backend_table": "policies",
+    "required_parameters": [
+      "query"
+    ],
+    "permission_requirements": "Public / Any",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "user_facing_description": "Official notices issued by the Registrar, Controller of Examinations, Dean Academics, and Vice-Chancellor.",
+    "operation_id": "view_circulars",
+    "operation_type": "view",
+    "operation_description": "View official administrative notices and university announcements.",
+    "actual_frontend_route": "/?tab=circulars",
+    "frontend_tab": "circulars",
+    "component": "CircularsView",
+    "backend_endpoint": "circulars_tool.get_circulars_summary(session)",
+    "backend_table": "circulars",
+    "required_parameters": [],
+    "permission_requirements": "Public / Any",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "user_facing_description": "Institutional calendar with semester start/end dates, CIE examination windows, national holidays, and fests.",
+    "operation_id": "view_calendar",
+    "operation_type": "view",
+    "operation_description": "View institutional schedule of academic milestones and holidays.",
+    "actual_frontend_route": "/?tab=calendar",
+    "frontend_tab": "calendar",
+    "component": "CalendarView",
+    "backend_endpoint": "fetchStudentSchedule(studentId)",
+    "backend_table": "calendar_events",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "user_facing_description": "Student karma points, attendance badges (75%+ Streak), learning rewards, and campus leaderboard.",
+    "operation_id": "view_badges",
+    "operation_type": "view",
+    "operation_description": "View earned achievement badges, points, and consistency streaks.",
+    "actual_frontend_route": "/?tab=gamification",
+    "frontend_tab": "gamification",
+    "component": "GamificationView",
+    "backend_endpoint": "getGamificationData(studentId)",
+    "backend_table": "gamification",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "user_facing_description": "Placement statistics, company recruitment drives, aptitude training, and AI resume review tools.",
+    "operation_id": "view_placements",
+    "operation_type": "view",
+    "operation_description": "View placement statistics, visiting recruiters, and resume status.",
+    "actual_frontend_route": "/?tab=career",
+    "frontend_tab": "career",
+    "component": "CareerView",
+    "backend_endpoint": "getResumeData(studentId)",
+    "backend_table": "resumes",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "user_facing_description": "Placement statistics, company recruitment drives, aptitude training, and AI resume review tools.",
+    "operation_id": "save_resume",
+    "operation_type": "submit",
+    "operation_description": "Save student skills and projects for AI placement review.",
+    "actual_frontend_route": "/?tab=career",
+    "frontend_tab": "career",
+    "component": "CareerView",
+    "backend_endpoint": "saveResumeData(studentId, skills, projects)",
+    "backend_table": "resumes",
+    "required_parameters": [
+      "skills",
+      "projects"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "Explicit User Confirmation Required",
+    "is_write": true,
+    "expected_output": "Committed DB transaction & reference ticket",
+    "error_conditions": [
+      "Missing required parameters",
+      "Unauthenticated access",
+      "Row-level access control violation",
+      "Database constraint conflict"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "user_facing_description": "Statutory Student Grievance Redressal Committee (SGRC) portal under UGC 2023 regulations with 15-day SLA.",
+    "operation_id": "view_grievance_portal",
+    "operation_type": "view",
+    "operation_description": "View UGC SGRC statutory regulations and grievance procedure.",
+    "actual_frontend_route": "/?tab=services",
+    "frontend_tab": "services",
+    "component": "StudentServicesView",
+    "backend_endpoint": "GET /?tab=services&view=grievance",
+    "backend_table": "studentlife_grievance",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "user_facing_description": "Statutory Student Grievance Redressal Committee (SGRC) portal under UGC 2023 regulations with 15-day SLA.",
+    "operation_id": "lodge_grievance",
+    "operation_type": "submit",
+    "operation_description": "Lodge formal confidential complaint with UGC Ombudsman & SGRC.",
+    "actual_frontend_route": "/?tab=services",
+    "frontend_tab": "services",
+    "component": "StudentServicesView",
+    "backend_endpoint": "submitAncComplaint(complaintText, studentId)",
+    "backend_table": "studentlife_grievance",
+    "required_parameters": [
+      "description"
+    ],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "Explicit User Confirmation Required",
+    "is_write": true,
+    "expected_output": "Committed DB transaction & reference ticket",
+    "error_conditions": [
+      "Missing required parameters",
+      "Unauthenticated access",
+      "Row-level access control violation",
+      "Database constraint conflict"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "user_facing_description": "Student voice platform for active campus surveys, feedback polls, and student council referendums.",
+    "operation_id": "view_polls",
+    "operation_type": "view",
+    "operation_description": "View active campus student body polls and referendums.",
+    "actual_frontend_route": "/?tab=polling",
+    "frontend_tab": "polling",
+    "component": "PollingView",
+    "backend_endpoint": "getCampusPolls()",
+    "backend_table": "campus_polls",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "user_facing_description": "Directory of university alumni mentors offering career guidance, referrals, and industry insights.",
+    "operation_id": "view_alumni",
+    "operation_type": "view",
+    "operation_description": "Search directory of alumni mentors by company and domain.",
+    "actual_frontend_route": "/?tab=alumni",
+    "frontend_tab": "alumni",
+    "component": "AlumniView",
+    "backend_endpoint": "getAlumniMentors()",
+    "backend_table": "alumni_mentors",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "user_facing_description": "Verified student identity record, academic enrollment info, parent contact, class teacher, and faculty mentor.",
+    "operation_id": "view_profile",
+    "operation_type": "view",
+    "operation_description": "View verified enrollment profile and assigned faculty advisors.",
+    "actual_frontend_route": "/?tab=student-profile",
+    "frontend_tab": "student-profile",
+    "component": "StudentProfileDrawer",
+    "backend_endpoint": "GET /api/v1/me",
+    "backend_table": "students",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  },
+  {
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "user_facing_description": "Administrative management console for faculty, department coordinators, and helpdesk officers.",
+    "operation_id": "admin_console",
+    "operation_type": "view",
+    "operation_description": "Administrative dashboard for institutional management.",
+    "actual_frontend_route": "/admin",
+    "frontend_tab": "admin",
+    "component": "AdminDashboardView",
+    "backend_endpoint": "GET /admin",
+    "backend_table": "admins",
+    "required_parameters": [],
+    "permission_requirements": "Authenticated Student",
+    "confirmation_requirements": "None (Immediate Safe Execution)",
+    "is_write": false,
+    "expected_output": "Structured UI card & navigation action",
+    "error_conditions": [
+      "Resource not found",
+      "Network timeout"
+    ],
+    "related_features": [
+      "home",
+      "lost-and-found",
+      "services"
+    ]
+  }
+]

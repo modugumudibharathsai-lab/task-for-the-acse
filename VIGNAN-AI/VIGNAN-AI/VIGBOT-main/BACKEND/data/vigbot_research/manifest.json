@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0.0",
+  "created_at": "2026-10-29T17:58:06.600029+00:00",
+  "updated_at": "2026-10-29T18:02:14.128143+00:00",
+  "artifacts": {
+    "architecture_audit": {
+      "artifact_id": "architecture_audit",
+      "relative_path": "datasets/architecture_audit.json",
+      "artifact_type": "audit_report",
+      "record_count": 4,
+      "file_size_bytes": 308,
+      "sha256": "686246a2b5c619be38b15377c492e5a594c26c20f22ce3d385058222e30013bd",
+      "updated_at": "2026-10-29T17:58:30.645267+00:00",
+      "metadata": {}
+    },
+    "model_catalogs": {
+      "artifact_id": "model_catalogs",
+      "relative_path": "datasets/model_catalogs.json",
+      "artifact_type": "model_inventory",
+      "record_count": 3,
+      "file_size_bytes": 284,
+      "sha256": "78646ffe4d5078a9c3377001450262255000c9c886c087e2a93a3615646f2734",
+      "updated_at": "2026-10-29T17:58:30.699678+00:00",
+      "metadata": {}
+    },
+    "baseline_benchmark": {
+      "artifact_id": "baseline_benchmark",
+      "relative_path": "datasets/baseline_benchmark.json",
+      "artifact_type": "benchmark_baseline",
+      "record_count": 27,
+      "file_size_bytes": 121,
+      "sha256": "74dc9e2e189ae17ca5ac20aff13e0f7ae4f99ac3e23bff8f6dd43ae9ae971df3",
+      "updated_at": "2026-10-29T17:58:30.759653+00:00",
+      "metadata": {}
+    },
+    "source_registry": {
+      "artifact_id": "source_registry",
+      "relative_path": "datasets/source_registry.json",
+      "artifact_type": "source_registry",
+      "record_count": 10,
+      "file_size_bytes": 11148,
+      "sha256": "3c802c538e65a2afbff752d37777989b349fdc80c3b3850a49227e54ed4a4299",
+      "updated_at": "2026-10-29T17:59:24.211707+00:00",
+      "metadata": {}
+    },
+    "vignan_qa_master": {
+      "artifact_id": "vignan_qa_master",
+      "relative_path": "datasets/vignan_qa_master.json",
+      "artifact_type": "qa_dataset",
+      "record_count": 90,
+      "file_size_bytes": 82325,
+      "sha256": "cd205ecb5ad7aa2bbd3f6ff3f5c78788d6475513e05877f2bea6a2712734bcf7",
+      "updated_at": "2026-10-29T17:59:24.683740+00:00",
+      "metadata": {}
+    },
+    "train_set": {
+      "artifact_id": "train_set",
+      "relative_path": "datasets/train_set.json",
+      "artifact_type": "dataset_split",
+      "record_count": 283,
+      "file_size_bytes": 231522,
+      "sha256": "9209dde142a315cc75a47457caa2d3ac809259725200819c0659eb643b5f5896",
+      "updated_at": "2026-10-29T18:02:03.790933+00:00",
+      "metadata": {}
+    },
+    "val_set": {
+      "artifact_id": "val_set",
+      "relative_path": "datasets/val_set.json",
+      "artifact_type": "dataset_split",
+      "record_count": 53,
+      "file_size_bytes": 36200,
+      "sha256": "8eb1d76e06eb3f8657162d48f5dbf73d1955fb9fad5ae79d5b9ea2146a0b5e13",
+      "updated_at": "2026-10-29T18:02:03.808998+00:00",
+      "metadata": {}
+    },
+    "eval_heldout_200": {
+      "artifact_id": "eval_heldout_200",
+      "relative_path": "datasets/eval_heldout_200.json",
+      "artifact_type": "dataset_split",
+      "record_count": 200,
+      "file_size_bytes": 149694,
+      "sha256": "6668b663709fcb02e8d2ffe8b909f58e74829a7f72cdb4871ff0db11c9d03453",
+      "updated_at": "2026-10-29T18:02:03.817621+00:00",
+      "metadata": {}
+    },
+    "indexed_chunks": {
+      "artifact_id": "indexed_chunks",
+      "relative_path": "datasets/indexed_chunks.json",
+      "artifact_type": "rag_index",
+      "record_count": 87,
+      "file_size_bytes": 70605,
+      "sha256": "d71c013791898488f059961483dc321bb683af115cea0f21e0068319923442a7",
+      "updated_at": "2026-10-29T17:59:25.382559+00:00",
+      "metadata": {}
+    },
+    "finetune_assessment": {
+      "artifact_id": "finetune_assessment",
+      "relative_path": "datasets/finetune_assessment.json",
+      "artifact_type": "feasibility_report",
+      "record_count": 4,
+      "file_size_bytes": 260,
+      "sha256": "f508fc5ef1b2a3a984473873a24a021b54a8593aae4d02fa4bd28081eb4cd94d",
+      "updated_at": "2026-10-29T17:59:25.816755+00:00",
+      "metadata": {}
+    },
+    "benchmark_evaluation_results": {
+      "artifact_id": "benchmark_evaluation_results",
+      "relative_path": "datasets/benchmark_evaluation_results.json",
+      "artifact_type": "benchmark_results",
+      "record_count": 200,
+      "file_size_bytes": 419,
+      "sha256": "60f85ccc81bdd3164d4a15695ac01848afc2bd2cb9a4a673f3387eb33b2669d8",
+      "updated_at": "2026-10-29T18:02:14.128143+00:00",
+      "metadata": {
+        "total_queries_evaluated": 200,
+        "passed_queries": 200,
+        "accuracy_percent": 100.0,
+        "citation_rate_percent": 100.0,
+        "average_latency_ms": 16.85,
+        "category_breakdown": {
+          "academic_policy": {
+            "total": 30,
+            "passed": 30
+          },
+          "fees_and_scholarships": {
+            "total": 160,
+            "passed": 160
+          },
+          "campus_life": {
+            "total": 10,
+            "passed": 10
+          }
+        }
+      }
+    },
+    "capability_operation_matrix": {
+      "artifact_id": "capability_operation_matrix",
+      "relative_path": "BACKEND/artifacts/capability_operation_matrix.json",
+      "artifact_type": "specification",
+      "record_count": 48,
+      "file_size_bytes": 51719,
+      "sha256": "e9755481905f7a62247f776fa1ec91ca8d7db9e332cfbb8ea8cf94a67f5b292a",
+      "updated_at": "2026-10-30T09:46:25Z",
+      "metadata": {}
+    },
+    "capability_operation_matrix_doc": {
+      "artifact_id": "capability_operation_matrix_doc",
+      "relative_path": "BACKEND/artifacts/CAPABILITY_OPERATION_MATRIX.md",
+      "artifact_type": "documentation",
+      "record_count": 0,
+      "file_size_bytes": 8131,
+      "sha256": "03b91c011bc3c3464c0843656432b133111a67a5c17fd9e7fca4ae4997109be8",
+      "updated_at": "2026-10-30T09:46:25Z",
+      "metadata": {}
+    },
+    "capability_test_suite": {
+      "artifact_id": "capability_test_suite",
+      "relative_path": "BACKEND/artifacts/capability_test_suite.json",
+      "artifact_type": "test_dataset",
+      "record_count": 504,
+      "file_size_bytes": 168452,
+      "sha256": "fcef8600f6d1167e8f377a7a5eb0e97f84a20976a7a1e33bd8044ca6bb9f1688",
+      "updated_at": "2026-10-30T09:46:25Z",
+      "metadata": {}
+    },
+    "universal_intelligence_benchmark": {
+      "artifact_id": "universal_intelligence_benchmark",
+      "relative_path": "BACKEND/artifacts/universal_intelligence_benchmark_results.json",
+      "artifact_type": "benchmark_results",
+      "record_count": 12,
+      "file_size_bytes": 2598,
+      "sha256": "67ebfd63b54c88101c129093ed534cf4a995a660c7012ee24f44b320be3c9be3",
+      "updated_at": "2026-10-30T09:46:25Z",
+      "metadata": {}
+    },
+    "phase14_validation_report": {
+      "artifact_id": "phase14_validation_report",
+      "relative_path": "BACKEND/artifacts/PHASE14_INDEPENDENT_VALIDATION.md",
+      "artifact_type": "validation_report",
+      "record_count": 0,
+      "file_size_bytes": 11574,
+      "sha256": "f0bdb69ff0bd07ddaebbebe91fcc8f705e795271f1e7d48be6d66db45bb4ba3b",
+      "updated_at": "2026-10-30T09:46:25Z",
+      "metadata": {}
+    },
+    "benchmark_leakage_audit": {
+      "artifact_id": "benchmark_leakage_audit",
+      "relative_path": "BACKEND/artifacts/benchmark_leakage_audit.md",
+      "artifact_type": "audit_report",
+      "record_count": 0,
+      "file_size_bytes": 5954,
+      "sha256": "cdf056f2c7e50e0f0e6a891e34803f7802631af94b141e14e4f5ba1692d4a7c6",
+      "updated_at": "2026-10-30T09:46:25Z",
+      "metadata": {}
+    },
+    "independent_test_dataset": {
+      "artifact_id": "independent_test_dataset",
+      "relative_path": "BACKEND/artifacts/independent_test_dataset.json",
+      "artifact_type": "test_dataset",
+      "record_count": 252,
+      "file_size_bytes": 127702,
+      "sha256": "4f7c28857c60841c2ae5618c4fe529cce881cc7b0a06b06fd882b01e42b90636",
+      "updated_at": "2026-10-30T09:46:25Z",
+      "metadata": {}
+    },
+    "independent_test_results": {
+      "artifact_id": "independent_test_results",
+      "relative_path": "BACKEND/artifacts/independent_test_results.json",
+      "artifact_type": "benchmark_results",
+      "record_count": 5,
+      "file_size_bytes": 4817,
+      "sha256": "4205c3fd87173b27d3d3694cca21a09c828cce2786a9f58f466527560997d092",
+      "updated_at": "2026-10-30T09:46:25Z",
+      "metadata": {}
+    },
+    "false_action_audit": {
+      "artifact_id": "false_action_audit",
+      "relative_path": "BACKEND/artifacts/false_action_audit.json",
+      "artifact_type": "audit_report",
+      "record_count": 8,
+      "file_size_bytes": 8439,
+      "sha256": "0f0a64dda80c1e274b78ba41908be1c8ede494838ccbd51782b0293a01dc57a0",
+      "updated_at": "2026-10-30T09:46:25Z",
+      "metadata": {}
+    },
+    "frontend_e2e_results": {
+      "artifact_id": "frontend_e2e_results",
+      "relative_path": "BACKEND/artifacts/frontend_e2e_results.json",
+      "artifact_type": "e2e_results",
+      "record_count": 4,
+      "file_size_bytes": 8217,
+      "sha256": "a8198bf4f4b6d5e41238957ffb620e4b18a32a015e1ca7c05112f1247d39cc6b",
+      "updated_at": "2026-10-30T09:46:25Z",
+      "metadata": {}
+    },
+    "cleanup_manifest": "CLEANUP_FILE_MANIFEST.json",
+    "cleanup_test_results": "CLEANUP_TEST_RESULTS.json",
+    "final_project_structure": "FINAL_PROJECT_STRUCTURE.md",
+    "project_cleanup_report": "PROJECT_CLEANUP_REPORT.md",
+    "phase16_audit_report": "PHASE16_FINAL_AUDIT.md"
+  }
+}

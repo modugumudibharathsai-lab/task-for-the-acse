@@ -1,0 +1,13 @@
+{
+  "gemini_models": [
+    "gemini-2.5-flash",
+    "gemini-1.5-flash",
+    "gemini-3.8-flash"
+  ],
+  "groq_models": [
+    "openai/gpt-oss-120b",
+    "llama-3.3-70b-versatile",
+    "qwen/qwen3.8-27b"
+  ],
+  "offline_engine": "vigbot-academic-offline (MockAcademicEngine)"
+}

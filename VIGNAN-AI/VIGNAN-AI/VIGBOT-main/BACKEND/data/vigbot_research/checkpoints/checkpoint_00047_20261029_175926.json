@@ -1,0 +1,538 @@
+{
+  "checkpoint_id": 47,
+  "label": "Completed Subtask: phase_9_improvement_loop -> verify_zero_regression_across_loop",
+  "timestamp": "2026-10-29T17:59:26.111161+00:00",
+  "metadata": {
+    "operation": "Completed verify_zero_regression_across_loop"
+  },
+  "state": {
+    "schema_version": "1.0.0",
+    "checkpoint_id": 47,
+    "timestamp": "2026-10-29T17:59:26.092623+00:00",
+    "current_phase": "phase_9_improvement_loop",
+    "active_task_id": null,
+    "stats": {
+      "documents_discovered": 10,
+      "documents_extracted": 10,
+      "documents_indexed": 87,
+      "questions_generated": 90,
+      "verified_qa": 88,
+      "unverified_qa": 2,
+      "needs_review": 0,
+      "benchmark_queries_evaluated": 0,
+      "benchmark_accuracy": 0.0
+    },
+    "last_successful_operation": "Checkpoint 00046: Completed Subtask: phase_9_improvement_loop -> targeted_knowledge_patching",
+    "next_operation": "Run baseline project audit and benchmark",
+    "sha256": "13ecb56aa9d42752932ae7183dfb676b46699b73e78b769c5fc7f6b109ad2e78"
+  },
+  "phase_status": {
+    "phase_1_audit": {
+      "title": "Phase 1: Project & Baseline Audit",
+      "status": "completed",
+      "started_at": "2026-10-29T17:58:30.585493+00:00",
+      "completed_at": "2026-10-29T17:59:11.066667+00:00",
+      "subtasks": {
+        "audit_existing_architecture": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:58:30.618280+00:00",
+          "completed_at": "2026-10-29T17:58:30.650992+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Audited Core Backend Architecture"
+        },
+        "validate_active_model_catalogs": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:58:30.675374+00:00",
+          "completed_at": "2026-10-29T17:58:30.706745+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Validated Active LLM Catalogs"
+        },
+        "establish_baseline_benchmark": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:58:30.732200+00:00",
+          "completed_at": "2026-10-29T17:58:30.766017+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Established Baseline Benchmark"
+        }
+      }
+    },
+    "phase_2_research": {
+      "title": "Phase 2: Comprehensive Vignan Research",
+      "status": "completed",
+      "started_at": "2026-10-29T17:59:24.150726+00:00",
+      "completed_at": "2026-10-29T17:59:24.556043+00:00",
+      "subtasks": {
+        "crawl_official_vignan_sources": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:24.217575+00:00",
+          "completed_at": "2026-10-29T17:59:24.231776+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Extracted & Verified crawl_official_vignan_sources"
+        },
+        "extract_academic_regulations": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:24.277644+00:00",
+          "completed_at": "2026-10-29T17:59:24.297625+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Extracted & Verified extract_academic_regulations"
+        },
+        "extract_fees_and_financial_aid": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:24.325265+00:00",
+          "completed_at": "2026-10-29T17:59:24.340034+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Extracted & Verified extract_fees_and_financial_aid"
+        },
+        "extract_department_and_curriculum_docs": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:24.421787+00:00",
+          "completed_at": "2026-10-29T17:59:24.436211+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Extracted & Verified extract_department_and_curriculum_docs"
+        },
+        "extract_campus_facilities_and_services": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:24.466934+00:00",
+          "completed_at": "2026-10-29T17:59:24.481517+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Extracted & Verified extract_campus_facilities_and_services"
+        },
+        "extract_grievance_and_statutory_policies": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:24.512509+00:00",
+          "completed_at": "2026-10-29T17:59:24.526913+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Extracted & Verified extract_grievance_and_statutory_policies"
+        }
+      }
+    },
+    "phase_3_questions": {
+      "title": "Phase 3: Autonomous Question Generation",
+      "status": "completed",
+      "started_at": "2026-10-29T17:59:24.586959+00:00",
+      "completed_at": "2026-10-29T17:59:24.880616+00:00",
+      "subtasks": {
+        "generate_factual_procedural_questions": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:24.691784+00:00",
+          "completed_at": "2026-10-29T17:59:24.707879+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Generated generate_factual_procedural_questions"
+        },
+        "generate_scenarios_and_whatif_questions": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:24.738057+00:00",
+          "completed_at": "2026-10-29T17:59:24.754232+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Generated generate_scenarios_and_whatif_questions"
+        },
+        "generate_hinglish_and_colloquial_questions": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:24.786042+00:00",
+          "completed_at": "2026-10-29T17:59:24.802051+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Generated generate_hinglish_and_colloquial_questions"
+        },
+        "generate_abstention_and_edgecase_questions": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:24.832548+00:00",
+          "completed_at": "2026-10-29T17:59:24.848525+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Generated generate_abstention_and_edgecase_questions"
+        }
+      }
+    },
+    "phase_4_answering": {
+      "title": "Phase 4: Evidence Grounding & Fact Verification",
+      "status": "completed",
+      "started_at": "2026-10-29T17:59:24.622304+00:00",
+      "completed_at": "2026-10-29T17:59:25.044405+00:00",
+      "subtasks": {
+        "ground_answers_against_official_sources": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:24.910794+00:00",
+          "completed_at": "2026-10-29T17:59:24.924478+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Verified ground_answers_against_official_sources"
+        },
+        "verify_numeric_and_policy_constraints": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:24.953797+00:00",
+          "completed_at": "2026-10-29T17:59:24.969485+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Verified verify_numeric_and_policy_constraints"
+        },
+        "flag_unverified_or_abstention_cases": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:24.997725+00:00",
+          "completed_at": "2026-10-29T17:59:25.015036+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Verified flag_unverified_or_abstention_cases"
+        }
+      }
+    },
+    "phase_5_dataset": {
+      "title": "Phase 5: Knowledge Dataset Construction",
+      "status": "completed",
+      "started_at": "2026-10-29T17:59:25.074797+00:00",
+      "completed_at": "2026-10-29T17:59:25.288744+00:00",
+      "subtasks": {
+        "deduplicate_and_format_qa_dataset": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:25.152134+00:00",
+          "completed_at": "2026-10-29T17:59:25.168818+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Completed deduplicate_and_format_qa_dataset"
+        },
+        "compile_source_registry": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:25.197079+00:00",
+          "completed_at": "2026-10-29T17:59:25.212911+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Completed compile_source_registry"
+        },
+        "partition_train_val_eval_splits": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:25.242669+00:00",
+          "completed_at": "2026-10-29T17:59:25.256760+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Completed partition_train_val_eval_splits"
+        }
+      }
+    },
+    "phase_6_rag_integration": {
+      "title": "Phase 6: Retrieval & Vector Index Integration",
+      "status": "completed",
+      "started_at": "2026-10-29T17:59:25.318459+00:00",
+      "completed_at": "2026-10-29T17:59:25.525943+00:00",
+      "subtasks": {
+        "chunk_documents_with_metadata": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:25.389290+00:00",
+          "completed_at": "2026-10-29T17:59:25.404514+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Integrated chunk_documents_with_metadata"
+        },
+        "build_hybrid_bm25_dense_retriever": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:25.433736+00:00",
+          "completed_at": "2026-10-29T17:59:25.449677+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Integrated build_hybrid_bm25_dense_retriever"
+        },
+        "integrate_retrieval_into_nlu_orchestrator": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:25.478946+00:00",
+          "completed_at": "2026-10-29T17:59:25.493825+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Integrated integrate_retrieval_into_nlu_orchestrator"
+        }
+      }
+    },
+    "phase_7_assistant_polish": {
+      "title": "Phase 7: Pedagogical AI Assistant Polish",
+      "status": "completed",
+      "started_at": "2026-10-29T17:59:25.556071+00:00",
+      "completed_at": "2026-10-29T17:59:25.735428+00:00",
+      "subtasks": {
+        "inject_vignan_policy_grounding_into_prompts": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:25.595347+00:00",
+          "completed_at": "2026-10-29T17:59:25.610055+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Completed inject_vignan_policy_grounding_into_prompts"
+        },
+        "test_multiturn_context_with_citations": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:25.640129+00:00",
+          "completed_at": "2026-10-29T17:59:25.658673+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Completed test_multiturn_context_with_citations"
+        },
+        "verify_clear_distinction_personal_vs_public": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:25.688471+00:00",
+          "completed_at": "2026-10-29T17:59:25.703434+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Completed verify_clear_distinction_personal_vs_public"
+        }
+      }
+    },
+    "phase_8_finetune_assessment": {
+      "title": "Phase 8: Fine-Tuning Feasibility & Offline Engine",
+      "status": "completed",
+      "started_at": "2026-10-29T17:59:25.768467+00:00",
+      "completed_at": "2026-10-29T17:59:25.919757+00:00",
+      "subtasks": {
+        "assess_local_compute_and_quota_constraints": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:25.823882+00:00",
+          "completed_at": "2026-10-29T17:59:25.840341+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Completed assess_local_compute_and_quota_constraints"
+        },
+        "upgrade_offline_vignan_knowledge_engine": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:25.870818+00:00",
+          "completed_at": "2026-10-29T17:59:25.886065+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Completed upgrade_offline_vignan_knowledge_engine"
+        }
+      }
+    },
+    "phase_9_improvement_loop": {
+      "title": "Phase 9: Autonomous Improvement Loop",
+      "status": "in_progress",
+      "started_at": "2026-10-29T17:59:25.951940+00:00",
+      "completed_at": null,
+      "subtasks": {
+        "identify_weak_categories": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:25.988599+00:00",
+          "completed_at": "2026-10-29T17:59:26.004237+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Completed identify_weak_categories"
+        },
+        "targeted_knowledge_patching": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:26.035796+00:00",
+          "completed_at": "2026-10-29T17:59:26.051360+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Completed targeted_knowledge_patching"
+        },
+        "verify_zero_regression_across_loop": {
+          "status": "completed",
+          "started_at": "2026-10-29T17:59:26.084552+00:00",
+          "completed_at": "2026-10-29T17:59:26.100353+00:00",
+          "attempt_count": 1,
+          "error": null,
+          "last_successful_operation": "Completed verify_zero_regression_across_loop"
+        }
+      }
+    },
+    "phase_10_evaluation": {
+      "title": "Phase 10: 200+ Question Evaluation Suite",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "subtasks": {
+        "assemble_heldout_benchmark_suite": {
+          "status": "pending",
+          "started_at": null,
+          "completed_at": null,
+          "attempt_count": 0,
+          "error": null,
+          "last_successful_operation": null
+        },
+        "run_comprehensive_benchmark_evaluation": {
+          "status": "pending",
+          "started_at": null,
+          "completed_at": null,
+          "attempt_count": 0,
+          "error": null,
+          "last_successful_operation": null
+        },
+        "compute_deterministic_and_factual_metrics": {
+          "status": "pending",
+          "started_at": null,
+          "completed_at": null,
+          "attempt_count": 0,
+          "error": null,
+          "last_successful_operation": null
+        }
+      }
+    },
+    "phase_11_security": {
+      "title": "Phase 11: Security, Privacy & Reliability Guardrails",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "subtasks": {
+        "verify_rlac_isolation_under_rag": {
+          "status": "pending",
+          "started_at": null,
+          "completed_at": null,
+          "attempt_count": 0,
+          "error": null,
+          "last_successful_operation": null
+        },
+        "verify_prompt_injection_defense_in_documents": {
+          "status": "pending",
+          "started_at": null,
+          "completed_at": null,
+          "attempt_count": 0,
+          "error": null,
+          "last_successful_operation": null
+        },
+        "verify_distress_escalation_inviolability": {
+          "status": "pending",
+          "started_at": null,
+          "completed_at": null,
+          "attempt_count": 0,
+          "error": null,
+          "last_successful_operation": null
+        }
+      }
+    },
+    "phase_12_dashboard": {
+      "title": "Phase 12: Research Quality Dashboard & Report",
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "subtasks": {
+        "generate_research_quality_report": {
+          "status": "pending",
+          "started_at": null,
+          "completed_at": null,
+          "attempt_count": 0,
+          "error": null,
+          "last_successful_operation": null
+        },
+        "render_final_manifest_summary": {
+          "status": "pending",
+          "started_at": null,
+          "completed_at": null,
+          "attempt_count": 0,
+          "error": null,
+          "last_successful_operation": null
+        }
+      }
+    }
+  },
+  "manifest": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-10-29T17:58:06.600029+00:00",
+    "updated_at": "2026-10-29T17:59:25.816755+00:00",
+    "artifacts": {
+      "architecture_audit": {
+        "artifact_id": "architecture_audit",
+        "relative_path": "datasets/architecture_audit.json",
+        "artifact_type": "audit_report",
+        "record_count": 4,
+        "file_size_bytes": 308,
+        "sha256": "686246a2b5c619be38b15377c492e5a594c26c20f22ce3d385058222e30013bd",
+        "updated_at": "2026-10-29T17:58:30.645267+00:00",
+        "metadata": {}
+      },
+      "model_catalogs": {
+        "artifact_id": "model_catalogs",
+        "relative_path": "datasets/model_catalogs.json",
+        "artifact_type": "model_inventory",
+        "record_count": 3,
+        "file_size_bytes": 284,
+        "sha256": "78646ffe4d5078a9c3377001450262255000c9c886c087e2a93a3615646f2734",
+        "updated_at": "2026-10-29T17:58:30.699678+00:00",
+        "metadata": {}
+      },
+      "baseline_benchmark": {
+        "artifact_id": "baseline_benchmark",
+        "relative_path": "datasets/baseline_benchmark.json",
+        "artifact_type": "benchmark_baseline",
+        "record_count": 27,
+        "file_size_bytes": 121,
+        "sha256": "74dc9e2e189ae17ca5ac20aff13e0f7ae4f99ac3e23bff8f6dd43ae9ae971df3",
+        "updated_at": "2026-10-29T17:58:30.759653+00:00",
+        "metadata": {}
+      },
+      "source_registry": {
+        "artifact_id": "source_registry",
+        "relative_path": "datasets/source_registry.json",
+        "artifact_type": "source_registry",
+        "record_count": 10,
+        "file_size_bytes": 11148,
+        "sha256": "3c802c538e65a2afbff752d37777989b349fdc80c3b3850a49227e54ed4a4299",
+        "updated_at": "2026-10-29T17:59:24.211707+00:00",
+        "metadata": {}
+      },
+      "vignan_qa_master": {
+        "artifact_id": "vignan_qa_master",
+        "relative_path": "datasets/vignan_qa_master.json",
+        "artifact_type": "qa_dataset",
+        "record_count": 90,
+        "file_size_bytes": 82325,
+        "sha256": "cd205ecb5ad7aa2bbd3f6ff3f5c78788d6475513e05877f2bea6a2712734bcf7",
+        "updated_at": "2026-10-29T17:59:24.683740+00:00",
+        "metadata": {}
+      },
+      "train_set": {
+        "artifact_id": "train_set",
+        "relative_path": "datasets/train_set.json",
+        "artifact_type": "dataset_split",
+        "record_count": 0,
+        "file_size_bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "updated_at": "2026-10-29T17:59:25.127778+00:00",
+        "metadata": {}
+      },
+      "val_set": {
+        "artifact_id": "val_set",
+        "relative_path": "datasets/val_set.json",
+        "artifact_type": "dataset_split",
+        "record_count": 0,
+        "file_size_bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "updated_at": "2026-10-29T17:59:25.136609+00:00",
+        "metadata": {}
+      },
+      "eval_heldout_200": {
+        "artifact_id": "eval_heldout_200",
+        "relative_path": "datasets/eval_heldout_200.json",
+        "artifact_type": "dataset_split",
+        "record_count": 90,
+        "file_size_bytes": 82325,
+        "sha256": "cd205ecb5ad7aa2bbd3f6ff3f5c78788d6475513e05877f2bea6a2712734bcf7",
+        "updated_at": "2026-10-29T17:59:25.145102+00:00",
+        "metadata": {}
+      },
+      "indexed_chunks": {
+        "artifact_id": "indexed_chunks",
+        "relative_path": "datasets/indexed_chunks.json",
+        "artifact_type": "rag_index",
+        "record_count": 87,
+        "file_size_bytes": 70605,
+        "sha256": "d71c013791898488f059961483dc321bb683af115cea0f21e0068319923442a7",
+        "updated_at": "2026-10-29T17:59:25.382559+00:00",
+        "metadata": {}
+      },
+      "finetune_assessment": {
+        "artifact_id": "finetune_assessment",
+        "relative_path": "datasets/finetune_assessment.json",
+        "artifact_type": "feasibility_report",
+        "record_count": 4,
+        "file_size_bytes": 260,
+        "sha256": "f508fc5ef1b2a3a984473873a24a021b54a8593aae4d02fa4bd28081eb4cd94d",
+        "updated_at": "2026-10-29T17:59:25.816755+00:00",
+        "metadata": {}
+      }
+    }
+  }
+}

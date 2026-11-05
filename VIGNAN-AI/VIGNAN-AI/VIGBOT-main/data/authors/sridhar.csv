@@ -1,0 +1,341 @@
+text,intent,lang,author
+What is my attendance percentage?,attendance,en,sridhar
+How can I check my attendance?,attendance,en,sridhar
+Can you show my attendance for this semester?,attendance,en,sridhar
+How many classes have I attended so far?,attendance,en,sridhar
+How many classes have I missed?,attendance,en,sridhar
+Where can I see my subject-wise attendance?,attendance,en,sridhar
+What is my attendance in Data Structures?,attendance,en,sridhar
+How much attendance is required to write exams?,attendance,en,sridhar
+Am I eligible to attend the semester exams based on attendance?,attendance,en,sridhar
+How do I correct an attendance entry marked absent by mistake?,attendance,en,sridhar
+My attendance was not updated today; what should I do?,attendance,en,sridhar
+Can I check attendance for last month?,attendance,en,sridhar
+How many more classes should I attend to reach 75 percent?,attendance,en,sridhar
+Where can I find the attendance shortage list?,attendance,en,sridhar
+How can I apply for attendance condonation?,attendance,en,sridhar
+Will medical leave affect my attendance percentage?,attendance,en,sridhar
+Can my parent check my attendance record?,attendance,en,sridhar
+How do I report a wrong attendance entry?,attendance,en,sridhar
+Is today's attendance available on the portal?,attendance,en,sridhar
+Can I download my attendance report?,attendance,en,sridhar
+When is the next internal exam?,exams,en,sridhar
+What is the examination timetable?,exams,en,sridhar
+Where can I find the semester exam dates?,exams,en,sridhar
+When will mid exams start?,exams,en,sridhar
+How do I download my hall ticket?,exams,en,sridhar
+What should I do if my hall ticket is not showing?,exams,en,sridhar
+What is the procedure to register for exams?,exams,en,sridhar
+What is the last date to pay the exam fee?,exams,en,sridhar
+Where is my exam centre listed?,exams,en,sridhar
+Can I get the rules for the examination hall?,exams,en,sridhar
+What documents should I carry to the exam?,exams,en,sridhar
+How can I apply for a revaluation?,exams,en,sridhar
+When will supplementary exams be held?,exams,en,sridhar
+How do I apply for a supplementary exam?,exams,en,sridhar
+What happens if I miss an internal exam?,exams,en,sridhar
+Where can I check my exam seating arrangement?,exams,en,sridhar
+How can I report an error on my hall ticket?,exams,en,sridhar
+Are practical exam dates announced?,exams,en,sridhar
+What is the process for recounting marks?,exams,en,sridhar
+Where can I find previous question papers?,exams,en,sridhar
+How can I check my marks?,marks,en,sridhar
+Where are my internal marks displayed?,marks,en,sridhar
+Can I see my subject-wise marks?,marks,en,sridhar
+What marks did I get in the last mid exam?,marks,en,sridhar
+How do I calculate my total marks?,marks,en,sridhar
+When will the semester results be released?,marks,en,sridhar
+My marks are missing from the portal; whom should I contact?,marks,en,sridhar
+How can I request correction of marks?,marks,en,sridhar
+Where can I check my lab marks?,marks,en,sridhar
+How do I apply for revaluation of my answer script?,marks,en,sridhar
+Can I download my marks memo?,marks,en,sridhar
+What is the minimum passing mark for a subject?,marks,en,sridhar
+How can I check my SGPA?,marks,en,sridhar
+Where can I see my previous semester results?,marks,en,sridhar
+Why are my internal marks different from my calculation?,marks,en,sridhar
+How do I find my subject-wise grade?,marks,en,sridhar
+When will practical marks be uploaded?,marks,en,sridhar
+Can I get a copy of my evaluated answer sheet?,marks,en,sridhar
+How are internal and external marks combined?,marks,en,sridhar
+What should I do if my result shows absent by mistake?,marks,en,sridhar
+What is the semester fee amount?,fees,en,sridhar
+How can I pay my college fee online?,fees,en,sridhar
+What is the last date to pay tuition fees?,fees,en,sridhar
+Where can I download my fee receipt?,fees,en,sridhar
+How do I check my pending fee balance?,fees,en,sridhar
+Can I pay the fee in instalments?,fees,en,sridhar
+What payment methods are accepted?,fees,en,sridhar
+My online fee payment failed; what should I do?,fees,en,sridhar
+The amount was deducted but the receipt is missing. How can I fix it?,fees,en,sridhar
+How do I apply for a fee refund?,fees,en,sridhar
+Where can I find the fee structure for my course?,fees,en,sridhar
+Is there a late fee for delayed payment?,fees,en,sridhar
+How can I update my fee payment details?,fees,en,sridhar
+Can I pay exam fees through the student portal?,fees,en,sridhar
+How do I get a duplicate fee receipt?,fees,en,sridhar
+Are there any scholarships or fee concessions?,fees,en,sridhar
+Whom should I contact about a fee issue?,fees,en,sridhar
+How can I check whether my payment was successful?,fees,en,sridhar
+What is the hostel fee for this semester?,fees,en,sridhar
+Can I pay my fees using UPI?,fees,en,sridhar
+Can I see today's class timetable?,timetable,en,sridhar
+Where can I download the weekly timetable?,timetable,en,sridhar
+What is my timetable for Monday?,timetable,en,sridhar
+Which class do I have after lunch?,timetable,en,sridhar
+At what time does the first period begin?,timetable,en,sridhar
+Has the timetable changed this week?,timetable,en,sridhar
+Where can I check my lab schedule?,timetable,en,sridhar
+What is the timetable for second-year students?,timetable,en,sridhar
+Which room is assigned for my next class?,timetable,en,sridhar
+How do I get the latest timetable PDF?,timetable,en,sridhar
+Is there a class on Saturday?,timetable,en,sridhar
+When is our Data Structures lab?,timetable,en,sridhar
+What is the afternoon class schedule?,timetable,en,sridhar
+Who should I ask about a timetable mistake?,timetable,en,sridhar
+Where can I find the section-wise timetable?,timetable,en,sridhar
+Has tomorrow's class schedule been updated?,timetable,en,sridhar
+What is the timetable during exam week?,timetable,en,sridhar
+How long is each period?,timetable,en,sridhar
+When is our lunch break?,timetable,en,sridhar
+Can you show the timetable for my section?,timetable,en,sridhar
+What subjects are included in my current semester?,curriculum,en,sridhar
+Where can I download the course syllabus?,curriculum,en,sridhar
+What is the syllabus for Data Structures?,curriculum,en,sridhar
+Can I see the unit-wise topics for DBMS?,curriculum,en,sridhar
+How many credits does this subject carry?,curriculum,en,sridhar
+Where can I find the course outcomes?,curriculum,en,sridhar
+What topics are included in Unit 2?,curriculum,en,sridhar
+Is the syllabus available as a PDF?,curriculum,en,sridhar
+What are the prerequisites for this course?,curriculum,en,sridhar
+How can I check the curriculum for my branch?,curriculum,en,sridhar
+Which programming languages are taught this year?,curriculum,en,sridhar
+What practical subjects are part of this semester?,curriculum,en,sridhar
+Where can I find the academic curriculum plan?,curriculum,en,sridhar
+Has the syllabus changed for this academic year?,curriculum,en,sridhar
+What are the important topics in the current unit?,curriculum,en,sridhar
+How many units are there in OOPS?,curriculum,en,sridhar
+Where can I see the lab syllabus?,curriculum,en,sridhar
+What is the recommended textbook for this subject?,curriculum,en,sridhar
+Are elective subjects listed in the curriculum?,curriculum,en,sridhar
+Can I get the curriculum for the next semester?,curriculum,en,sridhar
+Who teaches DBMS for our section?,faculty,en,sridhar
+Where can I find faculty contact details?,faculty,en,sridhar
+Who is our class coordinator?,faculty,en,sridhar
+How can I contact my subject lecturer?,faculty,en,sridhar
+When is the faculty member available for doubts?,faculty,en,sridhar
+Who is the head of the department?,faculty,en,sridhar
+Where is the faculty cabin located?,faculty,en,sridhar
+Who handles the Data Structures lab?,faculty,en,sridhar
+How can I book time with a lecturer?,faculty,en,sridhar
+Who is the faculty advisor for my class?,faculty,en,sridhar
+Can I find the department faculty list?,faculty,en,sridhar
+Which faculty member teaches OOPS?,faculty,en,sridhar
+Whom should I contact about a subject doubt?,faculty,en,sridhar
+Where can I see faculty office hours?,faculty,en,sridhar
+Who is responsible for project guidance?,faculty,en,sridhar
+How do I send an academic query to a teacher?,faculty,en,sridhar
+Who is the first-year coordinator?,faculty,en,sridhar
+Can I find the faculty email directory?,faculty,en,sridhar
+Which lecturer is assigned to our lab batch?,faculty,en,sridhar
+Who should I approach for course registration help?,faculty,en,sridhar
+What are the library opening hours?,library,en,sridhar
+How can I search for a book in the library?,library,en,sridhar
+Is the library open on Saturday?,library,en,sridhar
+How many books can I borrow at once?,library,en,sridhar
+How do I renew a borrowed book?,library,en,sridhar
+When is my library book due?,library,en,sridhar
+What is the fine for returning a book late?,library,en,sridhar
+How can I get a library membership card?,library,en,sridhar
+Can I access e-books through the library?,library,en,sridhar
+Where can I find the library rules?,library,en,sridhar
+How do I reserve a book that is already issued?,library,en,sridhar
+What should I do if I lose a library book?,library,en,sridhar
+Is there a quiet study area in the library?,library,en,sridhar
+How can I check my issued books online?,library,en,sridhar
+Can I use the library during exam preparation?,library,en,sridhar
+Where are reference books kept?,library,en,sridhar
+How do I access online journals?,library,en,sridhar
+Can I return a book to a different library counter?,library,en,sridhar
+Who should I contact about a library account issue?,library,en,sridhar
+Are newspapers available in the library?,library,en,sridhar
+How can I apply for a hostel room?,hostel,en,sridhar
+What is the hostel fee for this year?,hostel,en,sridhar
+Are hostel rooms available for second-year students?,hostel,en,sridhar
+What documents are needed for hostel admission?,hostel,en,sridhar
+What are the hostel in-time rules?,hostel,en,sridhar
+Who is the hostel warden?,hostel,en,sridhar
+How do I report a hostel maintenance problem?,hostel,en,sridhar
+Is Wi-Fi available in the hostel?,hostel,en,sridhar
+What time is dinner served in the hostel?,hostel,en,sridhar
+How can I request a room change?,hostel,en,sridhar
+What is the process for hostel fee payment?,hostel,en,sridhar
+Are visitors allowed in the hostel?,hostel,en,sridhar
+How do I apply for hostel leave?,hostel,en,sridhar
+Where can I find the hostel rules?,hostel,en,sridhar
+Whom should I contact if my room key is lost?,hostel,en,sridhar
+Is there a washing machine in the hostel?,hostel,en,sridhar
+What should I do if there is no water in my block?,hostel,en,sridhar
+Can I stay in the hostel during holidays?,hostel,en,sridhar
+How can I report a problem with hostel food?,hostel,en,sridhar
+Where can I check the hostel allotment list?,hostel,en,sridhar
+What bus routes are available for students?,transport,en,sridhar
+How can I apply for a college bus pass?,transport,en,sridhar
+What time does the college bus leave?,transport,en,sridhar
+Where can I check the bus schedule?,transport,en,sridhar
+How much is the transport fee?,transport,en,sridhar
+Which bus goes to my area?,transport,en,sridhar
+How do I renew my bus pass?,transport,en,sridhar
+What should I do if I miss the college bus?,transport,en,sridhar
+Where is the college bus pickup point?,transport,en,sridhar
+Can I change my bus route?,transport,en,sridhar
+How do I report a problem with a bus service?,transport,en,sridhar
+Is transport available for evening labs?,transport,en,sridhar
+Where can I find the transport office contact?,transport,en,sridhar
+What documents are needed for a bus pass?,transport,en,sridhar
+Does the college bus operate on Saturdays?,transport,en,sridhar
+How can I check whether my bus pass is active?,transport,en,sridhar
+Can I request a new bus stop?,transport,en,sridhar
+What is the procedure to cancel bus transport?,transport,en,sridhar
+Who should I contact about a late bus?,transport,en,sridhar
+Are bus timings changed during exams?,transport,en,sridhar
+Where can I read the latest college circular?,circulars,en,sridhar
+Has a new notice been published today?,circulars,en,sridhar
+Where can I download the academic circulars?,circulars,en,sridhar
+Is there a circular about attendance shortage?,circulars,en,sridhar
+How can I find the holiday announcement?,circulars,en,sridhar
+Where are department notices posted?,circulars,en,sridhar
+Can I see old circulars from last month?,circulars,en,sridhar
+Has the college announced any schedule changes?,circulars,en,sridhar
+Where can I check official student notices?,circulars,en,sridhar
+Is there a notice about exam registration?,circulars,en,sridhar
+How do I get updates about college announcements?,circulars,en,sridhar
+Where can I find the circular for cultural day?,circulars,en,sridhar
+Has a notice been released for fee payment?,circulars,en,sridhar
+Can I download the latest circular as a PDF?,circulars,en,sridhar
+Where can I check internship announcements?,circulars,en,sridhar
+Is there a circular for project submissions?,circulars,en,sridhar
+How can I confirm whether a notice is official?,circulars,en,sridhar
+Where are scholarship circulars available?,circulars,en,sridhar
+Has the college issued a notice about tomorrow's classes?,circulars,en,sridhar
+Can I search circulars by date?,circulars,en,sridhar
+What events are happening on campus this month?,events,en,sridhar
+When is the college annual day?,events,en,sridhar
+How can I register for a college event?,events,en,sridhar
+Where can I find the event schedule?,events,en,sridhar
+Are there any technical events this week?,events,en,sridhar
+How do I participate in the cultural fest?,events,en,sridhar
+Where will the upcoming seminar be held?,events,en,sridhar
+Is there a registration fee for the workshop?,events,en,sridhar
+Who is coordinating the college fest?,events,en,sridhar
+How can I volunteer for an event?,events,en,sridhar
+When does registration close for the hackathon?,events,en,sridhar
+Where can I see photos from previous events?,events,en,sridhar
+Are guest lectures scheduled this semester?,events,en,sridhar
+How do I submit a paper for a student conference?,events,en,sridhar
+Will participants receive certificates for the workshop?,events,en,sridhar
+What is the dress code for the formal event?,events,en,sridhar
+Where can I find details about sports day?,events,en,sridhar
+How can I suggest an event for our department?,events,en,sridhar
+Has the event venue changed?,events,en,sridhar
+Can I get reminders about upcoming campus events?,events,en,sridhar
+What student clubs are available at college?,clubs,en,sridhar
+How can I join the coding club?,clubs,en,sridhar
+When does the photography club meet?,clubs,en,sridhar
+Is there a robotics club on campus?,clubs,en,sridhar
+Who is the coordinator of the music club?,clubs,en,sridhar
+How do I register for a student club?,clubs,en,sridhar
+Are club memberships open to first-year students?,clubs,en,sridhar
+Where can I find the list of active clubs?,clubs,en,sridhar
+Can I join more than one club?,clubs,en,sridhar
+How do I start a new student club?,clubs,en,sridhar
+Are there auditions for the dance club?,clubs,en,sridhar
+What activities does the coding club organize?,clubs,en,sridhar
+Where are club meeting announcements posted?,clubs,en,sridhar
+Can club members participate in intercollege events?,clubs,en,sridhar
+How do I contact the sports club?,clubs,en,sridhar
+Is there a debate or literary club?,clubs,en,sridhar
+When is the next club recruitment drive?,clubs,en,sridhar
+Do clubs collect a membership fee?,clubs,en,sridhar
+How can I volunteer for club activities?,clubs,en,sridhar
+Where can I see the club event calendar?,clubs,en,sridhar
+How can I get a student ID card?,services,en,sridhar
+Where do I report a lost ID card?,services,en,sridhar
+How can I reset my student portal password?,services,en,sridhar
+Where is the campus help desk?,services,en,sridhar
+How do I connect to campus Wi-Fi?,services,en,sridhar
+Can I get technical support for the student portal?,services,en,sridhar
+Where can I find the computer lab timings?,services,en,sridhar
+How do I request a bonafide certificate?,services,en,sridhar
+Is there a counselling service for students?,services,en,sridhar
+Where can I get first aid on campus?,services,en,sridhar
+How do I report a damaged classroom projector?,services,en,sridhar
+Where is the photocopy or printing service?,services,en,sridhar
+Can I update my phone number in student records?,services,en,sridhar
+How can I access the college ERP portal?,services,en,sridhar
+Who handles student complaints?,services,en,sridhar
+Where can I find information about placement support?,services,en,sridhar
+How do I book a seminar hall?,services,en,sridhar
+Is there a lost-and-found counter?,services,en,sridhar
+How can I request a duplicate ID card?,services,en,sridhar
+Where can I get help with campus facilities?,services,en,sridhar
+What are the college rules for student attendance?,policy_bylaws,en,sridhar
+Where can I read the student code of conduct?,policy_bylaws,en,sridhar
+What is the policy on late fee payment?,policy_bylaws,en,sridhar
+Are mobile phones allowed during class?,policy_bylaws,en,sridhar
+What are the rules for using the college library?,policy_bylaws,en,sridhar
+What is the dress code policy for students?,policy_bylaws,en,sridhar
+Where can I find the anti-ragging policy?,policy_bylaws,en,sridhar
+What is the procedure for filing a formal complaint?,policy_bylaws,en,sridhar
+Are students allowed to leave campus during college hours?,policy_bylaws,en,sridhar
+What are the rules for exam malpractice?,policy_bylaws,en,sridhar
+What is the policy for academic misconduct?,policy_bylaws,en,sridhar
+Where can I read the hostel discipline rules?,policy_bylaws,en,sridhar
+What are the guidelines for using campus Wi-Fi?,policy_bylaws,en,sridhar
+What is the college policy on plagiarism?,policy_bylaws,en,sridhar
+Are there rules for attendance condonation?,policy_bylaws,en,sridhar
+I'm feeling overwhelmed with my studies. Who can help me?,distress_support,en,sridhar
+I feel anxious about my exams; where can I get support?,distress_support,en,sridhar
+I am struggling to cope with college pressure. What should I do?,distress_support,en,sridhar
+Is there a student counsellor I can talk to?,distress_support,en,sridhar
+I feel isolated on campus and need someone to talk to.,distress_support,en,sridhar
+I'm having a difficult day and could use some support.,distress_support,en,sridhar
+How can I ask for help with personal stress?,distress_support,en,sridhar
+I am worried about failing my subjects; who can guide me?,distress_support,en,sridhar
+Where can I find confidential student counselling?,distress_support,en,sridhar
+I feel unsafe and need help from college staff.,distress_support,en,sridhar
+I'm facing bullying; how can I report it safely?,distress_support,en,sridhar
+I don't know who to approach about an emotional problem.,distress_support,en,sridhar
+Can I speak to someone about family stress affecting my studies?,distress_support,en,sridhar
+I'm struggling to balance college and personal issues. Is support available?,distress_support,en,sridhar
+What should I do if a friend seems very distressed?,distress_support,en,sridhar
+"Hi, can you help me?",greeting_smalltalk,en,sridhar
+Hello there!,greeting_smalltalk,en,sridhar
+"Hey, good morning.",greeting_smalltalk,en,sridhar
+Good afternoon!,greeting_smalltalk,en,sridhar
+"Good evening, how are you?",greeting_smalltalk,en,sridhar
+Thanks for helping me earlier.,greeting_smalltalk,en,sridhar
+Thank you so much.,greeting_smalltalk,en,sridhar
+How is your day going?,greeting_smalltalk,en,sridhar
+"Hey assistant, are you available?",greeting_smalltalk,en,sridhar
+"Hello, I have a quick question.",greeting_smalltalk,en,sridhar
+"Good morning, I need some college information.",greeting_smalltalk,en,sridhar
+"Thanks, that solved my doubt.",greeting_smalltalk,en,sridhar
+Hi again!,greeting_smalltalk,en,sridhar
+Can we start?,greeting_smalltalk,en,sridhar
+"Bye, have a nice day.",greeting_smalltalk,en,sridhar
+Who won yesterday's international cricket match?,out_of_scope,en,sridhar
+Tell me a joke about programmers.,out_of_scope,en,sridhar
+Can you suggest a recipe for dinner?,out_of_scope,en,sridhar
+What is the weather forecast for tomorrow?,out_of_scope,en,sridhar
+Write a poem about the moon.,out_of_scope,en,sridhar
+Recommend a good smartphone under my budget.,out_of_scope,en,sridhar
+Can you explain how to grow tomato plants?,out_of_scope,en,sridhar
+What are the latest movie releases?,out_of_scope,en,sridhar
+Help me plan a weekend trip to the beach.,out_of_scope,en,sridhar
+Translate this sentence into French.,out_of_scope,en,sridhar
+What is the capital city of Japan?,out_of_scope,en,sridhar
+Can you create a workout plan for me?,out_of_scope,en,sridhar
+Tell me a bedtime story about a dragon.,out_of_scope,en,sridhar
+How do I bake a chocolate cake?,out_of_scope,en,sridhar
+Give me ideas for decorating my bedroom.,out_of_scope,en,sridhar

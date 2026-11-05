@@ -1,0 +1,6 @@
+{
+  "local_gpu_available": false,
+  "cloud_finetuning_credits": 0,
+  "recommendation": "Fine-tuning weights not feasible under free constraints. Prioritized hybrid RAG, prompt engineering, and offline cognitive engine.",
+  "fine_tuning_conducted": false
+}

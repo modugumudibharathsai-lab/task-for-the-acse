@@ -1,0 +1,182 @@
+{
+  "status": "PRELIMINARY",
+  "warning": "PRELIMINARY: incomplete data",
+  "dry_run_honesty": null,
+  "preliminary_notice": "PRELIMINARY: incomplete data",
+  "created_at_utc": "2026-10-29T10:24:33.765726+00:00",
+  "random_state": 42,
+  "dataset_audit": {
+    "row_counts_by_author": {
+      "agent": 239,
+      "aman": 376,
+      "pragna": 371,
+      "sirisha": 328,
+      "sridhar": 340
+    },
+    "row_counts_by_intent": {
+      "attendance": 87,
+      "exams": 89,
+      "fees": 92,
+      "timetable": 91,
+      "marks": 94,
+      "curriculum": 95,
+      "library": 89,
+      "faculty": 96,
+      "services": 145,
+      "clubs": 95,
+      "circulars": 99,
+      "hostel": 72,
+      "distress_support": 120,
+      "policy_bylaws": 89,
+      "greeting_smalltalk": 74,
+      "out_of_scope": 83,
+      "transport": 70,
+      "events": 74
+    },
+    "validation_sample_size": 1075
+  },
+  "thresholds": {
+    "general_threshold": 0.2,
+    "distress_threshold": 0.1,
+    "out_of_scope_threshold": 0.5
+  },
+  "expected_performance_at_general_threshold": {
+    "coverage": 0.8856,
+    "accuracy": 0.8666,
+    "fallback_percentage": 0.1144
+  },
+  "distress_safety": {
+    "threshold": 0.1,
+    "recall": 0.8933,
+    "precision": 0.7128,
+    "safety_rule": "Distress intent triggered at lower threshold for maximum recall; never routed to LLM or generic fallback."
+  },
+  "full_sweep_results": [
+    {
+      "threshold": 0.1,
+      "coverage": 0.9991,
+      "accuracy": 0.8091,
+      "accepted_count": 1074,
+      "fallback_count": 1
+    },
+    {
+      "threshold": 0.15,
+      "coverage": 0.9442,
+      "accuracy": 0.8404,
+      "accepted_count": 1015,
+      "fallback_count": 60
+    },
+    {
+      "threshold": 0.2,
+      "coverage": 0.8856,
+      "accuracy": 0.8666,
+      "accepted_count": 952,
+      "fallback_count": 123
+    },
+    {
+      "threshold": 0.25,
+      "coverage": 0.8279,
+      "accuracy": 0.8888,
+      "accepted_count": 890,
+      "fallback_count": 185
+    },
+    {
+      "threshold": 0.3,
+      "coverage": 0.7842,
+      "accuracy": 0.9015,
+      "accepted_count": 843,
+      "fallback_count": 232
+    },
+    {
+      "threshold": 0.35,
+      "coverage": 0.7377,
+      "accuracy": 0.9117,
+      "accepted_count": 793,
+      "fallback_count": 282
+    },
+    {
+      "threshold": 0.4,
+      "coverage": 0.6819,
+      "accuracy": 0.9291,
+      "accepted_count": 733,
+      "fallback_count": 342
+    },
+    {
+      "threshold": 0.45,
+      "coverage": 0.6223,
+      "accuracy": 0.9432,
+      "accepted_count": 669,
+      "fallback_count": 406
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 0.5591,
+      "accuracy": 0.9434,
+      "accepted_count": 601,
+      "fallback_count": 474
+    },
+    {
+      "threshold": 0.55,
+      "coverage": 0.5153,
+      "accuracy": 0.9531,
+      "accepted_count": 554,
+      "fallback_count": 521
+    },
+    {
+      "threshold": 0.6,
+      "coverage": 0.4623,
+      "accuracy": 0.9678,
+      "accepted_count": 497,
+      "fallback_count": 578
+    },
+    {
+      "threshold": 0.65,
+      "coverage": 0.4056,
+      "accuracy": 0.9725,
+      "accepted_count": 436,
+      "fallback_count": 639
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.3535,
+      "accuracy": 0.9737,
+      "accepted_count": 380,
+      "fallback_count": 695
+    },
+    {
+      "threshold": 0.75,
+      "coverage": 0.2884,
+      "accuracy": 0.9742,
+      "accepted_count": 310,
+      "fallback_count": 765
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.2307,
+      "accuracy": 0.9798,
+      "accepted_count": 248,
+      "fallback_count": 827
+    },
+    {
+      "threshold": 0.85,
+      "coverage": 0.1665,
+      "accuracy": 0.9832,
+      "accepted_count": 179,
+      "fallback_count": 896
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.1033,
+      "accuracy": 0.991,
+      "accepted_count": 111,
+      "fallback_count": 964
+    },
+    {
+      "threshold": 0.95,
+      "coverage": 0.0372,
+      "accuracy": 1.0,
+      "accepted_count": 40,
+      "fallback_count": 1035
+    }
+  ]
+}

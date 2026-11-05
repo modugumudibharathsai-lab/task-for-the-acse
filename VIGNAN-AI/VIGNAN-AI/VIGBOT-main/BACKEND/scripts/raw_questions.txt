@@ -1,0 +1,1000 @@
+1. What time does the hostel open?
+2. How is the mess food on Saturdays?
+3. Where exactly is the student lounge?
+4. What time does the library open?
+5. Is Basic Electrical a tough subject?
+6. Is C Programming a tough subject?
+7. How do I clear the Engineering Drawing exam?
+8. How is the rolls at the canteen today?
+9. Are calculators allowed in the Maths exam?
+10. Should I make notes for Mechanics?
+11. How is the mess food on Wednesdays?
+12. When is the freshers' party?
+13. What time does the lab open?
+14. Are you coming to the placement cell?
+15. What time does the admin office open?
+16. How do I clear the Chemistry exam?
+17. How is the burgers at the canteen today?
+18. Which book is best for Chemistry?
+19. Which book is best for C Programming?
+20. Did the professor share the syllabus for Maths?
+21. What time does the student lounge open?
+22. Which book is best for Mechanics?
+23. Did the professor share the syllabus for C Programming?
+24. Are you coming to the student lounge?
+25. Are you coming to the stationery shop?
+26. Are you coming to the auditorium?
+27. How do I clear the Mechanics exam?
+28. Did the professor share the syllabus for Physics?
+29. How is the mess food on Fridays?
+30. Is the attendance rule really strict for C Programming?
+31. What time does the gym open?
+32. Who is the HOD of our department?
+33. Are calculators allowed in the Chemistry exam?
+34. Are you coming to the admin office?
+35. What time does the auditorium open?
+36. How do I clear the Basic Electrical exam?
+37. How is the tea at the canteen today?
+38. Did the professor share the syllabus for Chemistry?
+39. Should I make notes for Maths?
+40. Is Physics a tough subject?
+41. Are calculators allowed in the Engineering Drawing exam?
+42. Is the attendance rule really strict for Chemistry?
+43. Should I make notes for C Programming?
+44. How is the biryani at the canteen today?
+45. What time does the stationery shop open?
+46. How is the samosas at the canteen today?
+47. Are you coming to the hostel?
+48. Did the professor share the syllabus for Mechanics?
+49. Is Chemistry a tough subject?
+50. Which book is best for Physics?
+51. Are you coming to the local zoo?
+52. Where exactly is the mess?
+53. How do I clear the C Programming exam?
+54. How do I wash my clothes in the hostel?
+55. Where exactly is the nearest ATM?
+56. Where exactly is the sports complex?
+57. Are there any ragging issues here?
+58. How is the mess food on Thursdays?
+59. Should I make notes for Engineering Drawing?
+60. How is the sandwiches at the canteen today?
+61. Did the professor share the syllabus for Basic Electrical?
+62. Are you coming to the seminar hall?
+63. What time does the placement cell open?
+64. Where exactly is the stationery shop?
+65. What time does the mess open?
+66. Is Mechanics a tough subject?
+67. Where exactly is the gym?
+68. Where exactly is the placement cell?
+69. Where exactly is the seminar hall?
+70. What time does the main block open?
+71. How is the fried rice at the canteen today?
+72. Which book is best for Basic Electrical?
+73. Is the attendance rule really strict for Maths?
+74. What's the penalty for short attendance?
+75. Are you coming to the gym?
+76. Where exactly is the hostel?
+77. Is Maths a tough subject?
+78. How is the mess food on Sundays?
+79. What time does the canteen open?
+80. What's the wifi password for the hostel?
+81. Are you coming to the mess?
+82. Is the attendance rule really strict for Mechanics?
+83. How is the pizza at the canteen today?
+84. Where can I buy a notebook right now?
+85. How is the dosa at the canteen today?
+86. Is the attendance rule really strict for Basic Electrical?
+87. Where exactly is the admin office?
+88. How is the paratha at the canteen today?
+89. Is Engineering Drawing a tough subject?
+90. What time does the local zoo open?
+91. How do I clear the Physics exam?
+92. How is the maggi at the canteen today?
+93. Did the professor share the syllabus for Engineering Drawing?
+94. Where exactly is the canteen?
+95. How is the noodles at the canteen today?
+96. Where exactly is the library?
+97. Can we leave campus after 9 PM?
+98. Should I make notes for Basic Electrical?
+99. How is the Japanese food at the canteen today?
+100. Is the attendance rule really strict for Engineering Drawing?
+101. Which book is best for Engineering Drawing?
+102. Are calculators allowed in the C Programming exam?
+103. Can I change my branch in the second year?
+104. Are calculators allowed in the Physics exam?
+105. Are you coming to the library?
+106. Where exactly is the local zoo?
+107. Which book is best for Maths?
+108. Should I make notes for Chemistry?
+109. Are you coming to the sports complex?
+110. Are you coming to the nearest ATM?
+111. Is the attendance rule really strict for Physics?
+112. How is the mess food on Tuesdays?
+113. Are you coming to the main block?
+114. How is the mess food on Mondays?
+115. Are you coming to the lab?
+116. Where exactly is the lab?
+117. What time does the sports complex open?
+118. How is the coffee at the canteen today?
+119. Where exactly is the auditorium?
+120. Should I make notes for Physics?
+121. Are calculators allowed in the Basic Electrical exam?
+122. Can someone lend me a charger?
+123. How do I clear the Maths exam?
+124. Are you coming to the canteen?
+125. What time does the seminar hall open?
+126. Are calculators allowed in the Mechanics exam?
+127. What time does the nearest ATM open?
+128. Where exactly is the main block?
+129. Are you coming to the seminar hall? (Variation)
+130. How is the tea at the canteen today? (Variation)
+131. Are you coming to the student lounge? (Variation)
+132. Is the attendance rule really strict for Basic Electrical? (Variation)
+133. Are calculators allowed in the Maths exam? (Variation)
+134. How is the mess food on Tuesdays? (Variation)
+135. Did the professor share the syllabus for Engineering Drawing? (Variation)
+136. Is Mechanics a tough subject? (Variation)
+137. How is the rolls at the canteen today? (Variation)
+138. How is the mess food on Fridays? (Variation)
+139. Is Chemistry a tough subject? (Variation)
+140. Where exactly is the stationery shop? (Variation)
+141. Is the attendance rule really strict for Maths? (Variation)
+142. How is the Japanese food at the canteen today? (Variation)
+143. Is the attendance rule really strict for Maths? (Variation)
+144. Are you coming to the lab? (Variation)
+145. How is the noodles at the canteen today? (Variation)
+146. How do I clear the Maths exam? (Variation)
+147. When is the freshers' party? (Variation)
+148. What time does the seminar hall open? (Variation)
+149. What's the penalty for short attendance? (Variation)
+150. Are calculators allowed in the Physics exam? (Variation)
+151. Is the attendance rule really strict for Mechanics? (Variation)
+152. What time does the hostel open? (Variation)
+153. Is the attendance rule really strict for Maths? (Variation) (Variation)
+154. Did the professor share the syllabus for Chemistry? (Variation)
+155. Is Engineering Drawing a tough subject? (Variation)
+156. Are calculators allowed in the Mechanics exam? (Variation)
+157. Did the professor share the syllabus for Physics? (Variation)
+158. What time does the lab open? (Variation)
+159. Is the attendance rule really strict for Mechanics? (Variation)
+160. Are calculators allowed in the Mechanics exam? (Variation) (Variation)
+161. Are you coming to the mess? (Variation)
+162. Which book is best for Maths? (Variation)
+163. How is the tea at the canteen today? (Variation)
+164. How is the burgers at the canteen today? (Variation)
+165. What time does the seminar hall open? (Variation)
+166. Are you coming to the student lounge? (Variation)
+167. Where exactly is the lab? (Variation)
+168. Are you coming to the student lounge? (Variation) (Variation)
+169. How is the mess food on Mondays? (Variation)
+170. How is the rolls at the canteen today? (Variation) (Variation)
+171. Is Engineering Drawing a tough subject? (Variation) (Variation)
+172. When is the freshers' party? (Variation)
+173. Are calculators allowed in the Mechanics exam? (Variation) (Variation) (Variation)
+174. How is the mess food on Fridays? (Variation)
+175. What time does the local zoo open? (Variation)
+176. Which book is best for Basic Electrical? (Variation)
+177. Did the professor share the syllabus for C Programming? (Variation)
+178. How is the mess food on Saturdays? (Variation)
+179. Where can I buy a notebook right now? (Variation)
+180. Are you coming to the seminar hall? (Variation) (Variation)
+181. How do I clear the Physics exam? (Variation)
+182. How is the tea at the canteen today? (Variation)
+183. What time does the hostel open? (Variation) (Variation)
+184. Should I make notes for Mechanics? (Variation)
+185. Are you coming to the lab? (Variation) (Variation)
+186. Is the attendance rule really strict for Mechanics? (Variation) (Variation)
+187. What time does the student lounge open? (Variation)
+188. Is the attendance rule really strict for Mechanics? (Variation) (Variation)
+189. Where exactly is the sports complex? (Variation)
+190. Is Chemistry a tough subject? (Variation)
+191. How is the paratha at the canteen today? (Variation)
+192. When is the freshers' party? (Variation)
+193. How is the samosas at the canteen today? (Variation)
+194. Where exactly is the placement cell? (Variation)
+195. How is the dosa at the canteen today? (Variation)
+196. How is the mess food on Fridays? (Variation) (Variation)
+197. How is the dosa at the canteen today? (Variation) (Variation)
+198. What time does the mess open? (Variation)
+199. How is the pizza at the canteen today? (Variation)
+200. How do I clear the Engineering Drawing exam? (Variation)
+201. When are the practicals scheduled?
+202. Is Computer Architecture prerequisite for anything?
+203. Is it worth participating in the sports fest?
+204. How do we form groups for the Discrete Math project?
+205. What should I study for class tests?
+206. Should I start competitive programming or cloud computing?
+207. When is the assignment deadline for DBMS?
+208. When are the UPSC scheduled?
+209. Which IDE do you use for Computer Architecture?
+210. Can someone send me the previous year paper for Operating Systems?
+211. Which club should I join for game development?
+212. How do we form groups for the Data Structures project?
+213. When are the GRE scheduled?
+214. When are the placements scheduled?
+215. Should I start competitive programming or mobile app development?
+216. How do I balance clubs and academics?
+217. When are the surprise tests scheduled?
+218. What should I study for surprise tests?
+219. Is Discrete Math prerequisite for anything?
+220. What's the best resource to learn indie game development?
+221. When are the CAT scheduled?
+222. Should I start competitive programming or DevOps?
+223. What should I study for mid-semesters?
+224. Which club should I join for cybersecurity?
+225. Has anyone solved the assignment for Operating Systems?
+226. How can I apply for a student committee?
+227. What should I study for GRE?
+228. How do I get a good grade in Python?
+229. When are the class tests scheduled?
+230. When is the assignment deadline for Java?
+231. Can someone send me the previous year paper for Computer Architecture?
+232. Who is up for studying tonight?
+233. What should I study for practicals?
+234. What's the best resource to learn game development?
+235. Are there any hackathons happening soon?
+236. How do we form groups for the Operating Systems project?
+237. Who is up for playing Super Sus tonight?
+238. Who is up for hanging out tonight?
+239. Should I start competitive programming or backend development?
+240. When are the assessments scheduled?
+241. How do I get a good grade in Algorithms?
+242. Is Operating Systems prerequisite for anything?
+243. Which IDE do you use for Data Structures?
+244. Is it worth participating in the cultural fest?
+245. What's the best resource to learn UI/UX design?
+246. Can someone send me the previous year paper for DBMS?
+247. Who is up for building an anime merchandise store tonight?
+248. Is it worth participating in the technical fest?
+249. Has anyone solved the assignment for Discrete Math?
+250. What's the best resource to learn data science?
+251. Which club should I join for DevOps?
+252. Who is up for playing COD Warzone tonight?
+253. Should I start competitive programming or data science?
+254. Who is up for learning to play the flute tonight?
+255. When is the assignment deadline for Data Structures?
+256. When are the GATE scheduled?
+257. Who is up for binge-watching anime tonight?
+258. What should I study for end-semesters?
+259. Should I start competitive programming or UI/UX design?
+260. Is Python prerequisite for anything?
+261. Can someone send me the previous year paper for Java?
+262. When are the mid-semesters scheduled?
+263. When is the assignment deadline for Discrete Math?
+264. How do we form groups for the Python project?
+265. Which IDE do you use for Java?
+266. What should I study for CAT?
+267. Which IDE do you use for Python?
+268. Which IDE do you use for DBMS?
+269. What should I study for GATE?
+270. Should I start competitive programming or frontend development?
+271. Who is up for doing assignments tonight?
+272. What should I study for assessments?
+273. Should I start competitive programming or AI/ML?
+274. Has anyone solved the assignment for Data Structures?
+275. What's the best resource to learn cybersecurity?
+276. How do I get a good grade in Data Structures?
+277. Can someone send me the previous year paper for Python?
+278. Has anyone solved the assignment for DBMS?
+279. Does GPA matter for internships?
+280. Which IDE do you use for Operating Systems?
+281. How do I get a good grade in Computer Architecture?
+282. What's the best resource to learn mobile app development?
+283. What's the best resource to learn backend development?
+284. Can someone send me the previous year paper for Data Structures?
+285. How do we form groups for the DBMS project?
+286. Which IDE do you use for Discrete Math?
+287. Can someone send me the previous year paper for Algorithms?
+288. When is the assignment deadline for Operating Systems?
+289. What should I study for viva?
+290. Which club should I join for indie game development?
+291. Is Algorithms prerequisite for anything?
+292. Did the teacher take attendance yet?
+293. Are we getting a holiday for the upcoming festival?
+294. How do we form groups for the Computer Architecture project?
+295. How do I get a good grade in Operating Systems?
+296. When are the viva scheduled?
+297. Has anyone solved the assignment for Python?
+298. What should I study for UPSC?
+299. Who is up for working on a 3D multiplayer RPG tonight?
+300. How do we form groups for the Java project?
+301. Has anyone solved the assignment for Algorithms?
+302. Which club should I join for backend development?
+303. Which IDE do you use for Algorithms?
+304. How do I get a good grade in DBMS?
+305. Which club should I join for frontend development?
+306. How do I get a good grade in Java?
+307. Is Java prerequisite for anything?
+308. Who is up for preparing for hackathons tonight?
+309. Should I start competitive programming or indie game development?
+310. Has anyone solved the assignment for Java?
+311. What's the best resource to learn AI/ML?
+312. Which club should I join for mobile app development?
+313. When are the end-semesters scheduled?
+314. Who is up for practicing on CodeChef tonight?
+315. Who is up for streaming Minecraft tonight?
+316. When is the assignment deadline for Algorithms?
+317. Can someone send me the previous year paper for Discrete Math?
+318. Who is up for going to the gym tonight?
+319. Should I start competitive programming or cybersecurity?
+320. When is the assignment deadline for Python?
+321. Who is up for watching movies tonight?
+322. Which club should I join for cloud computing?
+323. How do we form groups for the Algorithms project?
+324. Should I start competitive programming or blockchain?
+325. What's the best resource to learn DevOps?
+326. What's the best resource to learn frontend development?
+327. Which club should I join for data science?
+328. What should I study for placements?
+329. Which club should I join for UI/UX design?
+330. When is the assignment deadline for Computer Architecture?
+331. Which club should I join for AI/ML?
+332. Is DBMS prerequisite for anything?
+333. How do I get a good grade in Discrete Math?
+334. What's the best resource to learn cloud computing?
+335. Has anyone solved the assignment for Computer Architecture?
+336. Who is up for playing cricket tonight?
+337. What's the best resource to learn blockchain?
+338. Is Data Structures prerequisite for anything?
+339. Should I start competitive programming or game development?
+340. Which club should I join for blockchain?
+341. When are the mid-semesters scheduled? (Variation)
+342. Who is up for watching movies tonight? (Variation)
+343. Should I start competitive programming or indie game development? (Variation)
+344. Who is up for playing cricket tonight? (Variation)
+345. Should I start competitive programming or mobile app development? (Variation)
+346. What should I study for UPSC? (Variation)
+347. Which club should I join for mobile app development? (Variation)
+348. When is the assignment deadline for Operating Systems? (Variation)
+349. Can someone send me the previous year paper for Java? (Variation)
+350. Is Java prerequisite for anything? (Variation)
+351. What should I study for placements? (Variation)
+352. Has anyone solved the assignment for Python? (Variation)
+353. What should I study for GATE? (Variation)
+354. Should I start competitive programming or backend development? (Variation)
+355. What should I study for viva? (Variation)
+356. How do we form groups for the DBMS project? (Variation)
+357. Is it worth participating in the sports fest? (Variation)
+358. Who is up for studying tonight? (Variation)
+359. When is the assignment deadline for Algorithms? (Variation)
+360. Who is up for building an anime merchandise store tonight? (Variation)
+361. Is Algorithms prerequisite for anything? (Variation)
+362. Who is up for doing assignments tonight? (Variation)
+363. Should I start competitive programming or UI/UX design? (Variation)
+364. Is Python prerequisite for anything? (Variation)
+365. What should I study for GATE? (Variation)
+366. Is Algorithms prerequisite for anything? (Variation)
+367. Should I start competitive programming or indie game development? (Variation) (Variation)
+368. Who is up for building an anime merchandise store tonight? (Variation) (Variation)
+369. What's the best resource to learn mobile app development? (Variation)
+370. Can someone send me the previous year paper for Data Structures? (Variation)
+371. When are the class tests scheduled? (Variation)
+372. What's the best resource to learn indie game development? (Variation)
+373. When is the assignment deadline for Algorithms? (Variation) (Variation)
+374. How do we form groups for the Computer Architecture project? (Variation)
+375. What's the best resource to learn game development? (Variation)
+376. How do we form groups for the Data Structures project? (Variation)
+377. How do we form groups for the Computer Architecture project? (Variation)
+378. Should I start competitive programming or mobile app development? (Variation) (Variation)
+379. Who is up for playing cricket tonight? (Variation) (Variation)
+380. Should I start competitive programming or blockchain? (Variation)
+381. How do I get a good grade in Java? (Variation)
+382. Who is up for learning to play the flute tonight? (Variation)
+383. Which club should I join for DevOps? (Variation)
+384. Which IDE do you use for Python? (Variation)
+385. How do we form groups for the Data Structures project? (Variation)
+386. How do we form groups for the Algorithms project? (Variation)
+387. Which IDE do you use for Java? (Variation)
+388. Is Discrete Math prerequisite for anything? (Variation)
+389. Can someone send me the previous year paper for Data Structures? (Variation) (Variation)
+390. Who is up for playing Super Sus tonight? (Variation)
+391. Which club should I join for DevOps? (Variation) (Variation)
+392. How do we form groups for the Computer Architecture project? (Variation)
+393. Has anyone solved the assignment for Computer Architecture? (Variation)
+394. When are the mid-semesters scheduled? (Variation)
+395. How do I get a good grade in Java? (Variation)
+396. Should I start competitive programming or backend development? (Variation)
+397. What should I study for mid-semesters? (Variation)
+398. How do we form groups for the Data Structures project? (Variation) (Variation)
+399. Should I start competitive programming or UI/UX design? (Variation) (Variation)
+400. How do we form groups for the Java project? (Variation)
+401. What are the best platforms to practice for Goldman Sachs?
+402. How tough is the Unity Game Development syllabus this semester?
+403. Are there any referrals available for Microsoft?
+404. How do I publish a research paper in backend development?
+405. How do I clear the Capgemini coding round?
+406. What are the best platforms to practice for Wipro?
+407. How tough is the Web Dev syllabus this semester?
+408. Are there any referrals available for JPMorgan?
+409. When is the registration deadline for practicals?
+410. How do I clear the Apple coding round?
+411. How do I clear the TCS coding round?
+412. Has anyone heard back from Google?
+413. How do I apply for an internship at PwC?
+414. How do I apply for an internship at Microsoft?
+415. What are the best platforms to practice for Oracle?
+416. How do I apply for an internship at Amazon?
+417. How do I apply for an internship at Apple?
+418. Is doing an unpaid internship in AI/ML worth it?
+419. Can we do our minor project on frontend development?
+420. Should I prepare for UPSC or focus on placements?
+421. Should I put frontend development on my resume?
+422. Do we have a project submission for Software Engineering next week?
+423. What is a good score in surprise tests?
+424. What is a good score in UPSC?
+425. Are there any referrals available for PwC?
+426. Can we do our minor project on DevOps?
+427. Has anyone heard back from IBM?
+428. What kind of projects are required for indie game development?
+429. Can we do our minor project on blockchain?
+430. Has anyone heard back from Microsoft?
+431. Has anyone heard back from Deloitte?
+432. Is doing an unpaid internship in cloud computing worth it?
+433. Do we have a project submission for Machine Learning next week?
+434. What questions did they ask in the Oracle interview?
+435. How do I clear the EY coding round?
+436. What questions did they ask in the Cisco interview?
+437. Has anyone heard back from KPMG?
+438. Should I put DevOps on my resume?
+439. What kind of projects are required for backend development?
+440. How tough is the AI syllabus this semester?
+441. Did the stipend get credited yet?
+442. How do I clear the Amazon coding round?
+443. Has anyone heard back from Accenture?
+444. When is the registration deadline for placements?
+445. Are there any referrals available for Cisco?
+446. What is a good score in assessments?
+447. Do we have a project submission for Unity Game Development next week?
+448. How do I publish a research paper in blockchain?
+449. Is doing an unpaid internship in backend development worth it?
+450. What kind of projects are required for UI/UX design?
+451. How do I apply for an internship at Infosys?
+452. Are there any referrals available for Wipro?
+453. What are the best platforms to practice for Meta?
+454. What kind of projects are required for cloud computing?
+455. Should I prepare for class tests or focus on placements?
+456. What questions did they ask in the IBM interview?
+457. What kind of projects are required for blockchain?
+458. When is the registration deadline for mid-semesters?
+459. What is a good score in mid-semesters?
+460. Are there any referrals available for TCS?
+461. How do I clear the a game studio coding round?
+462. Are there any referrals available for Oracle?
+463. Should I prepare for GATE or focus on placements?
+464. Is doing an unpaid internship in cybersecurity worth it?
+465. What questions did they ask in the Cognizant interview?
+466. Can we do our minor project on UI/UX design?
+467. How do I apply for an internship at TCS?
+468. Should I prepare for viva or focus on placements?
+469. How tough is the Compiler Design syllabus this semester?
+470. How do I publish a research paper in frontend development?
+471. Should I prepare for surprise tests or focus on placements?
+472. Are there any referrals available for Meta?
+473. When is the registration deadline for class tests?
+474. What kind of projects are required for mobile app development?
+475. What are the best platforms to practice for Netflix?
+476. Should I prepare for practicals or focus on placements?
+477. Has anyone heard back from a game studio?
+478. How do I apply for an internship at Goldman Sachs?
+479. Is doing an unpaid internship in frontend development worth it?
+480. What are the best platforms to practice for IBM?
+481. What is a good score in GRE?
+482. Do we have a project submission for Cybersecurity next week?
+483. What is a good score in placements?
+484. How do I publish a research paper in game development?
+485. What questions did they ask in the TCS interview?
+486. Has anyone heard back from PwC?
+487. Are there any referrals available for KPMG?
+488. How tough is the Computer Networks syllabus this semester?
+489. Can we do our minor project on indie game development?
+490. How do I apply for an internship at Deloitte?
+491. Do we have a project submission for AI next week?
+492. What are the best platforms to practice for Capgemini?
+493. How do I apply for an internship at IBM?
+494. Who can give me a Letter of Recommendation?
+495. How do I apply for an internship at Meta?
+496. Do we have a project submission for Computer Networks next week?
+497. What is a good score in viva?
+498. Is doing an unpaid internship in UI/UX design worth it?
+499. What questions did they ask in the Deloitte interview?
+500. What questions did they ask in the Meta interview?
+501. Should I put indie game development on my resume?
+502. Has anyone heard back from Cisco?
+503. When is the registration deadline for UPSC?
+504. How do I clear the Accenture coding round?
+505. What kind of projects are required for DevOps?
+506. Are there any referrals available for EY?
+507. Can we do our minor project on mobile app development?
+508. What kind of projects are required for game development?
+509. Are there any referrals available for Adobe?
+510. How do I publish a research paper in DevOps?
+511. When is the registration deadline for GRE?
+512. Are there any referrals available for Accenture?
+513. What questions did they ask in the EY interview?
+514. How do I clear the Cisco coding round?
+515. Should I prepare for mid-semesters or focus on placements?
+516. What questions did they ask in the Accenture interview?
+517. How do I publish a research paper in UI/UX design?
+518. Can someone share their resume format?
+519. Can we do our minor project on AI/ML?
+520. How do I publish a research paper in data science?
+521. What are the best platforms to practice for Google?
+522. What questions did they ask in the Amazon interview?
+523. Can we do our minor project on data science?
+524. What is a good score in class tests?
+525. How do I publish a research paper in cloud computing?
+526. What are the best platforms to practice for EY?
+527. How do I publish a research paper in AI/ML?
+528. What questions did they ask in the PwC interview?
+529. What are the best platforms to practice for JPMorgan?
+530. Are there any referrals available for Netflix?
+531. When is the registration deadline for CAT?
+532. What is a good score in CAT?
+533. How do I clear the Google coding round?
+534. How do I apply for an internship at KPMG?
+535. How do I clear the Goldman Sachs coding round?
+536. Should I put mobile app development on my resume?
+537. How do I clear the Netflix coding round?
+538. Should I put cybersecurity on my resume?
+539. What kind of projects are required for data science?
+540. Are there any referrals available for Amazon?
+541. Should I prepare for assessments or focus on placements?
+542. Has anyone heard back from Infosys?
+543. How do I apply for an internship at Netflix?
+544. Has anyone heard back from Capgemini?
+545. What kind of projects are required for frontend development?
+546. What questions did they ask in the Wipro interview?
+547. Can we do our minor project on backend development?
+548. Has anyone heard back from Oracle?
+549. How do I apply for an internship at Wipro?
+550. Has anyone heard back from Apple?
+551. How do I publish a research paper in indie game development?
+552. What questions did they ask in the Capgemini interview?
+553. What kind of projects are required for AI/ML?
+554. How tough is the Cybersecurity syllabus this semester?
+555. Can we do our minor project on cybersecurity?
+556. What questions did they ask in the Microsoft interview?
+557. When is the registration deadline for viva?
+558. Can we do our minor project on game development?
+559. Are there any referrals available for Google?
+560. What is a good score in end-semesters?
+561. Should I put game development on my resume?
+562. How do I publish a research paper in cybersecurity?
+563. What questions did they ask in the a game studio interview?
+564. Are we going out this weekend?
+565. When is the registration deadline for GATE?
+566. Should I put data science on my resume?
+567. How do I apply for an internship at Accenture?
+568. What are the best platforms to practice for TCS?
+569. How do I clear the Meta coding round?
+570. What questions did they ask in the Netflix interview?
+571. How tough is the Software Engineering syllabus this semester?
+572. What are the best platforms to practice for PwC?
+573. Should I put UI/UX design on my resume?
+574. Are there any referrals available for Capgemini?
+575. Should I prepare for CAT or focus on placements?
+576. Is doing an unpaid internship in data science worth it?
+577. How do I apply for an internship at Adobe?
+578. What are the best platforms to practice for Infosys?
+579. Are there any referrals available for Deloitte?
+580. When is the registration deadline for end-semesters?
+581. What are the best platforms to practice for Microsoft?
+582. What questions did they ask in the Adobe interview?
+583. What questions did they ask in the JPMorgan interview?
+584. Should I put AI/ML on my resume?
+585. How do I clear the Infosys coding round?
+586. What are the best platforms to practice for Amazon?
+587. How do I apply for an internship at Google?
+588. How do I clear the Cognizant coding round?
+589. How do I apply for an internship at JPMorgan?
+590. Should I put blockchain on my resume?
+591. What are the best platforms to practice for Adobe?
+592. What are the best platforms to practice for Apple?
+593. What are the best platforms to practice for Cognizant?
+594. What is a good score in practicals?
+595. Is doing an unpaid internship in indie game development worth it?
+596. Do we have a project submission for Web Dev next week?
+597. Is doing an unpaid internship in blockchain worth it?
+598. Is doing an unpaid internship in mobile app development worth it?
+599. How tough is the Machine Learning syllabus this semester?
+600. Should I put backend development on my resume?
+601. How do I negotiate my salary with Meta?
+602. What did the HR ask in the TCS interview?
+603. How do I prepare for a cybersecurity role at Deloitte?
+604. How do I negotiate my salary with Adobe?
+605. How do I negotiate my salary with IBM?
+606. What should I wear to the PwC interview?
+607. What did the HR ask in the Apple interview?
+608. Did JPMorgan announce their results yet?
+609. What is the base package offered by KPMG?
+610. How is the work-life balance at Meta?
+611. Is it too late to start preparing for CAT?
+612. What are the bond breaking policies for EY?
+613. What did the HR ask in the Oracle interview?
+614. How do I prepare for a UI/UX design role at TCS?
+615. What should I wear to the JPMorgan interview?
+616. What should I wear to the Goldman Sachs interview?
+617. Is Microsoft revoking offers this year?
+618. How do I negotiate my salary with Oracle?
+619. Can someone guide me on the major project for cybersecurity?
+620. Are there any off-campus drives for Deloitte?
+621. What should I wear to the Cisco interview?
+622. Can I get placed with a backlog in Cloud Computing?
+623. Are there any off-campus drives for Oracle?
+624. How is the work-life balance at Cognizant?
+625. How do I negotiate my salary with Google?
+626. Is it too late to start preparing for class tests?
+627. Can I get placed with a backlog in Ethics?
+628. How is the work-life balance at Oracle?
+629. What should I wear to the TCS interview?
+630. How do I prepare for a blockchain role at IBM?
+631. How do I negotiate my salary with a game studio?
+632. What did the HR ask in the Wipro interview?
+633. Is there a bond agreement for Apple?
+634. How do I prepare for a cloud computing role at a game studio?
+635. How do I get my provisional degree certificate?
+636. Can someone guide me on the major project for mobile app development?
+637. Can someone guide me on the major project for AI/ML?
+638. What should I wear to the IBM interview?
+639. What did the HR ask in the a game studio interview?
+640. Is Goldman Sachs revoking offers this year?
+641. Is it too late to start preparing for UPSC?
+642. Are there any off-campus drives for TCS?
+643. Can someone guide me on the major project for cloud computing?
+644. How do I prepare for a AI/ML role at Capgemini?
+645. What is the base package offered by Netflix?
+646. How do I prepare for a data science role at Amazon?
+647. What are the bond breaking policies for Goldman Sachs?
+648. Did a game studio announce their results yet?
+649. What are the bond breaking policies for Cognizant?
+650. Is EY revoking offers this year?
+651. What is the base package offered by PwC?
+652. Is there a bond agreement for Oracle?
+653. Are there any off-campus drives for Netflix?
+654. Did KPMG announce their results yet?
+655. How do I prepare for a data science role at Wipro?
+656. Is Cisco revoking offers this year?
+657. What is the base package offered by Meta?
+658. What are the bond breaking policies for Meta?
+659. How do I prepare for a game development role at Goldman Sachs?
+660. What is the base package offered by Adobe?
+661. What is the process for transcript clearance?
+662. What are the bond breaking policies for Netflix?
+663. How do I prepare for a blockchain role at TCS?
+664. What are the bond breaking policies for Cisco?
+665. What is the base package offered by Amazon?
+666. What did the HR ask in the IBM interview?
+667. What did the HR ask in the JPMorgan interview?
+668. Is there a bond agreement for Google?
+669. Are there any off-campus drives for Cognizant?
+670. Can someone guide me on the major project for backend development?
+671. Did Accenture announce their results yet?
+672. Can someone guide me on the major project for game development?
+673. Are there any off-campus drives for EY?
+674. What are the bond breaking policies for Capgemini?
+675. How is the work-life balance at Amazon?
+676. Can someone guide me on the major project for indie game development?
+677. Is KPMG revoking offers this year?
+678. Are there any off-campus drives for KPMG?
+679. What should I wear to the Accenture interview?
+680. Is there a bond agreement for TCS?
+681. How do I negotiate my salary with Accenture?
+682. Are there any off-campus drives for Capgemini?
+683. How do I prepare for a indie game development role at Cisco?
+684. How is the work-life balance at Apple?
+685. Are there any off-campus drives for Google?
+686. How is the work-life balance at Infosys?
+687. Did Netflix announce their results yet?
+688. How do I negotiate my salary with Capgemini?
+689. Is IBM revoking offers this year?
+690. Did Google announce their results yet?
+691. Can someone guide me on the major project for frontend development?
+692. Is there a bond agreement for Goldman Sachs?
+693. Is it too late to start preparing for mid-semesters?
+694. Can I get placed with a backlog in Deep Learning?
+695. Is Apple revoking offers this year?
+696. What did the HR ask in the Cisco interview?
+697. Who wants to split an auto ride?
+698. Are there any off-campus drives for Apple?
+699. How do I negotiate my salary with KPMG?
+700. When is the farewell party?
+701. What should I wear to the a game studio interview?
+702. What are the bond breaking policies for PwC?
+703. What did the HR ask in the Cognizant interview?
+704. How is the work-life balance at PwC?
+705. What is the base package offered by Cisco?
+706. Can someone guide me on the major project for DevOps?
+707. What is the base package offered by JPMorgan?
+708. Are there any off-campus drives for Goldman Sachs?
+709. Did Oracle announce their results yet?
+710. How do I negotiate my salary with EY?
+711. What did the HR ask in the Accenture interview?
+712. How do I prepare for a blockchain role at Infosys?
+713. How is the work-life balance at Netflix?
+714. Is there a bond agreement for KPMG?
+715. Can someone guide me on the major project for blockchain?
+716. What are the bond breaking policies for Microsoft?
+717. What did the HR ask in the Google interview?
+718. Is Deloitte revoking offers this year?
+719. What time does the last bus leave?
+720. Are there any off-campus drives for Amazon?
+721. Is there a bond agreement for Amazon?
+722. What did the HR ask in the Deloitte interview?
+723. What are the bond breaking policies for Infosys?
+724. Can someone guide me on the major project for data science?
+725. What is the base package offered by Deloitte?
+726. What are the bond breaking policies for Apple?
+727. Are there any off-campus drives for JPMorgan?
+728. Is it too late to start preparing for assessments?
+729. Is Amazon revoking offers this year?
+730. Can I get placed with a backlog in Blockchain?
+731. How do I negotiate my salary with Microsoft?
+732. Is it too late to start preparing for practicals?
+733. Can I get placed with a backlog in Big Data?
+734. Is it too late to start preparing for GATE?
+735. Are there any off-campus drives for PwC?
+736. Is there a bond agreement for a game studio?
+737. How is the work-life balance at Cisco?
+738. Is Infosys revoking offers this year?
+739. Is it too late to start preparing for viva?
+740. Did IBM announce their results yet?
+741. How do I prepare for a AI/ML role at Oracle?
+742. Are there any off-campus drives for Microsoft?
+743. Is it too late to start preparing for surprise tests?
+744. Did Adobe announce their results yet?
+745. How do I prepare for a game development role at Deloitte?
+746. What is the base package offered by a game studio?
+747. How do I prepare for a indie game development role at Capgemini?
+748. What is the base package offered by Infosys?
+749. How is the work-life balance at KPMG?
+750. Is there a bond agreement for Netflix?
+751. What is the base package offered by Cognizant?
+752. What are the bond breaking policies for Oracle?
+753. What did the HR ask in the PwC interview?
+754. Is there a bond agreement for Deloitte?
+755. What is the base package offered by Microsoft?
+756. Can someone guide me on the major project for UI/UX design?
+757. Is Cognizant revoking offers this year?
+758. Did Microsoft announce their results yet?
+759. How do I prepare for a data science role at a game studio?
+760. How do I negotiate my salary with Infosys?
+761. Can I get placed with a backlog in Project Management?
+762. Did Meta announce their results yet?
+763. Are there any off-campus drives for IBM?
+764. What are the bond breaking policies for TCS?
+765. What should I wear to the Netflix interview?
+766. Is there a bond agreement for Accenture?
+767. What are the bond breaking policies for JPMorgan?
+768. Who is planning to go abroad for MS?
+769. Are there any off-campus drives for Adobe?
+770. How is the work-life balance at Adobe?
+771. What should I wear to the Adobe interview?
+772. Is it too late to start preparing for placements?
+773. How do I prepare for a backend development role at KPMG?
+774. Are there any off-campus drives for Wipro?
+775. Did TCS announce their results yet?
+776. Is there a bond agreement for EY?
+777. How is the work-life balance at Accenture?
+778. How is the work-life balance at Google?
+779. Is Oracle revoking offers this year?
+780. What is the base package offered by Capgemini?
+781. How do I prepare for a data science role at Accenture?
+782. How is the work-life balance at Deloitte?
+783. Did Cognizant announce their results yet?
+784. How do I prepare for a data science role at Infosys?
+785. What is the base package offered by Accenture?
+786. What should I wear to the Cognizant interview?
+787. What is the base package offered by Goldman Sachs?
+788. What are the bond breaking policies for Amazon?
+789. What are the bond breaking policies for Google?
+790. What did the HR ask in the Goldman Sachs interview?
+791. Are there any off-campus drives for Cisco?
+792. Did Infosys announce their results yet?
+793. Did Cisco announce their results yet?
+794. What should I wear to the Capgemini interview?
+795. Is Meta revoking offers this year?
+796. How do I prepare for a UI/UX design role at Infosys?
+797. What should I wear to the Amazon interview?
+798. Is it too late to start preparing for end-semesters?
+799. How do I prepare for a indie game development role at Google?
+800. Is Adobe revoking offers this year?
+801. Is it worth spending time on playing cricket?
+802. Did anyone find my keys in the auditorium?
+803. I am craving biryani right now.
+804. Did anyone find my keys in the stationery shop?
+805. How is the rolls at the canteen today?
+806. Is it worth spending time on working on a 3D multiplayer RPG?
+807. Does anyone have an umbrella?
+808. Is the AC working in the local zoo?
+809. Are you coming to the placement cell?
+810. Is it worth spending time on binge-watching anime?
+811. How is the burgers at the canteen today?
+812. Did anyone find my keys in the seminar hall?
+813. Is the AC working in the seminar hall?
+814. Is it worth spending time on playing COD Warzone?
+815. I am craving burgers right now.
+816. Are you coming to the student lounge?
+817. How do I reach the railway station from the student lounge?
+818. Is it worth spending time on streaming Minecraft?
+819. Does anyone want to order fried rice?
+820. Are you coming to the stationery shop?
+821. How do I reach the railway station from the library?
+822. Are you coming to the auditorium?
+823. Is it worth spending time on building an anime merchandise store?
+824. Is it worth spending time on learning to play the flute?
+825. Is the AC working in the nearest ATM?
+826. Who is up for studying tonight?
+827. Who is up for playing Super Sus tonight?
+828. Is it worth spending time on going to the gym?
+829. Who is up for hanging out tonight?
+830. Is it worth spending time on hanging out?
+831. Is the AC working in the mess?
+832. Did anyone find my keys in the mess?
+833. Are you coming to the admin office?
+834. Is the AC working in the auditorium?
+835. Did anyone find my keys in the sports complex?
+836. Did anyone find my keys in the canteen?
+837. Can you wake me up at 7 AM tomorrow?
+838. Does anyone want to order paratha?
+839. How is the tea at the canteen today?
+840. Who is up for building an anime merchandise store tonight?
+841. Does anyone want to order biryani?
+842. Does anyone want to order dosa?
+843. How do I reach the railway station from the placement cell?
+844. I am craving samosas right now.
+845. Who is up for playing COD Warzone tonight?
+846. Did anyone find my keys in the student lounge?
+847. Who is up for learning to play the flute tonight?
+848. I am craving coffee right now.
+849. Does anyone want to order burgers?
+850. How is the biryani at the canteen today?
+851. How is the samosas at the canteen today?
+852. Are you coming to the hostel?
+853. Are you coming to the local zoo?
+854. How do I reach the railway station from the gym?
+855. I am craving rolls right now.
+856. Who is up for binge-watching anime tonight?
+857. Is the AC working in the admin office?
+858. Does anyone want to order samosas?
+859. I am craving Japanese food right now.
+860. How is the sandwiches at the canteen today?
+861. Are we getting a proxy for the next class?
+862. Are you coming to the seminar hall?
+863. Does anyone want to order noodles?
+864. Did anyone find my keys in the library?
+865. I am craving sandwiches right now.
+866. Did anyone find my keys in the nearest ATM?
+867. Did anyone find my keys in the placement cell?
+868. Does anyone want to order pizza?
+869. Are we having a surprise test in the next class?
+870. I am craving maggi right now.
+871. Is it worth spending time on studying?
+872. Who is up for doing assignments tonight?
+873. Did anyone find my keys in the admin office?
+874. How is the fried rice at the canteen today?
+875. Does anyone want to order rolls?
+876. Is the AC working in the canteen?
+877. Does anyone want to order sandwiches?
+878. Are you coming to the gym?
+879. How do I reach the railway station from the mess?
+880. How do I reach the railway station from the canteen?
+881. Did anyone find my keys in the hostel?
+882. How do I reach the railway station from the hostel?
+883. Is it worth spending time on preparing for hackathons?
+884. What time does the last bus leave?
+885. Are you coming to the mess?
+886. Is the AC working in the placement cell?
+887. How is the pizza at the canteen today?
+888. Where can I buy a notebook right now?
+889. Is it worth spending time on watching movies?
+890. How do I reach the railway station from the main block?
+891. Did anyone find my keys in the local zoo?
+892. How is the dosa at the canteen today?
+893. Does anyone want to order coffee?
+894. Is the AC working in the student lounge?
+895. Is it worth spending time on practicing on CodeChef?
+896. Did the teacher take attendance yet?
+897. I am craving dosa right now.
+898. How do I reach the railway station from the local zoo?
+899. Did anyone find my keys in the main block?
+900. How is the paratha at the canteen today?
+901. Who is up for working on a 3D multiplayer RPG tonight?
+902. I am craving pizza right now.
+903. How is the maggi at the canteen today?
+904. I am craving fried rice right now.
+905. Who wants to split an auto ride to the city?
+906. How is the noodles at the canteen today?
+907. Is the AC working in the gym?
+908. Are we watching a movie this weekend?
+909. Who is up for preparing for hackathons tonight?
+910. Is the AC working in the stationery shop?
+911. Is it worth spending time on doing assignments?
+912. How is the Japanese food at the canteen today?
+913. I am craving paratha right now.
+914. Who is up for practicing on CodeChef tonight?
+915. Who is up for streaming Minecraft tonight?
+916. Who is up for going to the gym tonight?
+917. Is the AC working in the library?
+918. Who is up for watching movies tonight?
+919. I am craving noodles right now.
+920. How do I reach the railway station from the stationery shop?
+921. Are you coming to the library?
+922. Does anyone want to order tea?
+923. Are you coming to the nearest ATM?
+924. Are you coming to the sports complex?
+925. How do I reach the railway station from the lab?
+926. How do I reach the railway station from the auditorium?
+927. How do I reach the railway station from the nearest ATM?
+928. Did anyone find my keys in the lab?
+929. Is the AC working in the lab?
+930. Are you coming to the main block?
+931. Are you coming to the lab?
+932. Is the washing machine in the hostel working?
+933. How is the coffee at the canteen today?
+934. Is it worth spending time on playing Super Sus?
+935. Is the AC working in the main block?
+936. I am craving tea right now.
+937. Is the AC working in the hostel?
+938. Did anyone find my keys in the gym?
+939. Does anyone want to order maggi?
+940. How do I reach the railway station from the admin office?
+941. How do I reach the railway station from the sports complex?
+942. Can someone lend me a charger?
+943. Who is up for playing cricket tonight?
+944. Are you coming to the canteen?
+945. How do I reach the railway station from the seminar hall?
+946. Is the AC working in the sports complex?
+947. Does anyone want to order Japanese food?
+948. Is there any electricity in the hostel?
+949. Are we getting a proxy for the next class? (Variation)
+950. Does anyone want to order noodles? (Variation)
+951. Who is up for studying tonight? (Variation)
+952. How do I reach the railway station from the auditorium? (Variation)
+953. How is the noodles at the canteen today? (Variation)
+954. Did anyone find my keys in the admin office? (Variation)
+955. I am craving pizza right now. (Variation)
+956. Is the AC working in the gym? (Variation)
+957. Is the AC working in the hostel? (Variation)
+958. I am craving maggi right now. (Variation)
+959. Does anyone want to order biryani? (Variation)
+960. Are you coming to the stationery shop? (Variation)
+961. How do I reach the railway station from the nearest ATM? (Variation)
+962. How do I reach the railway station from the student lounge? (Variation)
+963. Does anyone want to order paratha? (Variation)
+964. I am craving maggi right now. (Variation) (Variation)
+965. Does anyone want to order pizza? (Variation)
+966. Does anyone have an umbrella? (Variation)
+967. Is it worth spending time on watching movies? (Variation)
+968. Did anyone find my keys in the placement cell? (Variation)
+969. I am craving rolls right now. (Variation)
+970. Does anyone want to order burgers? (Variation)
+971. Did anyone find my keys in the hostel? (Variation)
+972. How do I reach the railway station from the main block? (Variation)
+973. Where can I buy a notebook right now? (Variation)
+974. I am craving biryani right now. (Variation)
+975. Who is up for playing Super Sus tonight? (Variation)
+976. Is the AC working in the sports complex? (Variation)
+977. Who wants to split an auto ride to the city? (Variation)
+978. Who is up for studying tonight? (Variation)
+979. Is the AC working in the main block? (Variation)
+980. Is the AC working in the auditorium? (Variation)
+981. Who is up for practicing on CodeChef tonight? (Variation)
+982. Is the AC working in the main block? (Variation) (Variation)
+983. How do I reach the railway station from the nearest ATM? (Variation) (Variation)
+984. Is the AC working in the main block? (Variation) (Variation)
+985. Are you coming to the hostel? (Variation)
+986. Is there any electricity in the hostel? (Variation)
+987. I am craving rolls right now. (Variation)
+988. Does anyone want to order paratha? (Variation)
+989. Who is up for building an anime merchandise store tonight? (Variation)
+990. Who wants to split an auto ride to the city? (Variation) (Variation)
+991. Does anyone want to order rolls? (Variation)
+992. I am craving maggi right now. (Variation) (Variation)
+993. Are you coming to the auditorium? (Variation)
+994. How is the samosas at the canteen today? (Variation)
+995. Is it worth spending time on working on a 3D multiplayer RPG? (Variation)
+996. How is the dosa at the canteen today? (Variation)
+997. Are you coming to the sports complex? (Variation)
+998. How is the coffee at the canteen today? (Variation)
+999. How do I reach the railway station from the nearest ATM? (Variation)
+1000. Is it worth spending time on going to the gym? (Variation)

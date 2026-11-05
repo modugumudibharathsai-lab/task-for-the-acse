@@ -1,0 +1,240 @@
+text,intent,lang,author
+How many classes have I attended in Digital Electronics?,attendance,en,agent
+Can I bunk the next two lectures without falling below 75%?,attendance,en,agent
+How many consecutive classes do I need to attend to reach 75% attendance?,attendance,en,agent
+Show my attendance summary for all enrolled courses.,attendance,en,agent
+Is my attendance safe for semester exams?,attendance,en,agent
+Am I in the attendance condonation range?,attendance,en,agent
+Mera attendance kitna percent hai abhi?,attendance,hinglish,agent
+Kya main kal class bunk kar sakta hu attendance safe rahegi?,attendance,hinglish,agent
+75 percent attendance maintain karne ke liye aur kitni classes chahiye?,attendance,hinglish,agent
+Digital electronics me attendance shortage to nahi hai na?,attendance,hinglish,agent
+Mee system lo naa attendance percentage entha chupistondi?,attendance,te_roman,agent
+Nenu inka enni classes attend avvali 75 percent ravatanki?,attendance,te_roman,agent
+Next week rendu classes bunk kottacha attendance taggipokunda?,attendance,te_roman,agent
+When is my next internal assessment exam?,exams,en,agent
+What is the schedule for CIE-2 exams?,exams,en,agent
+Where is the exam hall for Discrete Mathematics tomorrow?,exams,en,agent
+What time does the formative assessment start?,exams,en,agent
+Check my upcoming mid examination dates.,exams,en,agent
+Which room is allotted for my Digital Electronics test?,exams,en,agent
+Show the complete examination timetable for this semester.,exams,en,agent
+When are the practical lab summative exams commencing?,exams,en,agent
+Next exam kab hai aur timing kya hai?,exams,hinglish,agent
+CIE 2 exam timetable release ho gaya kya?,exams,hinglish,agent
+Discrete mathematics exam ke liye hall number kaun sa hai?,exams,hinglish,agent
+Formative assessment kab start ho raha hai?,exams,hinglish,agent
+Naa next exam eppudu jarugutundi date cheppandi?,exams,te_roman,agent
+CIE assessment schedule and timings ekkada chusukovali?,exams,te_roman,agent
+Repati exam ki venue ekkada allocate chesaru?,exams,te_roman,agent
+What is my outstanding tuition fee balance?,fees,en,agent
+When is the deadline to pay the semester college fees?,fees,en,agent
+Is there any late fee fine if I pay after the due date?,fees,en,agent
+How can I pay my remaining hostel and tuition dues online?,fees,en,agent
+Can I get a fee waiver due to medical hospitalization?,fees,en,agent
+Show my fee payment ledger and pending receipts.,fees,en,agent
+What is the surcharge per day for late fee clearance?,fees,en,agent
+Has my scholarship concession been credited to my fee balance?,fees,en,agent
+Mera college fee balance kitna bacha hai?,fees,hinglish,agent
+Semester fee pay karne ki last date kab tak hai?,fees,hinglish,agent
+Late fee charges kitne lagte hain per day?,fees,hinglish,agent
+Fees online portal se pay karne ka option kahan milega?,fees,hinglish,agent
+Naa pending tuition fee amount entha undo cheppandi?,fees,te_roman,agent
+Semester fees pay cheyadaniki last date eppudu?,fees,te_roman,agent
+Late fees fine entha padutundi deadline daatite?,fees,te_roman,agent
+What classes do I have today on Monday?,timetable,en,agent
+What is my timetable for Tuesday morning?,timetable,en,agent
+Which room is my 10:15 Data Structures lecture in?,timetable,en,agent
+Do we have any laboratory sessions scheduled this afternoon?,timetable,en,agent
+Show my complete weekly class schedule.,timetable,en,agent
+Who takes the 9 AM class today and in which room?,timetable,en,agent
+At what time does the lunch break start according to the timetable?,timetable,en,agent
+What is the slot timing for Discrete Mathematics today?,timetable,en,agent
+Aaj ka class schedule aur room number batao.,timetable,hinglish,agent
+Next lecture kaun sa hai aur kis room me jana hai?,timetable,hinglish,agent
+Aaj afternoon me koi lab session hai kya timetable me?,timetable,hinglish,agent
+Monday ka pura timetable show karo.,timetable,hinglish,agent
+Eeroju naaku unna classes timetable chupinchandi?,timetable,te_roman,agent
+Morning 10 AM class ye room lo jarugutundi?,timetable,te_roman,agent
+Eeroju afternoon lab timings entha nunchi entha varaku?,timetable,te_roman,agent
+What are my CIE-1 marks in Data Structures?,marks,en,agent
+What is my current cumulative CGPA?,marks,en,agent
+How many backlogs do I have recorded in my student profile?,marks,en,agent
+Show my continuous internal evaluation score card.,marks,en,agent
+Did I clear the minimum cutoff marks in Digital Electronics?,marks,en,agent
+What was my SGPA in the previous semester?,marks,en,agent
+What grade is required to secure an S grade in theory subjects?,marks,en,agent
+Show my marks breakdown for internal and lab practicals.,marks,en,agent
+Mera overall CGPA aur marks kitne hain abhi?,marks,hinglish,agent
+CIE assessment me mujhe kitne marks mile hain Data Structures me?,marks,hinglish,agent
+Kya mere profile me koi active backlog show ho raha hai?,marks,hinglish,agent
+Pass hone ke liye minimum kitne internal marks chahiye hote hain?,marks,hinglish,agent
+Naa current CGPA score entha undo check chesi cheppandi?,marks,te_roman,agent
+CIE marks list lo Data Structures marks entha vachayi?,marks,te_roman,agent
+Naaku emaina active backlogs unnaya records lo?,marks,te_roman,agent
+How many total credits are required to graduate in B.Tech CSE?,curriculum,en,agent
+How many degree credits have I earned so far?,curriculum,en,agent
+What courses will I have to study next semester in Semester 4?,curriculum,en,agent
+Show the curriculum syllabus structure for R23 regulations.,curriculum,en,agent
+Are open electives offered in the upcoming academic semester?,curriculum,en,agent
+How many credits are assigned to the Digital Electronics Lab?,curriculum,en,agent
+What is the total semester credit load for this year?,curriculum,en,agent
+Am I on track with the prerequisite credits for graduation?,curriculum,en,agent
+Degree complete karne ke liye total kitne credits chahiye hote hain?,curriculum,hinglish,agent
+Next semester me kaun kaun se courses padhne honge?,curriculum,hinglish,agent
+Abhi tak maine kitne credits complete kar liye hain graduation ke?,curriculum,hinglish,agent
+CSE curriculum me mandatory theory credits kitne hain?,curriculum,hinglish,agent
+B.Tech CSE degree complete cheyadaniki total enni credits kavali?,curriculum,te_roman,agent
+Next semester lo unna subjects list and credits entha?,curriculum,te_roman,agent
+Nenu ipativaraku total enni credits earn chesano cheppandi?,curriculum,te_roman,agent
+What books do I currently have issued from the central library?,library,en,agent
+When is the return due date for my borrowed textbook?,library,en,agent
+What is the overdue fine per day for late library returns?,library,en,agent
+How many books can a student borrow at a time from the library?,library,en,agent
+How do I renew my borrowed book online without visiting the counter?,library,en,agent
+Is the central library open on weekends and holidays?,library,en,agent
+Can I borrow reference section books for overnight study?,library,en,agent
+Check if I have any pending library fines recorded.,library,en,agent
+Library se jo book borrow kiya tha uska return date kab hai?,library,hinglish,agent
+Per day library overdue fine kitna lagta hai delay karne par?,library,hinglish,agent
+Kya main apni borrowed book online renew kar sakta hu?,library,hinglish,agent
+Mera library card pe kitni books pending show ho rahi hain?,library,hinglish,agent
+Library nunchi teesukunna pusthakam return date eppudu?,library,te_roman,agent
+Library book return delay ayithe fine entha padutundi?,library,te_roman,agent
+Naa account lo emaina library due balance undo chudandi?,library,te_roman,agent
+Who is my assigned faculty mentor and what is their phone number?,faculty,en,agent
+What is the cabin location and email of my class teacher?,faculty,en,agent
+Who teaches Digital Electronics and where is their staff cabin?,faculty,en,agent
+Give me the contact number of the CSE Head of Department (HOD).,faculty,en,agent
+Who is the student counselor assigned for our section?,faculty,en,agent
+How do I contact my academic advisor during office hours?,faculty,en,agent
+What is the email address of the Data Structures instructor?,faculty,en,agent
+Show the list of all faculty members teaching my current semester.,faculty,en,agent
+Mere assigned faculty mentor ka phone number aur cabin kahan hai?,faculty,hinglish,agent
+Class teacher se contact karne ke liye unka official email id batao.,faculty,hinglish,agent
+HOD sir ka cabin office kaun se block me hai?,faculty,hinglish,agent
+Hamari section ke student counselor ka contact details kya hai?,faculty,hinglish,agent
+Naa faculty mentor contact number and cabin location cheppandi?,faculty,te_roman,agent
+Class teacher email ID and phone number kavali?,faculty,te_roman,agent
+HOD cabin Academic Block lo ekkada untundi?,faculty,te_roman,agent
+How can I apply for an official bonafide certificate?,services,en,agent
+I need to request a railway concession pass for travel.,services,en,agent
+"I lost my student ID card, how do I apply for a replacement?",services,en,agent
+I want to lodge an academic grievance regarding assessment evaluation.,services,en,agent
+Can I book a 1-on-1 appointment with my faculty mentor?,services,en,agent
+Submit a service request for bus pass endorsement.,services,en,agent
+How long does it take for a bonafide certificate request to be approved?,services,en,agent
+Where can I track the status of my submitted service ticket?,services,en,agent
+Bonafide certificate apply karne ka procedure kya hai?,services,hinglish,agent
+Mujhe railway concession form ke liye request raise karni hai.,services,hinglish,agent
+Mera ID card kho gaya hai replacement card kaise apply karein?,services,hinglish,agent
+Evaluation me problem hai grievance complaint kaise file karein?,services,hinglish,agent
+Bonafide certificate apply cheyadam ela helpdesk nunchi?,services,te_roman,agent
+Railway concession pass kosam application submit cheyali.,services,te_roman,agent
+ID card poyindi kotha duplicate card kosam request ela pettali?,services,te_roman,agent
+What active student clubs are available to join on campus?,clubs,en,agent
+How do I register for the AI Innovation Club?,clubs,en,agent
+Tell me the procedure to join the university music or drama society.,clubs,en,agent
+What extracurricular cultural clubs are currently recruiting members?,clubs,en,agent
+I want to apply for the college coding club.,clubs,en,agent
+Where can I find audition schedules for the theatre club?,clubs,en,agent
+What are the benefits of joining technical clubs for CSE students?,clubs,en,agent
+Who are the student coordinators for the sports club?,clubs,en,agent
+Campus me kaun kaun se student clubs join karne ke liye available hain?,clubs,hinglish,agent
+AI Innovation club me join karne ka process kya hai?,clubs,hinglish,agent
+Drama ya music society ke liye register kaise kar sakte hain?,clubs,hinglish,agent
+Coding club membership ke liye application form kahan milega?,clubs,hinglish,agent
+College lo unna student clubs list and details chupinchandi?,clubs,te_roman,agent
+AI Innovation club lo join avvalante em cheyali?,clubs,te_roman,agent
+Cultural and sports clubs auditions eppudu start avutayi?,clubs,te_roman,agent
+When are the upcoming official university holidays this month?,circulars,en,agent
+When does the second semester commence according to the academic calendar?,circulars,en,agent
+What are the dates for the Dasara festive vacation?,circulars,en,agent
+Is Gandhi Jayanti a declared holiday in the college calendar?,circulars,en,agent
+Show the official schedule of formative and summative assessment weeks.,circulars,en,agent
+When do semester winter holidays begin?,circulars,en,agent
+Check if Vinayaka Chavithi is listed as a holiday in the calendar.,circulars,en,agent
+What is the date for the commencement of classes next term?,circulars,en,agent
+Is month me college ke official holidays kaun kaun se din hain?,circulars,hinglish,agent
+Academic calendar ke hisaab se Dasara holidays kab se start hain?,circulars,hinglish,agent
+Next semester ka class commencement date kab hai?,circulars,hinglish,agent
+Upcoming university calendar events aur exam dates show karo.,circulars,hinglish,agent
+Academic calendar lo unna holidays list chupinchandi?,circulars,te_roman,agent
+Dasara holidays eppati nunchi eppati varaku unnayi?,circulars,te_roman,agent
+Next semester classes commencement eppudu start avutondi?,circulars,te_roman,agent
+Is the student mess food service available on Sunday evenings?,hostel,en,agent
+I am feeling extremely overwhelmed by upcoming exams and assignments.,distress_support,en,agent
+I have so much academic workload that I am experiencing severe study burnout.,distress_support,en,agent
+I am constantly stressed about failing my engineering semester courses.,distress_support,en,agent
+Can you provide an academic recovery plan to improve my low CGPA?,distress_support,en,agent
+I have a terrible headache from studying continuously without sleep.,distress_support,en,agent
+How do I manage anxiety before continuous internal assessments?,distress_support,en,agent
+I feel exhausted and cannot focus on completing my course homework.,distress_support,en,agent
+Is there mentorship guidance available for struggling students?,distress_support,en,agent
+Exams aur assignments ka bahut zyada tension aur stress ho raha hai.,distress_support,hinglish,agent
+"Mujhe study burnout feel ho raha hai, focus nahi kar pa raha hu.",distress_support,hinglish,agent
+CGPA kam aane ki wajah se bohot anxiety ho rahi hai kya karu?,distress_support,hinglish,agent
+Lagatar padhne se bohot thak gaya hu koi recovery plan batao.,distress_support,hinglish,agent
+Exams and assignments pressure valla chala stress ga undi.,distress_support,te_roman,agent
+CGPA taggipotundemo ani bhayam ga undi academic guidance kavali.,distress_support,te_roman,agent
+Study burnout vachindi recovery plan emaina suggest cheyara?,distress_support,te_roman,agent
+What is the official academic policy regarding attendance condonation?,policy_bylaws,en,agent
+"According to R23 Clause 4.2, what is the minimum condonable attendance?",policy_bylaws,en,agent
+What are the university rules if my attendance drops below 65%?,policy_bylaws,en,agent
+Can medical certificates be submitted for attendance shortage exemption?,policy_bylaws,en,agent
+What is the institutional policy on detention due to low attendance?,policy_bylaws,en,agent
+Explain the 10-point relative grading scale regulations.,policy_bylaws,en,agent
+What is the ordinance regarding Continuous Internal Evaluation weightage?,policy_bylaws,en,agent
+Show the university circular on malpractice penalties during examinations.,policy_bylaws,en,agent
+Attendance condonation ke official university rules kya hain?,policy_bylaws,hinglish,agent
+R23 regulation clause 4.2 ke according minimum attendance kitni chahiye?,policy_bylaws,hinglish,agent
+Kya medical certificate dene par 65 percent tak condonation milta hai?,policy_bylaws,hinglish,agent
+Attendance shortage policy aur detention rules samjhao.,policy_bylaws,hinglish,agent
+Attendance condonation rules R23 regulations lo em chebutunnayi?,policy_bylaws,te_roman,agent
+Medical grounds meeda condonation ravataniki minimum percentage entha?,policy_bylaws,te_roman,agent
+65 percent kante attendance thakkuva unte detention rules enti?,policy_bylaws,te_roman,agent
+I feel completely hopeless and like I cannot survive this stress anymore.,distress_support,en,agent
+"I want to give up on everything, my life feels completely pointless.",distress_support,en,agent
+"I can't take this anymore, I feel like ending my life.",distress_support,en,agent
+I am having severe suicidal thoughts and breaking down crying.,distress_support,en,agent
+Everything is falling apart and I feel like killing myself.,distress_support,en,agent
+I don't think I have any reason left to live.,distress_support,en,agent
+I am having an uncontrollable panic attack and cannot handle this pain.,distress_support,en,agent
+"Please help me, I am alone and thinking about ending it all.",distress_support,en,agent
+"Mujhe sab khatam karne ka mann kar raha hai, I want to end my life.",distress_support,hinglish,agent
+"Zindagi me ab koi umeed nahi bachi, main suicide ke baare me soch raha hu.",distress_support,hinglish,agent
+"I cant take this anymore, mental breakdown ho gaya hai koi bacha lo.",distress_support,hinglish,agent
+"Mujhe jeene ka koi reason nahi dikh raha, severe depression me hu.",distress_support,hinglish,agent
+"Nenu inka ee stress bharinchalenu, naa life end chesukovali anipistondi.",distress_support,te_roman,agent
+"Naaku suicidal thoughts vastunnayi, nannu kapadandi chala bhayam ga undi.",distress_support,te_roman,agent
+"Nenu complete ga hopeless ga unnanu, dying feel vastondi.",distress_support,te_roman,agent
+"Hello, good morning! Who are you and how can you help me?",greeting_smalltalk,en,agent
+"Hi VIGBOT, what can you do for students?",greeting_smalltalk,en,agent
+Hey there! Show me the helpdesk main menu.,greeting_smalltalk,en,agent
+Good afternoon! Are you an automated student assistant?,greeting_smalltalk,en,agent
+Start the helpdesk briefing.,greeting_smalltalk,en,agent
+"Hi, I just logged in, what services can I ask about?",greeting_smalltalk,en,agent
+Hello! Can you guide me on how to use this portal?,greeting_smalltalk,en,agent
+Hey! What is your name and role?,greeting_smalltalk,en,agent
+"Hello bhai, good morning! Tum kya kya help kar sakte ho?",greeting_smalltalk,hinglish,agent
+"Hi VIGBOT, main yahan kya kya dekh sakta hu?",greeting_smalltalk,hinglish,agent
+Namaste! Helpdesk ka main menu dikhao.,greeting_smalltalk,hinglish,agent
+"Hey, tum kaun ho aur student portal pe kya role hai?",greeting_smalltalk,hinglish,agent
+Namaskaram! Ee VIGBOT lo ememi features unnayi?,greeting_smalltalk,te_roman,agent
+"Hi VIGBOT, nuvvu naku ela sahayam cheyagalavu?",greeting_smalltalk,te_roman,agent
+"Hello, helpdesk start menu and options chupinchu.",greeting_smalltalk,te_roman,agent
+Who won the cricket world cup final yesterday?,out_of_scope,en,agent
+Can you give me a good recipe for making Italian pasta?,out_of_scope,en,agent
+What is the current stock price of Apple on the Nasdaq?,out_of_scope,en,agent
+Write a short poem about the autumn leaves and rainy weather.,out_of_scope,en,agent
+Who directed the movie Interstellar and what is the plot summary?,out_of_scope,en,agent
+How do I build a rocket engine in Kerbal Space Program?,out_of_scope,en,agent
+What is the capital of Argentina and what language do they speak?,out_of_scope,en,agent
+Teach me how to play chess openings like the Sicilian Defense.,out_of_scope,en,agent
+Kal ka cricket match kaun jeeta score kya tha?,out_of_scope,hinglish,agent
+Biryani banane ki authentic recipe bata sakte ho kya?,out_of_scope,hinglish,agent
+Latest Bollywood movie kab release ho rahi hai theatre me?,out_of_scope,hinglish,agent
+Stock market me invest karne ke best tips kya hain?,out_of_scope,hinglish,agent
+Ninna cricket match lo evaru gelicharu score entha?,out_of_scope,te_roman,agent
+Hyderabad biryani cheyadaniki recipe cheppandi?,out_of_scope,te_roman,agent
+Kotha Telugu movie trailer eppudu release avutondi?,out_of_scope,te_roman,agent

@@ -1,0 +1,129 @@
+version: "2.0"
+description: "VIGBOT intent taxonomy and routing map across 18 campus topics"
+
+intents:
+  attendance:
+    description: "Inquiries on attendance percentage, bunk allowance, shortage calculation, and recovery consecutive classes"
+    handler: "app.agent.nlu_engine.get_attendance_summary"
+    source_agent: "Attendance System"
+    is_minor: false
+    safety_critical: false
+
+  exams:
+    description: "Continuous internal evaluations (CIE), midterms, summative exams, dates, venues, and timings"
+    handler: "app.agent.nlu_engine.get_exams_summary"
+    source_agent: "Examination Hub"
+    is_minor: false
+    safety_critical: false
+
+  marks:
+    description: "Internal assessment marks, CGPA/SGPA calculation, grade cards, and performance analysis"
+    handler: "app.agent.nlu_engine.get_marks_summary"
+    source_agent: "Assessment Engine"
+    is_minor: false
+    safety_critical: false
+
+  fees:
+    description: "Tuition balance, pending dues, fee deadlines, payment transactions, late payment fines, and receipt downloads"
+    handler: "app.agent.nlu_engine.get_fees_summary"
+    source_agent: "Finance Engine"
+    is_minor: false
+    safety_critical: false
+
+  timetable:
+    description: "Daily class schedule, lecture time slots, classroom numbers, and lab venues"
+    handler: "app.agent.nlu_engine.get_timetable_summary"
+    source_agent: "Scheduling Service"
+    is_minor: false
+    safety_critical: false
+
+  curriculum:
+    description: "Graduation credit requirements, semester course roadmap, electives, and degree audit"
+    handler: "app.agent.nlu_engine.get_curriculum_summary"
+    source_agent: "Curriculum Engine"
+    is_minor: false
+    safety_critical: false
+
+  faculty:
+    description: "Contact information, phone numbers, email addresses, and cabin locations of mentors and course teachers"
+    handler: "app.database.DataRepository.get_student_advisors"
+    source_agent: "Faculty & Identity System"
+    is_minor: false
+    safety_critical: false
+
+  library:
+    description: "Library book circulation, issue limits, return due dates, and overdue book penalties"
+    handler: "app.agent.nlu_engine.get_library_summary"
+    source_agent: "Library System"
+    is_minor: false
+    safety_critical: false
+
+  hostel:
+    description: "Hostel accommodation, room allotment, mess timings, warden contacts, curfew hours, and outpass requests"
+    handler: "app.agent.nlu_engine.get_hostel_summary"
+    source_agent: "Hostel Administration"
+    is_minor: false
+    safety_critical: false
+
+  transport:
+    description: "University bus routes, shuttle timings, bus pass details, driver contacts, and campus transit"
+    handler: "app.agent.nlu_engine.get_transport_summary"
+    source_agent: "Campus Transport Service"
+    is_minor: false
+    safety_critical: false
+
+  circulars:
+    description: "Official administrative circulars, university announcements, holiday notifications, and senate notices"
+    handler: "app.agent.nlu_engine.get_circulars_summary"
+    source_agent: "Registrar Circulars Desk"
+    is_minor: false
+    safety_critical: false
+
+  events:
+    description: "Campus fests, technical symposiums, hackathons, sports tournaments, and upcoming university events"
+    handler: "app.agent.nlu_engine.get_events_summary"
+    source_agent: "Campus Events Cell"
+    is_minor: false
+    safety_critical: false
+
+  clubs:
+    description: "Student clubs directory, joining procedures, active societies, and extracurricular registrations"
+    handler: "app.database.DataRepository.get_clubs"
+    source_agent: "VIGBOT (Club Directory)"
+    is_minor: false
+    safety_critical: false
+
+  services:
+    description: "Official student service applications (bonafide certificate, transit pass endorsement, duplicate ID card, grievance)"
+    handler: "app.tools.services_tool.handle_service_request"
+    source_agent: "Workflow Automation"
+    is_minor: false
+    safety_critical: false
+
+  policy_bylaws:
+    description: "Institutional academic regulations (R22/R23), mandatory 75% attendance rule, 65-74.9% medical condonation, detention criteria"
+    handler: "app.agent.nlu_engine.search_policies_and_circulars"
+    source_agent: "Knowledge Hub"
+    is_minor: true
+    safety_critical: false
+
+  distress_support:
+    description: "Mental health crisis, severe emotional distress, academic study burnout, anxiety, counseling helpline inquiries"
+    handler: "app.tools.distress_tool.handle_crisis_escalation"
+    source_agent: "Distress Escalation & Counseling"
+    is_minor: true
+    safety_critical: true
+
+  greeting_smalltalk:
+    description: "Initial user greetings, hello/hi, bot identity inquiries, start/menu command, and open helpdesk assistance"
+    handler: "app.agent.nlu_engine.generate_proactive_briefing"
+    source_agent: "VIGBOT (Academic Briefing)"
+    is_minor: true
+    safety_critical: false
+
+  out_of_scope:
+    description: "Inquiries unrelated to university academics, campus services, or student institutional affairs"
+    handler: "app.agent.llm_client.LLMClient.chat_with_history"
+    source_agent: "VIGBOT (Conversational AI)"
+    is_minor: true
+    safety_critical: false

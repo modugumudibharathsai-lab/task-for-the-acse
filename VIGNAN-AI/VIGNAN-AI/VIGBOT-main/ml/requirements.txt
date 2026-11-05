@@ -1,0 +1,6 @@
+# Offline Development, Evaluation & Analysis Requirements
+-r ../BACKEND/requirements.txt
+datasets>=3.0.0
+matplotlib>=3.11.0
+narwhals>=2.27.0
+pyyaml>=6.0.0

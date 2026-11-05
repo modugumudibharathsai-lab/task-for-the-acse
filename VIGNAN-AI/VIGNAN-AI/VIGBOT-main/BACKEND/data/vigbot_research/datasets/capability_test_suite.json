@@ -1,0 +1,5042 @@
+[
+  {
+    "test_id": "home_01_direct_info",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about home?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_02_indirect_info",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle main page?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_03_conversational",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Helpdesk Home & Command Center works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_04_informal",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for start stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_05_hinglish",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "hinglish",
+    "query": "home kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_06_misspelling",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "misspellings",
+    "query": "Where is the home option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_07_abbreviation",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "abbreviations",
+    "query": "Need details on HOME rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_08_short_incomplete",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "short_incomplete",
+    "query": "Helpdesk Home & Command Center",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_09_explicit_navigation",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "navigation_request",
+    "query": "Open Helpdesk Home & Command Center",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_10_colloquial_navigation",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "navigation_request",
+    "query": "Take me to the home tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_11_asking_not_doing",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for home?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_12_action_intent",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for home",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_13_status_tracking",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my home?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_14_negative_request",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find main page",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_15_cancellation",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "cancel_request",
+    "query": "Cancel my home request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_16_unseen_student_language",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my home sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_17_multi_intent",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "multi_intent",
+    "query": "Tell me about home and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "home_18_hinglish_action",
+    "feature_id": "home",
+    "feature_name": "Helpdesk Home & Command Center",
+    "dimension": "hinglish_action",
+    "query": "Mujhe home apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "home",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_01_direct_info",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about lost?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_02_indirect_info",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle found?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_03_conversational",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Lost & Found works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_04_informal",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for lost and found stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_05_hinglish",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "hinglish",
+    "query": "lost kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_06_misspelling",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "misspellings",
+    "query": "Where is the lost option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_07_abbreviation",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "abbreviations",
+    "query": "Need details on LOST rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_08_short_incomplete",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "short_incomplete",
+    "query": "Lost & Found",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_09_explicit_navigation",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "navigation_request",
+    "query": "Open Lost & Found",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_10_colloquial_navigation",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "navigation_request",
+    "query": "Take me to the lost tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_11_asking_not_doing",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for lost?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_12_action_intent",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for lost",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_13_status_tracking",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my lost?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_14_negative_request",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find found",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_15_cancellation",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "cancel_request",
+    "query": "Cancel my lost request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_16_unseen_student_language",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my lost sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_17_multi_intent",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "multi_intent",
+    "query": "Tell me about lost and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "lost-and-found_18_hinglish_action",
+    "feature_id": "lost-and-found",
+    "feature_name": "Lost & Found",
+    "dimension": "hinglish_action",
+    "query": "Mujhe lost apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "lost-and-found",
+    "should_write": false
+  },
+  {
+    "test_id": "services_01_direct_info",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about service request?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_02_indirect_info",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle services?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_03_conversational",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Student Services works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_04_informal",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for bonafide stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_05_hinglish",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "hinglish",
+    "query": "service request kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_06_misspelling",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "misspellings",
+    "query": "Where is the service request option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_07_abbreviation",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "abbreviations",
+    "query": "Need details on SERVICE REQUEST rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_08_short_incomplete",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "short_incomplete",
+    "query": "Student Services",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_09_explicit_navigation",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "navigation_request",
+    "query": "Open Student Services",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_10_colloquial_navigation",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "navigation_request",
+    "query": "Take me to the service request tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_11_asking_not_doing",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for service request?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_12_action_intent",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for service request",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_13_status_tracking",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my service request?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_14_negative_request",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find services",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_15_cancellation",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "cancel_request",
+    "query": "Cancel my service request request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_16_unseen_student_language",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my service request sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_17_multi_intent",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "multi_intent",
+    "query": "Tell me about service request and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "services_18_hinglish_action",
+    "feature_id": "services",
+    "feature_name": "Student Services",
+    "dimension": "hinglish_action",
+    "query": "Mujhe service request apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_01_direct_info",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about attendance?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_02_indirect_info",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle attendence?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_03_conversational",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Attendance works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_04_informal",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for classes held stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_05_hinglish",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "hinglish",
+    "query": "attendance kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_06_misspelling",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "misspellings",
+    "query": "Where is the attendence option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_07_abbreviation",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "abbreviations",
+    "query": "Need details on ATTENDANCE rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_08_short_incomplete",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "short_incomplete",
+    "query": "Attendance",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_09_explicit_navigation",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "navigation_request",
+    "query": "Open Attendance",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_10_colloquial_navigation",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "navigation_request",
+    "query": "Take me to the attendance tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_11_asking_not_doing",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for attendance?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_12_action_intent",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for attendance",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_13_status_tracking",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my attendance?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_14_negative_request",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find attendence",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_15_cancellation",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "cancel_request",
+    "query": "Cancel my attendance request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_16_unseen_student_language",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my attendance sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_17_multi_intent",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "multi_intent",
+    "query": "Tell me about attendance and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "attendance_18_hinglish_action",
+    "feature_id": "attendance",
+    "feature_name": "Attendance",
+    "dimension": "hinglish_action",
+    "query": "Mujhe attendance apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "attendance",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_01_direct_info",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about marks?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_02_indirect_info",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle score?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_03_conversational",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Marks & CGPA works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_04_informal",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for scores stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_05_hinglish",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "hinglish",
+    "query": "marks kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_06_misspelling",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "misspellings",
+    "query": "Where is the marks option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_07_abbreviation",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "abbreviations",
+    "query": "Need details on MARKS rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_08_short_incomplete",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "short_incomplete",
+    "query": "Marks & CGPA",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_09_explicit_navigation",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "navigation_request",
+    "query": "Open Marks & CGPA",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_10_colloquial_navigation",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "navigation_request",
+    "query": "Take me to the marks tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_11_asking_not_doing",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for marks?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_12_action_intent",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for marks",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_13_status_tracking",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my marks?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_14_negative_request",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find score",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_15_cancellation",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "cancel_request",
+    "query": "Cancel my marks request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_16_unseen_student_language",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my marks sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_17_multi_intent",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "multi_intent",
+    "query": "Tell me about marks and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "marks_18_hinglish_action",
+    "feature_id": "marks",
+    "feature_name": "Marks & CGPA",
+    "dimension": "hinglish_action",
+    "query": "Mujhe marks apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "marks",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_01_direct_info",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about timetable?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_02_indirect_info",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle schedule?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_03_conversational",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Timetable & Schedule works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_04_informal",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for classes today stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_05_hinglish",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "hinglish",
+    "query": "timetable kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_06_misspelling",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "misspellings",
+    "query": "Where is the timetable option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_07_abbreviation",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "abbreviations",
+    "query": "Need details on TIMETABLE rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_08_short_incomplete",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "short_incomplete",
+    "query": "Timetable & Schedule",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_09_explicit_navigation",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "navigation_request",
+    "query": "Open Timetable & Schedule",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_10_colloquial_navigation",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "navigation_request",
+    "query": "Take me to the timetable tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_11_asking_not_doing",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for timetable?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_12_action_intent",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for timetable",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_13_status_tracking",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my timetable?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_14_negative_request",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find schedule",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_15_cancellation",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "cancel_request",
+    "query": "Cancel my timetable request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_16_unseen_student_language",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my timetable sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_17_multi_intent",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "multi_intent",
+    "query": "Tell me about timetable and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "timetable_18_hinglish_action",
+    "feature_id": "timetable",
+    "feature_name": "Timetable & Schedule",
+    "dimension": "hinglish_action",
+    "query": "Mujhe timetable apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "timetable",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_01_direct_info",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about exam?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_02_indirect_info",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle exams?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_03_conversational",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Examinations & Assessments works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_04_informal",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for examination stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_05_hinglish",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "hinglish",
+    "query": "exam kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_06_misspelling",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "misspellings",
+    "query": "Where is the exam option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_07_abbreviation",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "abbreviations",
+    "query": "Need details on EXAM rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_08_short_incomplete",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "short_incomplete",
+    "query": "Examinations & Assessments",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_09_explicit_navigation",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "navigation_request",
+    "query": "Open Examinations & Assessments",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_10_colloquial_navigation",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "navigation_request",
+    "query": "Take me to the exam tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_11_asking_not_doing",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for exam?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_12_action_intent",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for exam",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_13_status_tracking",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my exam?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_14_negative_request",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find exams",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_15_cancellation",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "cancel_request",
+    "query": "Cancel my exam request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_16_unseen_student_language",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my exam sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_17_multi_intent",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "multi_intent",
+    "query": "Tell me about exam and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "exams_18_hinglish_action",
+    "feature_id": "exams",
+    "feature_name": "Examinations & Assessments",
+    "dimension": "hinglish_action",
+    "query": "Mujhe exam apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "exams",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_01_direct_info",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about fee?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_02_indirect_info",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle fees?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_03_conversational",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Fees & Payments works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_04_informal",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for dues stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_05_hinglish",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "hinglish",
+    "query": "fee kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_06_misspelling",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "misspellings",
+    "query": "Where is the fess option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_07_abbreviation",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "abbreviations",
+    "query": "Need details on FEE rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_08_short_incomplete",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "short_incomplete",
+    "query": "Fees & Payments",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_09_explicit_navigation",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "navigation_request",
+    "query": "Open Fees & Payments",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_10_colloquial_navigation",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "navigation_request",
+    "query": "Take me to the fee tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_11_asking_not_doing",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for fee?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_12_action_intent",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for fee",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_13_status_tracking",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my fee?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_14_negative_request",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find fees",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_15_cancellation",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "cancel_request",
+    "query": "Cancel my fee request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_16_unseen_student_language",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my fee sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_17_multi_intent",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "multi_intent",
+    "query": "Tell me about fee and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "fees_18_hinglish_action",
+    "feature_id": "fees",
+    "feature_name": "Fees & Payments",
+    "dimension": "hinglish_action",
+    "query": "Mujhe fee apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "fees",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_01_direct_info",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about curriculum?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_02_indirect_info",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle syllabus?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_03_conversational",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Curriculum & Degree Audit works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_04_informal",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for credits stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_05_hinglish",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "hinglish",
+    "query": "curriculum kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_06_misspelling",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "misspellings",
+    "query": "Where is the curriculum option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_07_abbreviation",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "abbreviations",
+    "query": "Need details on CURRICULUM rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_08_short_incomplete",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "short_incomplete",
+    "query": "Curriculum & Degree Audit",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_09_explicit_navigation",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "navigation_request",
+    "query": "Open Curriculum & Degree Audit",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_10_colloquial_navigation",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "navigation_request",
+    "query": "Take me to the curriculum tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_11_asking_not_doing",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for curriculum?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_12_action_intent",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for curriculum",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_13_status_tracking",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my curriculum?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_14_negative_request",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find syllabus",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_15_cancellation",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "cancel_request",
+    "query": "Cancel my curriculum request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_16_unseen_student_language",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my curriculum sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_17_multi_intent",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "multi_intent",
+    "query": "Tell me about curriculum and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "curriculum_18_hinglish_action",
+    "feature_id": "curriculum",
+    "feature_name": "Curriculum & Degree Audit",
+    "dimension": "hinglish_action",
+    "query": "Mujhe curriculum apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "curriculum",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_01_direct_info",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about hostel?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_02_indirect_info",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle mess?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_03_conversational",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Hostel & Mess Services works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_04_informal",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for mess food stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_05_hinglish",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "hinglish",
+    "query": "hostel kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_06_misspelling",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "misspellings",
+    "query": "Where is the hostle option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_07_abbreviation",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "abbreviations",
+    "query": "Need details on HOSTEL rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_08_short_incomplete",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "short_incomplete",
+    "query": "Hostel & Mess Services",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_09_explicit_navigation",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "navigation_request",
+    "query": "Open Hostel & Mess Services",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_10_colloquial_navigation",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "navigation_request",
+    "query": "Take me to the hostel tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_11_asking_not_doing",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for hostel?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_12_action_intent",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for hostel",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_13_status_tracking",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my hostel?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_14_negative_request",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find mess",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_15_cancellation",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "cancel_request",
+    "query": "Cancel my hostel request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_16_unseen_student_language",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my hostel sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_17_multi_intent",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "multi_intent",
+    "query": "Tell me about hostel and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "hostel_18_hinglish_action",
+    "feature_id": "hostel",
+    "feature_name": "Hostel & Mess Services",
+    "dimension": "hinglish_action",
+    "query": "Mujhe hostel apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "hostel",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_01_direct_info",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about bus?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_02_indirect_info",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle transport?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_03_conversational",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Campus Transport & Bus Tracking works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_04_informal",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for bus route stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_05_hinglish",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "hinglish",
+    "query": "bus kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_06_misspelling",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "misspellings",
+    "query": "Where is the bus option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_07_abbreviation",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "abbreviations",
+    "query": "Need details on BUS rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_08_short_incomplete",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "short_incomplete",
+    "query": "Campus Transport & Bus Tracking",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_09_explicit_navigation",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "navigation_request",
+    "query": "Open Campus Transport & Bus Tracking",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_10_colloquial_navigation",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "navigation_request",
+    "query": "Take me to the bus tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_11_asking_not_doing",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for bus?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_12_action_intent",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for bus",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_13_status_tracking",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my bus?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_14_negative_request",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find transport",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_15_cancellation",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "cancel_request",
+    "query": "Cancel my bus request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_16_unseen_student_language",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my bus sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_17_multi_intent",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "multi_intent",
+    "query": "Tell me about bus and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "transport_18_hinglish_action",
+    "feature_id": "transport",
+    "feature_name": "Campus Transport & Bus Tracking",
+    "dimension": "hinglish_action",
+    "query": "Mujhe bus apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "transport",
+    "should_write": false
+  },
+  {
+    "test_id": "library_01_direct_info",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about library?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_02_indirect_info",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle book?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_03_conversational",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Central Library works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_04_informal",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for books stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_05_hinglish",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "hinglish",
+    "query": "library kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_06_misspelling",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "misspellings",
+    "query": "Where is the library option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_07_abbreviation",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "abbreviations",
+    "query": "Need details on LIBRARY rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_08_short_incomplete",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "short_incomplete",
+    "query": "Central Library",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_09_explicit_navigation",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "navigation_request",
+    "query": "Open Central Library",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_10_colloquial_navigation",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "navigation_request",
+    "query": "Take me to the library tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_11_asking_not_doing",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for library?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_12_action_intent",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for library",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_13_status_tracking",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my library?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_14_negative_request",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find book",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_15_cancellation",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "cancel_request",
+    "query": "Cancel my library request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_16_unseen_student_language",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my library sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_17_multi_intent",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "multi_intent",
+    "query": "Tell me about library and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "library_18_hinglish_action",
+    "feature_id": "library",
+    "feature_name": "Central Library",
+    "dimension": "hinglish_action",
+    "query": "Mujhe library apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "library",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_01_direct_info",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about booking?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_02_indirect_info",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle book facility?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_03_conversational",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Facility Bookings works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_04_informal",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for seminar hall stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_05_hinglish",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "hinglish",
+    "query": "booking kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_06_misspelling",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "misspellings",
+    "query": "Where is the booking option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_07_abbreviation",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "abbreviations",
+    "query": "Need details on BOOKING rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_08_short_incomplete",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "short_incomplete",
+    "query": "Facility Bookings",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_09_explicit_navigation",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "navigation_request",
+    "query": "Open Facility Bookings",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_10_colloquial_navigation",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "navigation_request",
+    "query": "Take me to the booking tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_11_asking_not_doing",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for booking?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_12_action_intent",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for booking",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_13_status_tracking",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my booking?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_14_negative_request",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find book facility",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_15_cancellation",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "cancel_request",
+    "query": "Cancel my booking request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_16_unseen_student_language",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my booking sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_17_multi_intent",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "multi_intent",
+    "query": "Tell me about booking and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "bookings_18_hinglish_action",
+    "feature_id": "bookings",
+    "feature_name": "Facility Bookings",
+    "dimension": "hinglish_action",
+    "query": "Mujhe booking apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "bookings",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_01_direct_info",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about club?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_02_indirect_info",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle clubs?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_03_conversational",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Clubs & Extracurriculars works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_04_informal",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for extracurricular stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_05_hinglish",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "hinglish",
+    "query": "club kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_06_misspelling",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "misspellings",
+    "query": "Where is the club option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_07_abbreviation",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "abbreviations",
+    "query": "Need details on CLUB rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_08_short_incomplete",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "short_incomplete",
+    "query": "Clubs & Extracurriculars",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_09_explicit_navigation",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "navigation_request",
+    "query": "Open Clubs & Extracurriculars",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_10_colloquial_navigation",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "navigation_request",
+    "query": "Take me to the club tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_11_asking_not_doing",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for club?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_12_action_intent",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for club",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_13_status_tracking",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my club?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_14_negative_request",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find clubs",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_15_cancellation",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "cancel_request",
+    "query": "Cancel my club request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_16_unseen_student_language",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my club sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_17_multi_intent",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "multi_intent",
+    "query": "Tell me about club and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "clubs_18_hinglish_action",
+    "feature_id": "clubs",
+    "feature_name": "Clubs & Extracurriculars",
+    "dimension": "hinglish_action",
+    "query": "Mujhe club apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "clubs",
+    "should_write": false
+  },
+  {
+    "test_id": "events_01_direct_info",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about event?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_02_indirect_info",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle events?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_03_conversational",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Event Registration works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_04_informal",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for hackathon stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_05_hinglish",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "hinglish",
+    "query": "event kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_06_misspelling",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "misspellings",
+    "query": "Where is the event option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_07_abbreviation",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "abbreviations",
+    "query": "Need details on EVENT rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_08_short_incomplete",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "short_incomplete",
+    "query": "Event Registration",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_09_explicit_navigation",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "navigation_request",
+    "query": "Open Event Registration",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_10_colloquial_navigation",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "navigation_request",
+    "query": "Take me to the event tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_11_asking_not_doing",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for event?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_12_action_intent",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for event",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_13_status_tracking",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my event?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_14_negative_request",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find events",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_15_cancellation",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "cancel_request",
+    "query": "Cancel my event request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_16_unseen_student_language",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my event sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_17_multi_intent",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "multi_intent",
+    "query": "Tell me about event and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "events_18_hinglish_action",
+    "feature_id": "events",
+    "feature_name": "Event Registration",
+    "dimension": "hinglish_action",
+    "query": "Mujhe event apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "events",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_01_direct_info",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about marketplace?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_02_indirect_info",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle buy?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_03_conversational",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Student Marketplace works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_04_informal",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for sell stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_05_hinglish",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "hinglish",
+    "query": "marketplace kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_06_misspelling",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "misspellings",
+    "query": "Where is the marketplace option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_07_abbreviation",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "abbreviations",
+    "query": "Need details on MARKETPLACE rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_08_short_incomplete",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "short_incomplete",
+    "query": "Student Marketplace",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_09_explicit_navigation",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "navigation_request",
+    "query": "Open Student Marketplace",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_10_colloquial_navigation",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "navigation_request",
+    "query": "Take me to the marketplace tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_11_asking_not_doing",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for marketplace?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_12_action_intent",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for marketplace",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_13_status_tracking",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my marketplace?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_14_negative_request",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find buy",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_15_cancellation",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "cancel_request",
+    "query": "Cancel my marketplace request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_16_unseen_student_language",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my marketplace sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_17_multi_intent",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "multi_intent",
+    "query": "Tell me about marketplace and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "marketplace_18_hinglish_action",
+    "feature_id": "marketplace",
+    "feature_name": "Student Marketplace",
+    "dimension": "hinglish_action",
+    "query": "Mujhe marketplace apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "marketplace",
+    "should_write": false
+  },
+  {
+    "test_id": "map_01_direct_info",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about map?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_02_indirect_info",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle campus map?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_03_conversational",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Campus Map & Navigation works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_04_informal",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for directions stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_05_hinglish",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "hinglish",
+    "query": "map kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_06_misspelling",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "misspellings",
+    "query": "Where is the map option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_07_abbreviation",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "abbreviations",
+    "query": "Need details on MAP rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_08_short_incomplete",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "short_incomplete",
+    "query": "Campus Map & Navigation",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_09_explicit_navigation",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "navigation_request",
+    "query": "Open Campus Map & Navigation",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_10_colloquial_navigation",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "navigation_request",
+    "query": "Take me to the map tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_11_asking_not_doing",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for map?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_12_action_intent",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for map",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_13_status_tracking",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my map?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_14_negative_request",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find campus map",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_15_cancellation",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "cancel_request",
+    "query": "Cancel my map request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_16_unseen_student_language",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my map sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_17_multi_intent",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "multi_intent",
+    "query": "Tell me about map and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "map_18_hinglish_action",
+    "feature_id": "map",
+    "feature_name": "Campus Map & Navigation",
+    "dimension": "hinglish_action",
+    "query": "Mujhe map apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "map",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_01_direct_info",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about wellness?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_02_indirect_info",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle counseling?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_03_conversational",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Student Wellness & Counseling works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_04_informal",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for counsellor stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_05_hinglish",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "hinglish",
+    "query": "wellness kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_06_misspelling",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "misspellings",
+    "query": "Where is the wellness option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_07_abbreviation",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "abbreviations",
+    "query": "Need details on WELLNESS rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_08_short_incomplete",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "short_incomplete",
+    "query": "Student Wellness & Counseling",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_09_explicit_navigation",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "navigation_request",
+    "query": "Open Student Wellness & Counseling",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_10_colloquial_navigation",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "navigation_request",
+    "query": "Take me to the wellness tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_11_asking_not_doing",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for wellness?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_12_action_intent",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for wellness",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_13_status_tracking",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my wellness?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_14_negative_request",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find counseling",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_15_cancellation",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "cancel_request",
+    "query": "Cancel my wellness request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_16_unseen_student_language",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my wellness sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_17_multi_intent",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "multi_intent",
+    "query": "Tell me about wellness and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "wellness_18_hinglish_action",
+    "feature_id": "wellness",
+    "feature_name": "Student Wellness & Counseling",
+    "dimension": "hinglish_action",
+    "query": "Mujhe wellness apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "wellness",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_01_direct_info",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about policy?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_02_indirect_info",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle policies?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_03_conversational",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Policies & Academic Regulations works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_04_informal",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for rules stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_05_hinglish",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "hinglish",
+    "query": "policy kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_06_misspelling",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "misspellings",
+    "query": "Where is the policy option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_07_abbreviation",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "abbreviations",
+    "query": "Need details on POLICY rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_08_short_incomplete",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "short_incomplete",
+    "query": "Policies & Academic Regulations",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_09_explicit_navigation",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "navigation_request",
+    "query": "Open Policies & Academic Regulations",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_10_colloquial_navigation",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "navigation_request",
+    "query": "Take me to the policy tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_11_asking_not_doing",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for policy?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_12_action_intent",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for policy",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_13_status_tracking",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my policy?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_14_negative_request",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find policies",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_15_cancellation",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "cancel_request",
+    "query": "Cancel my policy request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_16_unseen_student_language",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my policy sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_17_multi_intent",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "multi_intent",
+    "query": "Tell me about policy and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "policies_18_hinglish_action",
+    "feature_id": "policies",
+    "feature_name": "Policies & Academic Regulations",
+    "dimension": "hinglish_action",
+    "query": "Mujhe policy apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "policies",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_01_direct_info",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about circular?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_02_indirect_info",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle circulars?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_03_conversational",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Circulars & Notices works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_04_informal",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for notice stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_05_hinglish",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "hinglish",
+    "query": "circular kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_06_misspelling",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "misspellings",
+    "query": "Where is the circular option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_07_abbreviation",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "abbreviations",
+    "query": "Need details on CIRCULAR rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_08_short_incomplete",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "short_incomplete",
+    "query": "Circulars & Notices",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_09_explicit_navigation",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "navigation_request",
+    "query": "Open Circulars & Notices",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_10_colloquial_navigation",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "navigation_request",
+    "query": "Take me to the circular tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_11_asking_not_doing",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for circular?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_12_action_intent",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for circular",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_13_status_tracking",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my circular?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_14_negative_request",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find circulars",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_15_cancellation",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "cancel_request",
+    "query": "Cancel my circular request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_16_unseen_student_language",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my circular sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_17_multi_intent",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "multi_intent",
+    "query": "Tell me about circular and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "circulars_18_hinglish_action",
+    "feature_id": "circulars",
+    "feature_name": "Circulars & Notices",
+    "dimension": "hinglish_action",
+    "query": "Mujhe circular apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "circulars",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_01_direct_info",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about calendar?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_02_indirect_info",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle academic calendar?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_03_conversational",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Academic Calendar works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_04_informal",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for semester schedule stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_05_hinglish",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "hinglish",
+    "query": "calendar kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_06_misspelling",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "misspellings",
+    "query": "Where is the calendar option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_07_abbreviation",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "abbreviations",
+    "query": "Need details on CALENDAR rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_08_short_incomplete",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "short_incomplete",
+    "query": "Academic Calendar",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_09_explicit_navigation",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "navigation_request",
+    "query": "Open Academic Calendar",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_10_colloquial_navigation",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "navigation_request",
+    "query": "Take me to the calendar tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_11_asking_not_doing",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for calendar?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_12_action_intent",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for calendar",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_13_status_tracking",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my calendar?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_14_negative_request",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find academic calendar",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_15_cancellation",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "cancel_request",
+    "query": "Cancel my calendar request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_16_unseen_student_language",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my calendar sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_17_multi_intent",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "multi_intent",
+    "query": "Tell me about calendar and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "calendar_18_hinglish_action",
+    "feature_id": "calendar",
+    "feature_name": "Academic Calendar",
+    "dimension": "hinglish_action",
+    "query": "Mujhe calendar apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "calendar",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_01_direct_info",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about gamification?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_02_indirect_info",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle points?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_03_conversational",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Achievements & Streaks works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_04_informal",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for karma stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_05_hinglish",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "hinglish",
+    "query": "gamification kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_06_misspelling",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "misspellings",
+    "query": "Where is the gamification option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_07_abbreviation",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "abbreviations",
+    "query": "Need details on GAMIFICATION rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_08_short_incomplete",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "short_incomplete",
+    "query": "Achievements & Streaks",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_09_explicit_navigation",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "navigation_request",
+    "query": "Open Achievements & Streaks",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_10_colloquial_navigation",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "navigation_request",
+    "query": "Take me to the gamification tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_11_asking_not_doing",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for gamification?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_12_action_intent",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for gamification",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_13_status_tracking",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my gamification?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_14_negative_request",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find points",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_15_cancellation",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "cancel_request",
+    "query": "Cancel my gamification request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_16_unseen_student_language",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my gamification sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_17_multi_intent",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "multi_intent",
+    "query": "Tell me about gamification and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "gamification_18_hinglish_action",
+    "feature_id": "gamification",
+    "feature_name": "Achievements & Streaks",
+    "dimension": "hinglish_action",
+    "query": "Mujhe gamification apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "gamification",
+    "should_write": false
+  },
+  {
+    "test_id": "career_01_direct_info",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about placement?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_02_indirect_info",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle placements?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_03_conversational",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Career Hub & Placements works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_04_informal",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for job stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_05_hinglish",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "hinglish",
+    "query": "placement kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_06_misspelling",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "misspellings",
+    "query": "Where is the placement option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_07_abbreviation",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "abbreviations",
+    "query": "Need details on PLACEMENT rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_08_short_incomplete",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "short_incomplete",
+    "query": "Career Hub & Placements",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_09_explicit_navigation",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "navigation_request",
+    "query": "Open Career Hub & Placements",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_10_colloquial_navigation",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "navigation_request",
+    "query": "Take me to the placement tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_11_asking_not_doing",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for placement?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_12_action_intent",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for placement",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_13_status_tracking",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my placement?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_14_negative_request",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find placements",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_15_cancellation",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "cancel_request",
+    "query": "Cancel my placement request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_16_unseen_student_language",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my placement sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_17_multi_intent",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "multi_intent",
+    "query": "Tell me about placement and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "career_18_hinglish_action",
+    "feature_id": "career",
+    "feature_name": "Career Hub & Placements",
+    "dimension": "hinglish_action",
+    "query": "Mujhe placement apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "career",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_01_direct_info",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about grievance?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_02_indirect_info",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle complaint?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_03_conversational",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Student Grievance Redressal works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_04_informal",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for file complaint stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_05_hinglish",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "hinglish",
+    "query": "grievance kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_06_misspelling",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "misspellings",
+    "query": "Where is the grievance option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_07_abbreviation",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "abbreviations",
+    "query": "Need details on GRIEVANCE rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_08_short_incomplete",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "short_incomplete",
+    "query": "Student Grievance Redressal",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_09_explicit_navigation",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "navigation_request",
+    "query": "Open Student Grievance Redressal",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_10_colloquial_navigation",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "navigation_request",
+    "query": "Take me to the grievance tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_11_asking_not_doing",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for grievance?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_12_action_intent",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for grievance",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_13_status_tracking",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my grievance?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_14_negative_request",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find complaint",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_15_cancellation",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "cancel_request",
+    "query": "Cancel my grievance request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_16_unseen_student_language",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my grievance sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_17_multi_intent",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "multi_intent",
+    "query": "Tell me about grievance and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "grievance_18_hinglish_action",
+    "feature_id": "grievance",
+    "feature_name": "Student Grievance Redressal",
+    "dimension": "hinglish_action",
+    "query": "Mujhe grievance apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "services",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_01_direct_info",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about poll?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_02_indirect_info",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle polls?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_03_conversational",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Campus Polls & Voting works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_04_informal",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for voting stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_05_hinglish",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "hinglish",
+    "query": "poll kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_06_misspelling",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "misspellings",
+    "query": "Where is the poll option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_07_abbreviation",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "abbreviations",
+    "query": "Need details on POLL rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_08_short_incomplete",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "short_incomplete",
+    "query": "Campus Polls & Voting",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_09_explicit_navigation",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "navigation_request",
+    "query": "Open Campus Polls & Voting",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_10_colloquial_navigation",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "navigation_request",
+    "query": "Take me to the poll tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_11_asking_not_doing",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for poll?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_12_action_intent",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for poll",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_13_status_tracking",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my poll?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_14_negative_request",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find polls",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_15_cancellation",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "cancel_request",
+    "query": "Cancel my poll request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_16_unseen_student_language",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my poll sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_17_multi_intent",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "multi_intent",
+    "query": "Tell me about poll and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "polling_18_hinglish_action",
+    "feature_id": "polling",
+    "feature_name": "Campus Polls & Voting",
+    "dimension": "hinglish_action",
+    "query": "Mujhe poll apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "polling",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_01_direct_info",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about alumni?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_02_indirect_info",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle alumnus?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_03_conversational",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Alumni Mentorship Network works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_04_informal",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for alumna stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_05_hinglish",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "hinglish",
+    "query": "alumni kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_06_misspelling",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "misspellings",
+    "query": "Where is the alumni option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_07_abbreviation",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "abbreviations",
+    "query": "Need details on ALUMNI rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_08_short_incomplete",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "short_incomplete",
+    "query": "Alumni Mentorship Network",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_09_explicit_navigation",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "navigation_request",
+    "query": "Open Alumni Mentorship Network",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_10_colloquial_navigation",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "navigation_request",
+    "query": "Take me to the alumni tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_11_asking_not_doing",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for alumni?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_12_action_intent",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for alumni",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_13_status_tracking",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my alumni?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_14_negative_request",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find alumnus",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_15_cancellation",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "cancel_request",
+    "query": "Cancel my alumni request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_16_unseen_student_language",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my alumni sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_17_multi_intent",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "multi_intent",
+    "query": "Tell me about alumni and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "alumni_18_hinglish_action",
+    "feature_id": "alumni",
+    "feature_name": "Alumni Mentorship Network",
+    "dimension": "hinglish_action",
+    "query": "Mujhe alumni apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "alumni",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_01_direct_info",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about profile?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_02_indirect_info",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle my profile?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_03_conversational",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Student Profile & Advisors works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_04_informal",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for student profile stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_05_hinglish",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "hinglish",
+    "query": "profile kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_06_misspelling",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "misspellings",
+    "query": "Where is the profile option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_07_abbreviation",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "abbreviations",
+    "query": "Need details on PROFILE rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_08_short_incomplete",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "short_incomplete",
+    "query": "Student Profile & Advisors",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_09_explicit_navigation",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "navigation_request",
+    "query": "Open Student Profile & Advisors",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_10_colloquial_navigation",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "navigation_request",
+    "query": "Take me to the profile tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_11_asking_not_doing",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for profile?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_12_action_intent",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for profile",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_13_status_tracking",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my profile?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_14_negative_request",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find my profile",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_15_cancellation",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "cancel_request",
+    "query": "Cancel my profile request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_16_unseen_student_language",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my profile sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_17_multi_intent",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "multi_intent",
+    "query": "Tell me about profile and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "student-profile_18_hinglish_action",
+    "feature_id": "student-profile",
+    "feature_name": "Student Profile & Advisors",
+    "dimension": "hinglish_action",
+    "query": "Mujhe profile apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "student-profile",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_01_direct_info",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "direct_wording",
+    "query": "Where can I find information about admin?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_02_indirect_info",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "indirect_wording",
+    "query": "Is there a dedicated section on the portal to handle admin panel?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_03_conversational",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "conversational_wording",
+    "query": "Could you please explain how Administrative Control Panel works at our university?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_04_informal",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "informal_english",
+    "query": "Hey where do I go for administrator stuff?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_05_hinglish",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "hinglish",
+    "query": "admin kahan se check kar sakte hain?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_06_misspelling",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "misspellings",
+    "query": "Where is the admin option located?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_07_abbreviation",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "abbreviations",
+    "query": "Need details on ADMIN rules.",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_08_short_incomplete",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "short_incomplete",
+    "query": "Administrative Control Panel",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_09_explicit_navigation",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "navigation_request",
+    "query": "Open Administrative Control Panel",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_10_colloquial_navigation",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "navigation_request",
+    "query": "Take me to the admin tab",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_11_asking_not_doing",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "asking_vs_doing",
+    "query": "Where can I submit a request for admin?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_12_action_intent",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "action_request",
+    "query": "I want to submit a new entry for admin",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_13_status_tracking",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "status_lookup",
+    "query": "Can I check the status of my admin?",
+    "expected_intent": "STATUS_LOOKUP",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_14_negative_request",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "negative_request",
+    "query": "Don't submit anything, just tell me where to find admin panel",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_15_cancellation",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "cancel_request",
+    "query": "Cancel my admin request",
+    "expected_intent": "CANCEL_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_16_unseen_student_language",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "unseen_generalization",
+    "query": "How am I supposed to get my admin sorted out?",
+    "expected_intent": "INFORMATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_17_multi_intent",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "multi_intent",
+    "query": "Tell me about admin and open the page",
+    "expected_intent": "NAVIGATION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  },
+  {
+    "test_id": "admin_18_hinglish_action",
+    "feature_id": "admin",
+    "feature_name": "Administrative Control Panel",
+    "dimension": "hinglish_action",
+    "query": "Mujhe admin apply karna hai",
+    "expected_intent": "ACTION_REQUEST",
+    "expected_tab": "admin",
+    "should_write": false
+  }
+]

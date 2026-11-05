@@ -1,0 +1,372 @@
+text,intent,lang,author
+dms lo attendance entha undhi,attendance,te_roman,pragna
+what is my overall attendance?,attendance,en,pragna
+which subject do i have low attendance?,attendance,en,pragna
+which subject do i have high attendance?,attendance,en,pragna
+how much i lose if i bunk this class?,attendance,en,pragna
+how much attendance increased?,attendance,en,pragna
+how much attendance increases for each class?,attendance,en,pragna
+nak endhuk attendance takkuva undhi,attendance,te_roman,pragna
+what are the disadvantages of having less attendance?,policy_bylaws,en,pragna
+what is r grade?,policy_bylaws,en,pragna
+why do we get r grade?,policy_bylaws,en,pragna
+how much should we pay if i have less than 75?,policy_bylaws,en,pragna
+what is the minimum attendance we should maintain?,policy_bylaws,en,pragna
+what are the benefits of having more than 90?,policy_bylaws,en,pragna
+how much condonation fee we will have to pay?,policy_bylaws,en,pragna
+what happens if i have less than 75?,policy_bylaws,en,pragna
+When are my mid exams?,exams,en,pragna
+When will the semester exams start?,exams,en,pragna
+What is the last date to apply for supply exams?,exams,en,pragna
+How can I check my exam timetable?,exams,en,pragna
+When will the exam timetable be released?,exams,en,pragna
+Can I write the exam if I have low attendance?,policy_bylaws,en,pragna
+When will the semester exam results come?,marks,en,pragna
+Can I apply for recounting of marks?,exams,en,pragna
+How much is the supply exam fee?,fees,en,pragna
+Can I change my exam centre?,exams,en,pragna
+How can I know my exam dates subject wise?,exams,en,pragna
+Where can I ask about exam problems?,exams,en,pragna
+How many marks did I get in Mid-1?,marks,en,pragna
+What is my CGPA?,marks,en,pragna
+Show me my internal marks.,marks,en,pragna
+How many marks did I get in maths?,marks,en,pragna
+na marks endhuku choopinchatledhu,marks,te_roman,pragna
+When will the internal marks be updated?,marks,en,pragna
+How many marks are needed to pass a subject?,marks,en,pragna
+What is the highest CGPA I can get?,marks,en,pragna
+How can I calculate my CGPA?,marks,en,pragna
+Can I ask for a correction in my marks?,marks,en,pragna
+Who should I contact if my marks are wrong?,marks,en,pragna
+What is my total internal score?,marks,en,pragna
+How can I improve my CGPA?,marks,en,pragna
+What classes do I have today?,timetable,en,pragna
+What is my next period?,timetable,en,pragna
+When is my lab class?,timetable,en,pragna
+What is my classroom number?,timetable,en,pragna
+Where is my next class?,timetable,en,pragna
+When does my first class start?,timetable,en,pragna
+When will my classes finish today?,timetable,en,pragna
+ee roju emina free period undha,timetable,te_roman,pragna
+When is my maths class?,timetable,en,pragna
+When is my programming lab?,timetable,en,pragna
+Has today's timetable changed?,timetable,en,pragna
+What time does the second period start?,timetable,en,pragna
+Which lab do I have today?,timetable,en,pragna
+Is there any class cancelled today?,timetable,en,pragna
+What subjects do I have in first year?,curriculum,en,pragna
+How many credits does maths have?,curriculum,en,pragna
+What are the subjects in this semester?,curriculum,en,pragna
+How can I download my syllabus?,curriculum,en,pragna
+What are the subjects in the next semester?,curriculum,en,pragna
+How many credits do I need to complete my degree?,curriculum,en,pragna
+What are the elective subjects available?,curriculum,en,pragna
+What is an elective subject?,curriculum,en,pragna
+Which subjects do I have in second year?,curriculum,en,pragna
+python lo em em topics unnayi,curriculum,te_roman,pragna
+Where can I find the subject course details?,curriculum,en,pragna
+What is the syllabus for computer networks?,curriculum,en,pragna
+What are the subjects in the CSE branch?,curriculum,en,pragna
+Can I choose my own elective subject?,curriculum,en,pragna
+What is the syllabus for the semester exams?,curriculum,en,pragna
+Which subjects have practical exams?,curriculum,en,pragna
+Where can I get the latest CSE curriculum?,curriculum,en,pragna
+Where is the HOD cabin?,faculty,en,pragna
+What is my faculty email ID?,faculty,en,pragna
+How can I contact my class teacher?,faculty,en,pragna
+What is my counsellor's phone number?,faculty,en,pragna
+Who is the HOD of CSE?,faculty,en,pragna
+How can I meet my HOD?,faculty,en,pragna
+When is the HOD available?,faculty,en,pragna
+Who is my class counsellor?,faculty,en,pragna
+Where is the faculty room?,faculty,en,pragna
+How can I send an email to my teacher?,faculty,en,pragna
+Who should I contact for academic problems?,faculty,en,pragna
+How can I book an appointment with a faculty member?,faculty,en,pragna
+Who is my subject teacher?,faculty,en,pragna
+Where can I find my teacher's cabin number?,faculty,en,pragna
+How can I contact my project guide?,faculty,en,pragna
+Who can help me with attendance problems?,faculty,en,pragna
+How can I get my faculty's official email address?,faculty,en,pragna
+Where can I complain about a faculty issue?,services,en,pragna
+When should I return my library book?,library,en,pragna
+How much library fine do I have?,library,en,pragna
+Where is the college library?,library,en,pragna
+How can I borrow a book from the library?,library,en,pragna
+How can I renew my library book?,library,en,pragna
+What happens if I return a book late?,library,en,pragna
+How can I check if a book is available?,library,en,pragna
+Can I study in the library after classes?,library,en,pragna
+Can I use the library on Sunday?,library,en,pragna
+Can I borrow books during semester exams?,library,en,pragna
+How do I pay my library fine?,library,en,pragna
+Where should I return my books?,library,en,pragna
+Who should I contact if my library card is not working?,library,en,pragna
+What is today's hostel mess menu?,hostel,en,pragna
+"My hostel Wi-Fi is not working, what should I do?",hostel,en,pragna
+What time is the hostel gate closed?,hostel,en,pragna
+How can I complain about hostel food?,hostel,en,pragna
+Can I change my hostel room?,hostel,en,pragna
+How can I contact the hostel warden?,hostel,en,pragna
+What time is breakfast served?,hostel,en,pragna
+What time is dinner served?,hostel,en,pragna
+hostel bayatiki ela vellali sunday,hostel,te_roman,pragna
+How can I apply for leave from the hostel?,hostel,en,pragna
+Where can I report a water problem in the hostel?,hostel,en,pragna
+How can I get permission to stay outside for one night?,hostel,en,pragna
+Who should I contact if something is missing from my room?,hostel,en,pragna
+What are the college bus timings from Guntur?,transport,en,pragna
+What are the college bus timings from Vijayawada?,transport,en,pragna
+What is my college bus route number?,transport,en,pragna
+How much is the college bus fee?,transport,en,pragna
+What time does my bus leave in the morning?,transport,en,pragna
+What time will the bus leave college?,transport,en,pragna
+What should I do if I lose my bus pass?,transport,en,pragna
+Who should I contact if my college bus is late?,transport,en,pragna
+How can I check the bus fee payment status?,transport,en,pragna
+Can I travel on a different bus for one day?,transport,en,pragna
+Is tomorrow a holiday for college?,circulars,en,pragna
+Where can I check the latest notices?,circulars,en,pragna
+Is there any holiday this week?,circulars,en,pragna
+Is there any notice about semester exams?,circulars,en,pragna
+repu college undha,circulars,te_roman,pragna
+Is there any change in college timings?,circulars,en,pragna
+Is there any notice about fee payment?,circulars,en,pragna
+Has the college announced exam dates?,circulars,en,pragna
+Where can I check official college announcements?,circulars,en,pragna
+Is there any holiday for festivals?,circulars,en,pragna
+Has any notice been given for first year students?,circulars,en,pragna
+Where can I find the latest hostel notice?,circulars,en,pragna
+Is there any circular about college events?,circulars,en,pragna
+How can I know if a circular is official?,circulars,en,pragna
+Where can I find old college circulars?,circulars,en,pragna
+Who should I contact if I have a doubt about a circular?,circulars,en,pragna
+college mahotsav eppudu,events,te_roman,pragna
+How can I register for a hackathon?,events,en,pragna
+What are the dates for the cultural fest?,events,en,pragna
+Where can I find college event details?,events,en,pragna
+Are there any events happening this week?,events,en,pragna
+Where can I register for Mahotsav?,events,en,pragna
+Is there any coding competition coming up?,events,en,pragna
+How can I join a technical event?,events,en,pragna
+What is the last date to register for the fest?,events,en,pragna
+Can first year students participate in hackathons?,events,en,pragna
+How can I get a participation certificate?,events,en,pragna
+Is there any prize for the winners?,events,en,pragna
+Where will the cultural fest take place?,events,en,pragna
+Can students from other colleges join our events?,events,en,pragna
+How can I contact the event organisers?,events,en,pragna
+Where can I see photos of past college events?,events,en,pragna
+What activities does SAC conduct?,clubs,en,pragna
+When are the club auditions?,clubs,en,pragna
+Can first year students join clubs?,clubs,en,pragna
+Is there any fee to join a club?,clubs,en,pragna
+Where can I find the club meeting details?,clubs,en,pragna
+Is there a photography club in college?,clubs,en,pragna
+dance club lo ela join avvali,clubs,te_roman,pragna
+When will the next club event happen?,clubs,en,pragna
+How can I become a club member?,clubs,en,pragna
+Who is the faculty coordinator for the coding club?,clubs,en,pragna
+How can I participate in club competitions?,clubs,en,pragna
+Where do club meetings take place?,clubs,en,pragna
+How can I start a new club in college?,clubs,en,pragna
+Who should I contact to join a club?,clubs,en,pragna
+How can I apply for a bonafide certificate?,services,en,pragna
+How can I apply for an NOC?,services,en,pragna
+Where is the student services office?,services,en,pragna
+nak duplicate id card kavali ela,services,te_roman,pragna
+What documents are needed for a bonafide certificate?,services,en,pragna
+How many days will it take to get a certificate?,services,en,pragna
+How can I check my certificate application status?,services,en,pragna
+Where can I apply for a student bus pass letter?,services,en,pragna
+How can I get a transfer certificate?,services,en,pragna
+How can I update my details in college records?,services,en,pragna
+Who should I contact if my student ID is not working?,services,en,pragna
+How can I correct my name in college records?,services,en,pragna
+Where can I get a study certificate?,services,en,pragna
+How can I apply for a conduct certificate?,services,en,pragna
+How can I get my student email ID?,services,en,pragna
+What should I do if the Vignanite app is not working?,services,en,pragna
+Where can I report a college service problem?,services,en,pragna
+How can I contact student affairs?,services,en,pragna
+What are the college rules?,policy_bylaws,en,pragna
+What is the R22 regulation?,policy_bylaws,en,pragna
+What is the attendance requirement in college?,policy_bylaws,en,pragna
+What happens if my attendance is low?,policy_bylaws,en,pragna
+What is the detention policy?,policy_bylaws,en,pragna
+What is the condonation rule?,policy_bylaws,en,pragna
+Can I write exams if my attendance is below 75 percent?,policy_bylaws,en,pragna
+How much is the condonation fee?,policy_bylaws,en,pragna
+What happens if I get detained?,policy_bylaws,en,pragna
+Can a detained student attend the next semester?,policy_bylaws,en,pragna
+What are the rules for internal exams?,policy_bylaws,en,pragna
+What are the rules for semester exams?,policy_bylaws,en,pragna
+Is there any rule for late entry to class?,policy_bylaws,en,pragna
+What is the dress code in college?,policy_bylaws,en,pragna
+What happens if I break a college rule?,policy_bylaws,en,pragna
+Where can I get the student handbook?,policy_bylaws,en,pragna
+Who can explain the college rules to me?,policy_bylaws,en,pragna
+"I am feeling stressed because of exams, what should I do?",distress_support,en,pragna
+I am very tense about my exams.,distress_support,en,pragna
+I feel scared about my semester exams.,distress_support,en,pragna
+stress ela tagginchukovali,distress_support,te_roman,pragna
+"I am afraid that I may fail, can you help me?",distress_support,en,pragna
+"I cannot focus on my studies, what should I do?",distress_support,en,pragna
+I feel very nervous before exams.,distress_support,en,pragna
+Can I talk to a college counsellor?,distress_support,en,pragna
+How can I contact the college counsellor?,distress_support,en,pragna
+Where is the counselling centre in college?,distress_support,en,pragna
+I feel sad and worried about my marks.,distress_support,en,pragna
+I am feeling too much pressure from my studies.,distress_support,en,pragna
+How can I manage my exam tension?,distress_support,en,pragna
+I am not able to sleep because of exams.,distress_support,en,pragna
+I feel like crying because of my studies.,distress_support,en,pragna
+"I am worried about my future, what should I do?",distress_support,en,pragna
+na personal problems ki evarina solution cheptey baagundu,distress_support,te_roman,pragna
+Is counselling available for students?,distress_support,en,pragna
+Can I talk to someone privately about my problems?,distress_support,en,pragna
+I need help because I am feeling mentally tired.,distress_support,en,pragna
+Hi helpdesk,greeting_smalltalk,en,pragna
+Hello,greeting_smalltalk,en,pragna
+Good evening,greeting_smalltalk,en,pragna
+How are you?,greeting_smalltalk,en,pragna
+What is your name?,greeting_smalltalk,en,pragna
+What can you do for me?,greeting_smalltalk,en,pragna
+Are you a college chatbot?,greeting_smalltalk,en,pragna
+Can I ask you a question?,greeting_smalltalk,en,pragna
+Can you help me with something?,greeting_smalltalk,en,pragna
+Thank you,greeting_smalltalk,en,pragna
+Thanks for your help,greeting_smalltalk,en,pragna
+"Okay, thank you",greeting_smalltalk,en,pragna
+kshaminchu tappu ga ardam cheskunna,greeting_smalltalk,te_roman,pragna
+Are you available now?,greeting_smalltalk,en,pragna
+"Bye, see you later",greeting_smalltalk,en,pragna
+What is the IPL score today?,out_of_scope,en,pragna
+Which team won the last IPL match?,out_of_scope,en,pragna
+Where can I find the best biryani in Guntur?,out_of_scope,en,pragna
+Which is the best restaurant in Vijayawada?,out_of_scope,en,pragna
+Write a Java program to add two numbers.,out_of_scope,en,pragna
+Can you teach me Python?,out_of_scope,en,pragna
+What is the latest movie in Telugu?,out_of_scope,en,pragna
+Suggest a good movie to watch.,out_of_scope,en,pragna
+Who is the most popular actor in Telugu cinema?,out_of_scope,en,pragna
+guntur vathavarnam ela undhi eroju,out_of_scope,te_roman,pragna
+Convert 100 dollars into Indian rupees.,out_of_scope,en,pragna
+Who won the last cricket World Cup?,out_of_scope,en,pragna
+Tell me a funny joke.,out_of_scope,en,pragna
+Can you write a love letter?,out_of_scope,en,pragna
+What are the latest news headlines?,out_of_scope,en,pragna
+How can I learn video editing?,out_of_scope,en,pragna
+nak oka 15000 lo manchi mobile cheppu,out_of_scope,te_roman,pragna
+Can you help me make a gaming app?,out_of_scope,en,pragna
+Tell me a story in English.,out_of_scope,en,pragna
+attd kitna hai mera,attendance,hinglish,pragna
+attendence short hai kya,attendance,hinglish,pragna
+mera attendance kitna percent hai sab subjects ka,attendance,hinglish,pragna
+how many classes do i need to attend to reach 75,attendance,en,pragna
+can i bunk today or will my attendance drop,attendance,en,pragna
+ds attd?,attendance,en,pragna
+my attendence in os,attendance,en,pragna
+naa attendance entha percent undi,attendance,te_roman,pragna
+75 ravalante inka entha classes attend avvali,attendance,te_roman,pragna
+hall ticket download ela,exams,te_roman,pragna
+mid exams eppudu start avtayi,exams,te_roman,pragna
+mera next exam kab hai,exams,hinglish,pragna
+supply exam kab hai,exams,hinglish,pragna
+hallticket not showing,exams,en,pragna
+which hall is my exam in,exams,en,pragna
+how much fee do i have pending,fees,en,pragna
+tuition fee last date?,fees,en,pragna
+is there any late fine if i pay after the due date,fees,en,pragna
+online payment failed but money got deducted what to do,fees,en,pragna
+fess due date,fees,en,pragna
+how to get a refund of fee,fees,en,pragna
+fee structure for cse,fees,en,pragna
+fees kab tak bharni hai,fees,hinglish,pragna
+meri fees kitni baaki hai,fees,hinglish,pragna
+fee receipt kaise download kare,fees,hinglish,pragna
+exam fee kitna hai,fees,hinglish,pragna
+duplicate fee receipt kaise milegi,fees,hinglish,pragna
+naa fees entha pending undi,fees,te_roman,pragna
+fee ela pay cheyali,fees,te_roman,pragna
+fee kattadaniki last date eppudu,fees,te_roman,pragna
+scholarship fee lo adjust avtunda,fees,te_roman,pragna
+fee concession kosam ela apply cheyali,fees,te_roman,pragna
+aaj kaun kaun si classes hai,timetable,hinglish,pragna
+lab kab hai,timetable,hinglish,pragna
+tmrw timetable,timetable,en,pragna
+ee roju em classes unnayi,timetable,te_roman,pragna
+mera cgpa kitna hai,marks,hinglish,pragna
+sem results kab aayenge,marks,hinglish,pragna
+na cgpa entha,marks,te_roman,pragna
+internal marks update ayyaya,marks,te_roman,pragna
+mid 1 marks?,marks,en,pragna
+syllabus pdf kahan milega,curriculum,hinglish,pragna
+cse syllabus ekkada dorukutundi,curriculum,te_roman,pragna
+electives list,curriculum,en,pragna
+hod cabin kahan hai,faculty,hinglish,pragna
+hod se milna hai kaise milu,faculty,hinglish,pragna
+class teacher number kavali,faculty,te_roman,pragna
+naku hod tho matladali,faculty,te_roman,pragna
+proff email id,faculty,en,pragna
+connect me to the hod,faculty,en,pragna
+library timing kya hai,library,hinglish,pragna
+books return kab karni hai,library,hinglish,pragna
+library fine entha undi,library,te_roman,pragna
+mess ka menu aaj ka,hostel,hinglish,pragna
+canteen timings entha,hostel,te_roman,pragna
+bus eppudu vastundi,transport,te_roman,pragna
+holiday kab hai next,circulars,hinglish,pragna
+diwali holidays kab se hai,circulars,hinglish,pragna
+college reopen kab hoga,circulars,hinglish,pragna
+repu holiday undha,circulars,te_roman,pragna
+when does the next semester start,circulars,en,pragna
+academic calendar 2026-27 pdf,circulars,en,pragna
+last working day of this sem,circulars,en,pragna
+is saturday a working day,circulars,en,pragna
+sem end date,circulars,en,pragna
+club join karna hai kaise,clubs,hinglish,pragna
+coding club lo ela join avvali,clubs,te_roman,pragna
+bonafide certificate kaise milega,services,hinglish,pragna
+id card kho gaya kya karu,services,hinglish,pragna
+bonafide ela apply cheyali,services,te_roman,pragna
+detain ayithe em avtundi,policy_bylaws,te_roman,pragna
+condonation fee kitna lagta hai,policy_bylaws,hinglish,pragna
+this exam is killing me,distress_support,en,pragna
+dying of tension for tomorrows exam,distress_support,en,pragna
+cant concentrate while studying my phone distracts me a lot,distress_support,en,pragna
+i have 3 exams in 2 days how do i prepare,distress_support,en,pragna
+exam ka bohot tension hai kya karu,distress_support,hinglish,pragna
+backlog clear karne ka tension hai,distress_support,hinglish,pragna
+exams ante bhayam ga undi,distress_support,te_roman,pragna
+nidra pattatledu exams tension valla,distress_support,te_roman,pragna
+i cant take this anymore,distress_support,en,pragna
+i feel hopeless about everything,distress_support,en,pragna
+nothing is going right and i just want to give up,distress_support,en,pragna
+i feel like a burden to everyone around me,distress_support,en,pragna
+i dont see any point in anything anymore,distress_support,en,pragna
+everyone would be better off without me,distress_support,en,pragna
+i dont want to be here anymore,distress_support,en,pragna
+i just want everything to end,distress_support,en,pragna
+i feel so alone and nobody understands me,distress_support,en,pragna
+i feel empty all the time and i cant eat or sleep,distress_support,en,pragna
+i dont think i can keep going like this,distress_support,en,pragna
+i want to disappear,distress_support,en,pragna
+mujhe ab jeene ka mann nahi karta,distress_support,hinglish,pragna
+"ab aur nahi hota mujhse, sab chhod dena chahta hu",distress_support,hinglish,pragna
+"koi nahi hai mere saath, bahut akela feel karta hu",distress_support,hinglish,pragna
+main bahut thak gaya hu zindagi se,distress_support,hinglish,pragna
+naku bathakalani ledu,distress_support,te_roman,pragna
+nenu chala depress ayyanu em cheyalo teliyatledu,distress_support,te_roman,pragna
+"naku evvaru leru, chala ontariga undi",distress_support,te_roman,pragna
+inka ee life ni continue cheyyalenu anipistundi,distress_support,te_roman,pragna
+hii,greeting_smalltalk,en,pragna
+thanks bro,greeting_smalltalk,en,pragna
+ok thx,greeting_smalltalk,en,pragna
+namaskaram,greeting_smalltalk,te_roman,pragna
+ipl match lo evaru gelicharu,out_of_scope,te_roman,pragna
+aaj mausam kaisa hai,out_of_scope,hinglish,pragna
+koi acchi movie suggest karo,out_of_scope,hinglish,pragna
+what is the attendance rule in iit madras,out_of_scope,en,pragna
+best engineering colleges in andhra pradesh,out_of_scope,en,pragna
+how to make biryani,out_of_scope,en,pragna

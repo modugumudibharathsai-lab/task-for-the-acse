@@ -1,0 +1,100 @@
+{
+  "benchmark_timestamp": "2026-10-30T07:14:27Z",
+  "total_test_cases": 504,
+  "total_capabilities": 28,
+  "overall_feature_accuracy_pct": 100.0,
+  "overall_intent_accuracy_pct": 100.0,
+  "navigation_accuracy_pct": 100.0,
+  "false_write_operations": 0,
+  "false_success_confirmations": 0,
+  "false_write_rate_pct": 0.0,
+  "average_latency_ms": 34.41,
+  "dimension_breakdown": {
+    "direct_wording": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "indirect_wording": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "conversational_wording": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "informal_english": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "hinglish": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "misspellings": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "abbreviations": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "short_incomplete": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "navigation_request": {
+      "total": 56,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "asking_vs_doing": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "action_request": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "status_lookup": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "negative_request": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "cancel_request": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "unseen_generalization": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "multi_intent": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    },
+    "hinglish_action": {
+      "total": 28,
+      "feature_accuracy_pct": 100.0,
+      "intent_accuracy_pct": 100.0
+    }
+  },
+  "sample_failures": []
+}

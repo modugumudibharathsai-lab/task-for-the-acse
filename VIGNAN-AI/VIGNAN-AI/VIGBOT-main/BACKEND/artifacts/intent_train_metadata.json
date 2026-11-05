@@ -1,0 +1,94 @@
+{
+  "status": "PRELIMINARY",
+  "warning": "PRELIMINARY: incomplete data",
+  "dry_run_honesty": null,
+  "preliminary_notice": "PRELIMINARY: incomplete data",
+  "created_at_utc": "2026-10-29T14:58:11.224514+00:00",
+  "random_state": 42,
+  "use_public": true,
+  "scikit_learn_version": "1.9.1",
+  "dataset": {
+    "total_rows": 2304,
+    "training_rows": 1964,
+    "test_rows_excluded": 340,
+    "test_author": "sridhar",
+    "training_author_counts": {
+      "agent": 239,
+      "aman": 376,
+      "pragna": 371,
+      "sirisha": 328,
+      "clinc150": 200,
+      "massive": 450
+    },
+    "training_intent_counts": {
+      "attendance": 67,
+      "exams": 69,
+      "fees": 72,
+      "timetable": 71,
+      "marks": 74,
+      "curriculum": 75,
+      "library": 69,
+      "faculty": 76,
+      "services": 125,
+      "clubs": 75,
+      "circulars": 79,
+      "hostel": 52,
+      "distress_support": 105,
+      "policy_bylaws": 74,
+      "greeting_smalltalk": 259,
+      "out_of_scope": 518,
+      "transport": 50,
+      "events": 54
+    }
+  },
+  "classes": [
+    "attendance",
+    "circulars",
+    "clubs",
+    "curriculum",
+    "distress_support",
+    "events",
+    "exams",
+    "faculty",
+    "fees",
+    "greeting_smalltalk",
+    "hostel",
+    "library",
+    "marks",
+    "out_of_scope",
+    "policy_bylaws",
+    "services",
+    "timetable",
+    "transport"
+  ],
+  "num_classes": 18,
+  "cross_validation": {
+    "strategy": "leave_one_author_out (aman, pragna, sirisha)",
+    "metric": "f1_macro",
+    "validation_macro_f1": 0.8097,
+    "loao_scores_by_author": {
+      "aman": 0.7878379176324111,
+      "pragna": 0.854677521514956,
+      "sirisha": 0.7865197550705295
+    },
+    "best_params": {
+      "clf__C": 5.0,
+      "features__char_tfidf__ngram_range": [
+        2,
+        5
+      ],
+      "features__word_tfidf__ngram_range": [
+        1,
+        2
+      ]
+    }
+  },
+  "training_performance": {
+    "accuracy": 0.998,
+    "macro_f1": 0.9983
+  },
+  "model_file": {
+    "filename": "preliminary_intent_model.joblib",
+    "size_kb": 5409.95
+  }
+}

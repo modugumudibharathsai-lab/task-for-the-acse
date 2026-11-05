@@ -1,0 +1,329 @@
+text,intent,lang,author
+how to see my attendence in portal,attendance,en,sirisha
+what is my current attendence,attendance,en,sirisha
+how many classes I attended during this semister,attendance,en,sirisha
+how many classes I did'ntattended during this semister,attendance,en,sirisha
+how will I check my subject wise attendence,attendance,en,sirisha
+how many classes I have to attend to get 75% attengence,attendance,en,sirisha
+minimum attendance requirement entha,policy_bylaws,te_roman,sirisha
+ee nelalo mee present days enni,attendance,te_roman,sirisha
+meeru monthly attendance report chusara,attendance,te_roman,sirisha
+attendance takkuva unte emi jarugutundi,policy_bylaws,te_roman,sirisha
+attendance kosam login time important aa,attendance,te_roman,sirisha
+mee class attendance percentage entha undi,attendance,te_roman,sirisha
+na attendence peragadaniki dbms enni theory classes attend avvali,attendance,te_roman,sirisha
+even every mid exams ki attendence 75% maintain cheyyali,attendance,te_roman,sirisha
+attendence thakkuva unte evari daggara permission thisukovali,attendance,te_roman,sirisha
+condonation entha percent of lekhapothe pay cheyyali,policy_bylaws,te_roman,sirisha
+lab and theory classes add chesi average lo attendence calculate chesthara,attendance,te_roman,sirisha
+one week velthe na attendence entha perigidhii.,attendance,te_roman,sirisha
+sem exams eppudu start avuthayi,exams,te_roman,sirisha
+sem exams dates epudu release chesaru,exams,te_roman,sirisha
+mid exams dates eppudu release chersaru,exams,te_roman,sirisha
+Hall ticket ekkada download cheyali,exams,te_roman,sirisha
+mid exam  fa-4 exams eppudu start avuthayi,exams,te_roman,sirisha
+mid exams timings enti,exams,te_roman,sirisha
+where should I get my hallticket,exams,en,sirisha
+practical exams starting date,exams,en,sirisha
+what was my exam block,exams,en,sirisha
+hall ticket compulsory ga carry cheyyala,exams,te_roman,sirisha
+mid 1 exams time table ekada paste chesaru,exams,te_roman,sirisha
+ey communite group lo sem timetable share chesaru,exams,te_roman,sirisha
+backlog exams eppudu untayi,exams,te_roman,sirisha
+results eppudu release avutayi,exams,te_roman,sirisha
+exams online aa offline aa,exams,te_roman,sirisha
+exam preparation ela jarugutundi,exams,te_roman,sirisha
+exams ki enni subjects unnayi,exams,te_roman,sirisha
+exams pass mark entha if incase lab unte entha,exams,te_roman,sirisha
+results exams jarigina enni days ki release chestharu,exams,te_roman,sirisha
+sem eppudu ey date na end avuthundhii,exams,te_roman,sirisha
+mid-2 marks entha,marks,te_roman,sirisha
+internal marks entha,marks,te_roman,sirisha
+subject-wise marks chupinchu.,marks,te_roman,sirisha
+highest marks entha,marks,te_roman,sirisha
+lowest marks entha,marks,te_roman,sirisha
+total marks entha,marks,te_roman,sirisha
+average marks entha,marks,te_roman,sirisha
+practical marks entha,marks,te_roman,sirisha
+viva marks entha,marks,te_roman,sirisha
+naa rank entha,marks,te_roman,sirisha
+pass ayyanaa,marks,te_roman,sirisha
+fail ayina subjects emiti,marks,te_roman,sirisha
+improvement marks unnaya,marks,te_roman,sirisha
+marks memo vachinda?,marks,te_roman,sirisha
+revaluation apply cheyacha,marks,te_roman,sirisha
+semester marks entha,marks,te_roman,sirisha
+sgpa entha,marks,te_roman,sirisha
+cgpa entha,marks,te_roman,sirisha
+credits earn chesanaa,marks,te_roman,sirisha
+mid-1 marks entha,marks,te_roman,sirisha
+if fees late ga pay chesthe Fine entha pay cheyyali,fees,te_roman,sirisha
+total fee entha,fees,te_roman,sirisha
+fee pay chesanaa,fees,te_roman,sirisha
+fee payment status enti,fees,te_roman,sirisha
+receipt download cheyacha,fees,te_roman,sirisha
+last payment eppudu,fees,te_roman,sirisha
+scholarship vachinda,fees,te_roman,sirisha
+exam fee pay chesanaa,fees,te_roman,sirisha
+due date eppudu,fees,te_roman,sirisha
+late fee entha,fees,te_roman,sirisha
+pending amount entha,fees,te_roman,sirisha
+fee balance entha,fees,te_roman,sirisha
+installment option unda,fees,te_roman,sirisha
+hostel receipt chupinchu.,fees,te_roman,sirisha
+tuition receipt chupinchu.,fees,te_roman,sirisha
+fee history chupinchu.,fees,te_roman,sirisha
+fee clearance ayyinda,fees,te_roman,sirisha
+tuition fee due entha,fees,te_roman,sirisha
+hostel fee due entha,fees,te_roman,sirisha
+ivala classes enti,timetable,te_roman,sirisha
+next period enti,timetable,te_roman,sirisha
+first period enti,timetable,te_roman,sirisha
+last period enti,timetable,te_roman,sirisha
+lab eppudu undi,timetable,te_roman,sirisha
+ai ki Faculty evaru,timetable,te_roman,sirisha
+break eppudu,timetable,te_roman,sirisha
+lunch  break time eppudu,timetable,te_roman,sirisha
+free period unda,timetable,te_roman,sirisha
+monday timetable enti,timetable,te_roman,sirisha
+tuesday classes enti,timetable,te_roman,sirisha
+wednesday schedule enti,timetable,te_roman,sirisha
+thursday classes enti,timetable,te_roman,sirisha
+friday timetable enti,timetable,te_roman,sirisha
+saturday classes unnaya,timetable,te_roman,sirisha
+online class unda,timetable,te_roman,sirisha
+today lab is there,timetable,en,sirisha
+class ekkada undi,timetable,te_roman,sirisha
+weekly timetable chupinchu.,timetable,te_roman,sirisha
+cse syllabus enti,curriculum,te_roman,sirisha
+subject credits enni,curriculum,te_roman,sirisha
+electives list enti,curriculum,te_roman,sirisha
+core subjects enti,curriculum,te_roman,sirisha
+open electives enti,curriculum,te_roman,sirisha
+total credits enni,curriculum,te_roman,sirisha
+current semester subjects enti,curriculum,te_roman,sirisha
+lab subjects enti,curriculum,te_roman,sirisha
+project credits enni,curriculum,te_roman,sirisha
+subject outcomes enti,curriculum,te_roman,sirisha
+course structure enti,curriculum,te_roman,sirisha
+academic regulations enti,curriculum,te_roman,sirisha
+subject code enti,curriculum,te_roman,sirisha
+recommended books enti,curriculum,te_roman,sirisha
+reference books enti,curriculum,te_roman,sirisha
+internship mandatory aa,curriculum,te_roman,sirisha
+mini project unda,curriculum,te_roman,sirisha
+curriculum PDF unda,curriculum,te_roman,sirisha
+new syllabus enti,curriculum,te_roman,sirisha
+department subjects enti,curriculum,te_roman,sirisha
+hod evaru,faculty,te_roman,sirisha
+hod cabin ekkada,faculty,te_roman,sirisha
+faculty mail id enti,faculty,te_roman,sirisha
+counsellor phone number enti,faculty,te_roman,sirisha
+class incharge evaru,faculty,te_roman,sirisha
+subject faculty evaru,faculty,te_roman,sirisha
+faculty room ekkada,faculty,te_roman,sirisha
+mentor evaru,faculty,te_roman,sirisha
+mentor contact enti,faculty,te_roman,sirisha
+faculty qualification enti,faculty,te_roman,sirisha
+faculty experience entha,faculty,te_roman,sirisha
+dean evaru,faculty,te_roman,sirisha
+principal evaru,faculty,te_roman,sirisha
+office number enti,faculty,te_roman,sirisha
+faculty timings enti,faculty,te_roman,sirisha
+hod contact enti,faculty,te_roman,sirisha
+faculty list chupinchu.,faculty,te_roman,sirisha
+department staff evaru,faculty,te_roman,sirisha
+counsellor mail ID enti,faculty,te_roman,sirisha
+faculty availability enti,faculty,te_roman,sirisha
+librarian name,library,en,sirisha
+library fine entha,library,te_roman,sirisha
+library timings enti,library,te_roman,sirisha
+naa books list chupinchu.,library,te_roman,sirisha
+book renew cheyacha,library,te_roman,sirisha
+fine pending unda,library,te_roman,sirisha
+library card active aa,library,te_roman,sirisha
+new books em unnayi,library,te_roman,sirisha
+Book availability unda,library,te_roman,sirisha
+Library open unda,library,te_roman,sirisha
+Library close time enti,library,te_roman,sirisha
+Reference books ekkada,library,te_roman,sirisha
+digital library unda,library,te_roman,sirisha
+book access ela,library,te_roman,sirisha
+journal access unda,library,te_roman,sirisha
+library membership unda,library,te_roman,sirisha
+book issue cheyacha,library,te_roman,sirisha
+library rules enti,library,te_roman,sirisha
+reading room timings enti,library,te_roman,sirisha
+library contact number enti,library,te_roman,sirisha
+ivala mess menu enti,hostel,te_roman,sirisha
+repu mess menu enti,hostel,te_roman,sirisha
+outing pass ela pettali,hostel,te_roman,sirisha
+hostel Wi-Fi work avvatledu.,hostel,te_roman,sirisha
+hostel fee entha,hostel,te_roman,sirisha
+warden evaru,hostel,te_roman,sirisha
+warden number enti,hostel,te_roman,sirisha
+room change cheyacha,hostel,te_roman,sirisha
+laundry service unda,hostel,te_roman,sirisha
+hostel timings enti,hostel,te_roman,sirisha
+gate close time enti,hostel,te_roman,sirisha
+visitor timings enti,hostel,te_roman,sirisha
+current bill entha,hostel,te_roman,sirisha
+maintenance complaint ela ivvali,hostel,te_roman,sirisha
+drinking water available aa,hostel,te_roman,sirisha
+wifi password enti,hostel,te_roman,sirisha
+hostel rules enti,hostel,te_roman,sirisha
+vacant rooms unnaya,hostel,te_roman,sirisha
+mess feedback ela ivvali,hostel,te_roman,sirisha
+guntur bus timing enti,transport,te_roman,sirisha
+vijayawada bus timing enti,transport,te_roman,sirisha
+bus route number enti,transport,te_roman,sirisha
+bus pass ela apply cheyali,transport,te_roman,sirisha
+bus fee entha,transport,te_roman,sirisha
+bus stop ekkada,transport,te_roman,sirisha
+naa bus number enti,transport,te_roman,sirisha
+driver contact enti,transport,te_roman,sirisha
+bus inka vachinda,transport,te_roman,sirisha
+return bus timing enti,transport,te_roman,sirisha
+route change unda,transport,te_roman,sirisha
+new bus pass kavali,transport,te_roman,sirisha
+bus tracking unda,transport,te_roman,sirisha
+transport office ekkada,transport,te_roman,sirisha
+bus seat available aa,transport,te_roman,sirisha
+college special bus unda,transport,te_roman,sirisha
+weekend bus service unda,transport,te_roman,sirisha
+bus cancellation unda,transport,te_roman,sirisha
+transport incharge evaru,transport,te_roman,sirisha
+bus complaint ela ivvali,transport,te_roman,sirisha
+repu holiday na,circulars,te_roman,sirisha
+latest circular enti,circulars,te_roman,sirisha
+new notice emaina unda,circulars,te_roman,sirisha
+when was college  reopen,circulars,en,sirisha
+exams circular vachinda,circulars,te_roman,sirisha
+fee circular enti,circulars,te_roman,sirisha
+holiday list unda,circulars,te_roman,sirisha
+event circular unda,circulars,te_roman,sirisha
+timetable circular vachinda,circulars,te_roman,sirisha
+results notice enti,circulars,te_roman,sirisha
+scholarship notice unda,circulars,te_roman,sirisha
+attendance circular enti,circulars,te_roman,sirisha
+new announcements em unnayi,circulars,te_roman,sirisha
+academic circular enti,circulars,te_roman,sirisha
+placement notice unda,circulars,te_roman,sirisha
+workshop circular unda,circulars,te_roman,sirisha
+seminar notice enti,circulars,te_roman,sirisha
+important updates em unnayi,circulars,te_roman,sirisha
+repu classes untaya,circulars,te_roman,sirisha
+principal notice enti,circulars,te_roman,sirisha
+mahotsav eppudu,events,te_roman,sirisha
+hackathon registration ela,events,te_roman,sirisha
+cultural fest dates enti,events,te_roman,sirisha
+event registration open aa,events,te_roman,sirisha
+workshop eppudu,events,te_roman,sirisha
+seminar eppudu,events,te_roman,sirisha
+event venue ekkada,events,te_roman,sirisha
+registration fee entha,events,te_roman,sirisha
+last date enti,events,te_roman,sirisha
+faculty coordinator evaru,events,te_roman,sirisha
+participation certificate istara,events,te_roman,sirisha
+prize details enti,events,te_roman,sirisha
+technical events enti,events,te_roman,sirisha
+non-technical events enti,events,te_roman,sirisha
+event timings enti,events,te_roman,sirisha
+team size entha,events,te_roman,sirisha
+event schedule enti,events,te_roman,sirisha
+guest evaru,events,te_roman,sirisha
+results eppudu announce chestaru,events,te_roman,sirisha
+sac activities enti?,clubs,te_roman,sirisha
+auditions eppudu?,clubs,te_roman,sirisha
+club registration open aa,clubs,te_roman,sirisha
+club coordinator evaru,clubs,te_roman,sirisha
+coding club meetings eppudu,clubs,te_roman,sirisha
+robotics club unda,clubs,te_roman,sirisha
+dance club details enti,clubs,te_roman,sirisha
+music club details enti,clubs,te_roman,sirisha
+photography club unda,clubs,te_roman,sirisha
+ccub fees emaina unnaya,clubs,te_roman,sirisha
+membership ela teesukovali,clubs,te_roman,sirisha
+upcoming activities enti,clubs,te_roman,sirisha
+club timings enti,clubs,te_roman,sirisha
+volunteer avvacha,clubs,te_roman,sirisha
+club events enti,clubs,te_roman,sirisha
+club certificate istara,clubs,te_roman,sirisha
+club leader evaru,clubs,te_roman,sirisha
+sports club details enti,clubs,te_roman,sirisha
+club contact details enti,clubs,te_roman,sirisha
+bonafide certificate ela apply cheyali,services,te_roman,sirisha
+id card poyindi,services,te_roman,sirisha
+noc kavali,services,te_roman,sirisha
+tc ela apply cheyali,services,te_roman,sirisha
+sudy certificate kavali,services,te_roman,sirisha
+marks memo ela pondali,services,te_roman,sirisha
+duplicate ID card ela tiskovali,services,te_roman,sirisha
+fee receipt kavali.,services,te_roman,sirisha
+recommendation letter ela pondali,services,te_roman,sirisha
+migration certificate kavali.,services,te_roman,sirisha
+od apply ela cheyali,services,te_roman,sirisha
+internship letter kavali.,services,te_roman,sirisha
+student profile update ela,services,te_roman,sirisha
+address change cheyacha,services,te_roman,sirisha
+name correction ela cheyali,services,te_roman,sirisha
+ertificate status enti,services,te_roman,sirisha
+application track ela cheyali?,services,te_roman,sirisha
+service request raise cheyacha?,services,te_roman,sirisha
+help desk number enti?,services,te_roman,sirisha
+student support contact enti,services,te_roman,sirisha
+college lo r22 regulations ante enti,policy_bylaws,te_roman,sirisha
+r22 regulations prakaram pass avvadaniki enni marks ravali,policy_bylaws,te_roman,sirisha
+semester lo attendance entha percentage undali,policy_bylaws,te_roman,sirisha
+attendance takkuva unte detain chestara,policy_bylaws,te_roman,sirisha
+condonation rule ante enti,policy_bylaws,te_roman,sirisha
+attendance 65 percent unte condonation apply avutunda,policy_bylaws,te_roman,sirisha
+condonation fee entha pay cheyyali,policy_bylaws,te_roman,sirisha
+detention ayithe next semester exams rayavacha,policy_bylaws,te_roman,sirisha
+backlog subjects unte semester promotion avutunda,policy_bylaws,te_roman,sirisha
+r22 regulations lo maximum enni backlogs allowed,policy_bylaws,te_roman,sirisha
+internal marks takkuva vaste improvement chance untunda,policy_bylaws,te_roman,sirisha
+lab exams miss ayithe malli conduct chestara,policy_bylaws,te_roman,sirisha
+college rules prakaram semester exam fee last date eppudu,policy_bylaws,te_roman,sirisha
+r22 regulations ki sambandhinchina official guidelines ekkada dorukutayi,policy_bylaws,te_roman,sirisha
+exams valla chala stress ga undi em cheyyali,distress_support,te_roman,sirisha
+exam ante chala bayam vesthundi ela overcome cheyyali,distress_support,te_roman,sirisha
+chaduvutunna kani exam time lo anni marchipothunnanu em cheyyali,distress_support,te_roman,sirisha
+marks takkuva vastayani chala tension ga undi,distress_support,te_roman,sirisha
+fail avuthanemo ani bhayanga undi naaku help kavali,distress_support,te_roman,sirisha
+exam pressure ni ela manage cheyyali,distress_support,te_roman,sirisha
+chaduvukovali anipistundi kani concentration ravatledu,distress_support,te_roman,sirisha
+parents expectations valla chala stress feel avuthunnanu,distress_support,te_roman,sirisha
+friends tho compare cheskuntu confidence lose avuthunnanu,distress_support,te_roman,sirisha
+exams mundu nidra sarigga pattatledu em cheyyali,distress_support,te_roman,sirisha
+naaku college counsellor help kavali evarini contact cheyyali,distress_support,te_roman,sirisha
+exam anxiety tagginchukovadaniki emaina tips cheppandi,distress_support,te_roman,sirisha
+oka subject lo fail ayyanani chala badha ga undi ela recover avvali,distress_support,te_roman,sirisha
+nenu emotionally chala low ga feel avuthunnanu evaritho matladavachu,distress_support,te_roman,sirisha
+hi ela unnava,greeting_smalltalk,te_roman,sirisha
+good afternoon em chestunnav,greeting_smalltalk,te_roman,sirisha
+good evening ela undi nee day,greeting_smalltalk,te_roman,sirisha
+hi nuvvu ela help cheyyagalavu,greeting_smalltalk,te_roman,sirisha
+nuvvu em em cheyyagalavu,greeting_smalltalk,te_roman,sirisha
+nuvvu naaku college information cheppagalava,greeting_smalltalk,te_roman,sirisha
+ela unnav chatgpt,greeting_smalltalk,te_roman,sirisha
+thank you chala help chesav,greeting_smalltalk,te_roman,sirisha
+nuvvu telugu lo matladagalava,greeting_smalltalk,te_roman,sirisha
+netho oka question adagacha,greeting_smalltalk,te_roman,sirisha
+hi naaku konchem help kavali,greeting_smalltalk,te_roman,sirisha
+nuvvu student questions ki answers ivvagalava,greeting_smalltalk,te_roman,sirisha
+okay thanks have a nice day,greeting_smalltalk,en,sirisha
+ipl lo ee roju evaru gelicharu,out_of_scope,te_roman,sirisha
+guntur lo best biryani ekkada dorukutundi,out_of_scope,te_roman,sirisha
+java lo oka simple calculator code raayi,out_of_scope,te_roman,sirisha
+latest telugu movie updates enti,out_of_scope,te_roman,sirisha
+hyderabad lo best tourist places enti,out_of_scope,te_roman,sirisha
+india next cricket match eppudu,out_of_scope,te_roman,sirisha
+python lo palindrome program raayi,out_of_scope,te_roman,sirisha
+instagram account followers ela penchukovali,out_of_scope,te_roman,sirisha
+best budget smartphone edi,out_of_scope,te_roman,sirisha
+chicken biryani ela prepare cheyyali,out_of_scope,te_roman,sirisha
+latest hollywood movies enti,out_of_scope,te_roman,sirisha
+naaku oka funny joke cheppu,out_of_scope,te_roman,sirisha
+hyderabad nunchi chennai ki train ticket price entha,out_of_scope,te_roman,sirisha
+ai ante enti adi ela work avutundi,out_of_scope,te_roman,sirisha
